@@ -1,0 +1,2074 @@
+Tue Feb 22 21:24:47 2022
+Data Sparsity: 0.004060324825986079
+Number of data points: 862; Number of features: 3
+Regularization param: 0.03406013516450858
+Tue Feb 22 21:26:23 2022
+Data Sparsity: 0.004060324825986079
+Number of data points: 862; Number of features: 3
+Regularization param: 0.03406013516450858
+------START SAN------
+1-th repetition:
+| end of effective pass 1 | time: 0.019613s |                              norm of gradient 0.042059 |
+| end of effective pass 2 | time: 0.013030s |                              norm of gradient 0.015647 |
+| end of effective pass 3 | time: 0.012916s |                              norm of gradient 0.024264 |
+| end of effective pass 4 | time: 0.012971s |                              norm of gradient 0.011529 |
+| end of effective pass 5 | time: 0.012978s |                              norm of gradient 0.005368 |
+| end of effective pass 6 | time: 0.013042s |                              norm of gradient 0.003170 |
+| end of effective pass 7 | time: 0.013011s |                              norm of gradient 0.001624 |
+| end of effective pass 8 | time: 0.012941s |                              norm of gradient 0.008770 |
+| end of effective pass 9 | time: 0.012976s |                              norm of gradient 0.000753 |
+| end of effective pass 10 | time: 0.013056s |                              norm of gradient 0.000241 |
+| end of effective pass 11 | time: 0.012974s |                              norm of gradient 0.000757 |
+| end of effective pass 12 | time: 0.012974s |                              norm of gradient 0.000202 |
+| end of effective pass 13 | time: 0.012961s |                              norm of gradient 0.000123 |
+| end of effective pass 14 | time: 0.013010s |                              norm of gradient 0.000116 |
+| end of effective pass 15 | time: 0.012967s |                              norm of gradient 0.000062 |
+| end of effective pass 16 | time: 0.012928s |                              norm of gradient 0.000057 |
+| end of effective pass 17 | time: 0.012931s |                              norm of gradient 0.000022 |
+| end of effective pass 18 | time: 0.012981s |                              norm of gradient 0.000035 |
+| end of effective pass 19 | time: 0.012975s |                              norm of gradient 0.000022 |
+| end of effective pass 20 | time: 0.012999s |                              norm of gradient 0.000003 |
+| end of effective pass 21 | time: 0.013032s |                              norm of gradient 0.000004 |
+| end of effective pass 22 | time: 0.012993s |                              norm of gradient 0.000002 |
+| end of effective pass 23 | time: 0.013059s |                              norm of gradient 0.000010 |
+| end of effective pass 24 | time: 0.013075s |                              norm of gradient 0.000000 |
+| end of effective pass 25 | time: 0.012960s |                              norm of gradient 0.000002 |
+| end of effective pass 26 | time: 0.013005s |                              norm of gradient 0.000001 |
+| end of effective pass 27 | time: 0.012899s |                              norm of gradient 0.000000 |
+| end of effective pass 28 | time: 0.012954s |                              norm of gradient 0.000001 |
+| end of effective pass 29 | time: 0.013005s |                              norm of gradient 0.000000 |
+| end of effective pass 30 | time: 0.012969s |                              norm of gradient 0.000000 |
+------END SAN------
+------START SANA------
+1-th repetition:
+| end of effective pass 1 | time: 0.019854s |                              norm of gradient 0.040437 |
+| end of effective pass 2 | time: 0.019971s |                              norm of gradient 0.031818 |
+| end of effective pass 3 | time: 0.019912s |                              norm of gradient 0.021511 |
+| end of effective pass 4 | time: 0.019972s |                              norm of gradient 0.004613 |
+| end of effective pass 5 | time: 0.019918s |                              norm of gradient 0.004715 |
+| end of effective pass 6 | time: 0.019958s |                              norm of gradient 0.010073 |
+| end of effective pass 7 | time: 0.019792s |                              norm of gradient 0.001256 |
+| end of effective pass 8 | time: 0.019879s |                              norm of gradient 0.003725 |
+| end of effective pass 9 | time: 0.019796s |                              norm of gradient 0.000859 |
+| end of effective pass 10 | time: 0.019869s |                              norm of gradient 0.000394 |
+| end of effective pass 11 | time: 0.019784s |                              norm of gradient 0.000291 |
+| end of effective pass 12 | time: 0.019839s |                              norm of gradient 0.000115 |
+| end of effective pass 13 | time: 0.019893s |                              norm of gradient 0.000225 |
+| end of effective pass 14 | time: 0.019859s |                              norm of gradient 0.000144 |
+| end of effective pass 15 | time: 0.019894s |                              norm of gradient 0.000064 |
+| end of effective pass 16 | time: 0.019898s |                              norm of gradient 0.000051 |
+| end of effective pass 17 | time: 0.019907s |                              norm of gradient 0.000017 |
+| end of effective pass 18 | time: 0.019750s |                              norm of gradient 0.000014 |
+| end of effective pass 19 | time: 0.019781s |                              norm of gradient 0.000011 |
+| end of effective pass 20 | time: 0.019850s |                              norm of gradient 0.000022 |
+| end of effective pass 21 | time: 0.019659s |                              norm of gradient 0.000003 |
+| end of effective pass 22 | time: 0.019698s |                              norm of gradient 0.000002 |
+| end of effective pass 23 | time: 0.019747s |                              norm of gradient 0.000016 |
+| end of effective pass 24 | time: 0.019994s |                              norm of gradient 0.000002 |
+| end of effective pass 25 | time: 0.019886s |                              norm of gradient 0.000001 |
+| end of effective pass 26 | time: 0.019804s |                              norm of gradient 0.000001 |
+| end of effective pass 27 | time: 0.019691s |                              norm of gradient 0.000000 |
+| end of effective pass 28 | time: 0.019721s |                              norm of gradient 0.000000 |
+| end of effective pass 29 | time: 0.019772s |                              norm of gradient 0.000000 |
+| end of effective pass 30 | time: 0.019923s |                              norm of gradient 0.000000 |
+------END SANA------
+------START SANID------
+1-th repetition:
+| end of effective pass 1 | time: 0.012867s |                              norm of gradient 0.053028 |
+| end of effective pass 2 | time: 0.012861s |                              norm of gradient 0.064136 |
+| end of effective pass 3 | time: 0.012781s |                              norm of gradient 0.035045 |
+| end of effective pass 4 | time: 0.012824s |                              norm of gradient 0.024155 |
+| end of effective pass 5 | time: 0.012833s |                              norm of gradient 0.019994 |
+| end of effective pass 6 | time: 0.012805s |                              norm of gradient 0.019864 |
+| end of effective pass 7 | time: 0.012847s |                              norm of gradient 0.013190 |
+| end of effective pass 8 | time: 0.012739s |                              norm of gradient 0.011468 |
+| end of effective pass 9 | time: 0.012887s |                              norm of gradient 0.007951 |
+| end of effective pass 10 | time: 0.012838s |                              norm of gradient 0.006134 |
+| end of effective pass 11 | time: 0.012786s |                              norm of gradient 0.005812 |
+| end of effective pass 12 | time: 0.012774s |                              norm of gradient 0.004840 |
+| end of effective pass 13 | time: 0.012779s |                              norm of gradient 0.005070 |
+| end of effective pass 14 | time: 0.012757s |                              norm of gradient 0.005000 |
+| end of effective pass 15 | time: 0.012821s |                              norm of gradient 0.005054 |
+| end of effective pass 16 | time: 0.012814s |                              norm of gradient 0.003445 |
+| end of effective pass 17 | time: 0.012888s |                              norm of gradient 0.003437 |
+| end of effective pass 18 | time: 0.012776s |                              norm of gradient 0.002579 |
+| end of effective pass 19 | time: 0.012791s |                              norm of gradient 0.002045 |
+| end of effective pass 20 | time: 0.012840s |                              norm of gradient 0.001603 |
+| end of effective pass 21 | time: 0.012879s |                              norm of gradient 0.001579 |
+| end of effective pass 22 | time: 0.012792s |                              norm of gradient 0.001215 |
+| end of effective pass 23 | time: 0.013028s |                              norm of gradient 0.000844 |
+| end of effective pass 24 | time: 0.012854s |                              norm of gradient 0.000880 |
+| end of effective pass 25 | time: 0.012802s |                              norm of gradient 0.000667 |
+| end of effective pass 26 | time: 0.012812s |                              norm of gradient 0.000673 |
+| end of effective pass 27 | time: 0.012784s |                              norm of gradient 0.000471 |
+| end of effective pass 28 | time: 0.012837s |                              norm of gradient 0.000330 |
+| end of effective pass 29 | time: 0.012850s |                              norm of gradient 0.000250 |
+| end of effective pass 30 | time: 0.012872s |                              norm of gradient 0.000201 |
+------END SANID------
+------START SAG------
+1-th repetition:
+| end of effective pass 1 | time: 0.005994s |                              norm of gradient 0.097405 |
+| end of effective pass 2 | time: 0.006189s |                              norm of gradient 0.053239 |
+| end of effective pass 3 | time: 0.005980s |                              norm of gradient 0.092573 |
+| end of effective pass 4 | time: 0.005966s |                              norm of gradient 0.115383 |
+| end of effective pass 5 | time: 0.005967s |                              norm of gradient 0.022501 |
+| end of effective pass 6 | time: 0.005933s |                              norm of gradient 0.020040 |
+| end of effective pass 7 | time: 0.005904s |                              norm of gradient 0.023191 |
+| end of effective pass 8 | time: 0.006088s |                              norm of gradient 0.037221 |
+| end of effective pass 9 | time: 0.005983s |                              norm of gradient 0.005131 |
+| end of effective pass 10 | time: 0.005971s |                              norm of gradient 0.009770 |
+| end of effective pass 11 | time: 0.005984s |                              norm of gradient 0.004318 |
+| end of effective pass 12 | time: 0.005957s |                              norm of gradient 0.004896 |
+| end of effective pass 13 | time: 0.006005s |                              norm of gradient 0.007697 |
+| end of effective pass 14 | time: 0.005896s |                              norm of gradient 0.002025 |
+| end of effective pass 15 | time: 0.005912s |                              norm of gradient 0.002213 |
+| end of effective pass 16 | time: 0.005962s |                              norm of gradient 0.005835 |
+| end of effective pass 17 | time: 0.006031s |                              norm of gradient 0.002558 |
+| end of effective pass 18 | time: 0.006026s |                              norm of gradient 0.001030 |
+| end of effective pass 19 | time: 0.005976s |                              norm of gradient 0.001645 |
+| end of effective pass 20 | time: 0.005898s |                              norm of gradient 0.001172 |
+| end of effective pass 21 | time: 0.005951s |                              norm of gradient 0.000678 |
+| end of effective pass 22 | time: 0.005954s |                              norm of gradient 0.000264 |
+| end of effective pass 23 | time: 0.005991s |                              norm of gradient 0.000235 |
+| end of effective pass 24 | time: 0.005971s |                              norm of gradient 0.000540 |
+| end of effective pass 25 | time: 0.005997s |                              norm of gradient 0.000327 |
+| end of effective pass 26 | time: 0.006416s |                              norm of gradient 0.000261 |
+| end of effective pass 27 | time: 0.006501s |                              norm of gradient 0.000119 |
+| end of effective pass 28 | time: 0.006450s |                              norm of gradient 0.000019 |
+| end of effective pass 29 | time: 0.006431s |                              norm of gradient 0.000086 |
+| end of effective pass 30 | time: 0.006417s |                              norm of gradient 0.000080 |
+------END SAG------
+------START SVRG------
+1-th repetition:
+| end of effective pass 1 | time: 0.000041s |                              norm of gradient 0.154435 |
+| end of effective pass 2 | time: 0.008280s |                              norm of gradient 0.157612 |
+| end of effective pass 3 | time: 0.000040s |                              norm of gradient 0.115559 |
+| end of effective pass 4 | time: 0.008018s |                              norm of gradient 0.014330 |
+| end of effective pass 5 | time: 0.000039s |                              norm of gradient 0.012401 |
+| end of effective pass 6 | time: 0.007684s |                              norm of gradient 0.008310 |
+| end of effective pass 7 | time: 0.000036s |                              norm of gradient 0.005649 |
+| end of effective pass 8 | time: 0.007705s |                              norm of gradient 0.001152 |
+| end of effective pass 9 | time: 0.000037s |                              norm of gradient 0.000994 |
+| end of effective pass 10 | time: 0.008349s |                              norm of gradient 0.000581 |
+| end of effective pass 11 | time: 0.000037s |                              norm of gradient 0.000431 |
+| end of effective pass 12 | time: 0.008321s |                              norm of gradient 0.000130 |
+| end of effective pass 13 | time: 0.000051s |                              norm of gradient 0.000088 |
+| end of effective pass 14 | time: 0.009191s |                              norm of gradient 0.000029 |
+| end of effective pass 15 | time: 0.000049s |                              norm of gradient 0.000021 |
+| end of effective pass 16 | time: 0.008584s |                              norm of gradient 0.000006 |
+| end of effective pass 17 | time: 0.000036s |                              norm of gradient 0.000004 |
+| end of effective pass 18 | time: 0.008300s |                              norm of gradient 0.000002 |
+| end of effective pass 19 | time: 0.000038s |                              norm of gradient 0.000002 |
+| end of effective pass 20 | time: 0.008304s |                              norm of gradient 0.000001 |
+| end of effective pass 21 | time: 0.000039s |                              norm of gradient 0.000001 |
+| end of effective pass 22 | time: 0.008316s |                              norm of gradient 0.000000 |
+| end of effective pass 23 | time: 0.000038s |                              norm of gradient 0.000000 |
+| end of effective pass 24 | time: 0.007712s |                              norm of gradient 0.000000 |
+| end of effective pass 25 | time: 0.000037s |                              norm of gradient 0.000000 |
+| end of effective pass 26 | time: 0.008279s |                              norm of gradient 0.000000 |
+| end of effective pass 27 | time: 0.000038s |                              norm of gradient 0.000000 |
+| end of effective pass 28 | time: 0.007964s |                              norm of gradient 0.000000 |
+------END SVRG------
+------START GD------
+1-th repetition:
+| end of effective pass 1 | time: 0.000037s |                              norm of gradient 0.094450 |
+| end of effective pass 2 | time: 0.000036s |                              norm of gradient 0.061230 |
+| end of effective pass 3 | time: 0.000035s |                              norm of gradient 0.040687 |
+| end of effective pass 4 | time: 0.000035s |                              norm of gradient 0.027530 |
+| end of effective pass 5 | time: 0.000035s |                              norm of gradient 0.018860 |
+| end of effective pass 6 | time: 0.000034s |                              norm of gradient 0.013030 |
+| end of effective pass 7 | time: 0.000035s |                              norm of gradient 0.009054 |
+| end of effective pass 8 | time: 0.000033s |                              norm of gradient 0.006317 |
+| end of effective pass 9 | time: 0.000034s |                              norm of gradient 0.004419 |
+| end of effective pass 10 | time: 0.000034s |                              norm of gradient 0.003097 |
+| end of effective pass 11 | time: 0.000034s |                              norm of gradient 0.002174 |
+| end of effective pass 12 | time: 0.000033s |                              norm of gradient 0.001527 |
+| end of effective pass 13 | time: 0.000042s |                              norm of gradient 0.001074 |
+| end of effective pass 14 | time: 0.000034s |                              norm of gradient 0.000755 |
+| end of effective pass 15 | time: 0.000035s |                              norm of gradient 0.000531 |
+| end of effective pass 16 | time: 0.000034s |                              norm of gradient 0.000374 |
+| end of effective pass 17 | time: 0.000033s |                              norm of gradient 0.000263 |
+| end of effective pass 18 | time: 0.000034s |                              norm of gradient 0.000185 |
+| end of effective pass 19 | time: 0.000034s |                              norm of gradient 0.000130 |
+| end of effective pass 20 | time: 0.000035s |                              norm of gradient 0.000092 |
+| end of effective pass 21 | time: 0.000035s |                              norm of gradient 0.000065 |
+| end of effective pass 22 | time: 0.000035s |                              norm of gradient 0.000045 |
+| end of effective pass 23 | time: 0.000034s |                              norm of gradient 0.000032 |
+| end of effective pass 24 | time: 0.000033s |                              norm of gradient 0.000023 |
+| end of effective pass 25 | time: 0.000034s |                              norm of gradient 0.000016 |
+| end of effective pass 26 | time: 0.000035s |                              norm of gradient 0.000011 |
+| end of effective pass 27 | time: 0.000034s |                              norm of gradient 0.000008 |
+| end of effective pass 28 | time: 0.000034s |                              norm of gradient 0.000006 |
+| end of effective pass 29 | time: 0.000033s |                              norm of gradient 0.000004 |
+| end of effective pass 30 | time: 0.000033s |                              norm of gradient 0.000003 |
+------END GD------
+------START NEWTON------
+1-th repetition:
+| end of effective pass 1 | time: 0.001051s |                              norm of gradient 0.020868 |
+| end of effective pass 2 | time: 0.000075s |                              norm of gradient 0.000655 |
+| end of effective pass 3 | time: 0.000068s |                              norm of gradient 0.000001 |
+| end of effective pass 4 | time: 0.000067s |                              norm of gradient 0.000000 |
+------END NEWTON------
+Tue Feb 22 21:58:19 2022
+Data Sparsity: 0.004060324825986079
+Number of data points: 862; Number of features: 3
+Regularization param: 0.03406013516450858
+------START SAN------
+1-th repetition:
+| end of effective pass 1 | time: 0.013162s |                              norm of gradient 0.042059 |
+| end of effective pass 2 | time: 0.013045s |                              norm of gradient 0.015647 |
+| end of effective pass 3 | time: 0.012990s |                              norm of gradient 0.024264 |
+| end of effective pass 4 | time: 0.012918s |                              norm of gradient 0.011529 |
+| end of effective pass 5 | time: 0.012867s |                              norm of gradient 0.005368 |
+| end of effective pass 6 | time: 0.012810s |                              norm of gradient 0.003170 |
+| end of effective pass 7 | time: 0.012909s |                              norm of gradient 0.001624 |
+| end of effective pass 8 | time: 0.012843s |                              norm of gradient 0.008770 |
+| end of effective pass 9 | time: 0.012877s |                              norm of gradient 0.000753 |
+| end of effective pass 10 | time: 0.012849s |                              norm of gradient 0.000241 |
+| end of effective pass 11 | time: 0.012833s |                              norm of gradient 0.000757 |
+| end of effective pass 12 | time: 0.012817s |                              norm of gradient 0.000202 |
+| end of effective pass 13 | time: 0.012714s |                              norm of gradient 0.000123 |
+| end of effective pass 14 | time: 0.012769s |                              norm of gradient 0.000116 |
+| end of effective pass 15 | time: 0.012883s |                              norm of gradient 0.000062 |
+| end of effective pass 16 | time: 0.012826s |                              norm of gradient 0.000057 |
+| end of effective pass 17 | time: 0.012806s |                              norm of gradient 0.000022 |
+| end of effective pass 18 | time: 0.012912s |                              norm of gradient 0.000035 |
+| end of effective pass 19 | time: 0.012847s |                              norm of gradient 0.000022 |
+| end of effective pass 20 | time: 0.012910s |                              norm of gradient 0.000003 |
+| end of effective pass 21 | time: 0.013090s |                              norm of gradient 0.000004 |
+| end of effective pass 22 | time: 0.013389s |                              norm of gradient 0.000002 |
+| end of effective pass 23 | time: 0.013145s |                              norm of gradient 0.000010 |
+| end of effective pass 24 | time: 0.012939s |                              norm of gradient 0.000000 |
+| end of effective pass 25 | time: 0.013483s |                              norm of gradient 0.000002 |
+| end of effective pass 26 | time: 0.012827s |                              norm of gradient 0.000001 |
+| end of effective pass 27 | time: 0.012814s |                              norm of gradient 0.000000 |
+| end of effective pass 28 | time: 0.012846s |                              norm of gradient 0.000001 |
+| end of effective pass 29 | time: 0.013942s |                              norm of gradient 0.000000 |
+| end of effective pass 30 | time: 0.013871s |                              norm of gradient 0.000000 |
+------END SAN------
+------START SANA------
+1-th repetition:
+| end of effective pass 1 | time: 0.019747s |                              norm of gradient 0.040437 |
+| end of effective pass 2 | time: 0.019699s |                              norm of gradient 0.031818 |
+| end of effective pass 3 | time: 0.019715s |                              norm of gradient 0.021511 |
+| end of effective pass 4 | time: 0.019633s |                              norm of gradient 0.004613 |
+| end of effective pass 5 | time: 0.019587s |                              norm of gradient 0.004715 |
+| end of effective pass 6 | time: 0.019670s |                              norm of gradient 0.010073 |
+| end of effective pass 7 | time: 0.019701s |                              norm of gradient 0.001256 |
+| end of effective pass 8 | time: 0.019819s |                              norm of gradient 0.003725 |
+| end of effective pass 9 | time: 0.019671s |                              norm of gradient 0.000859 |
+| end of effective pass 10 | time: 0.019633s |                              norm of gradient 0.000394 |
+| end of effective pass 11 | time: 0.019840s |                              norm of gradient 0.000291 |
+| end of effective pass 12 | time: 0.019749s |                              norm of gradient 0.000115 |
+| end of effective pass 13 | time: 0.019803s |                              norm of gradient 0.000225 |
+| end of effective pass 14 | time: 0.019753s |                              norm of gradient 0.000144 |
+| end of effective pass 15 | time: 0.019746s |                              norm of gradient 0.000064 |
+| end of effective pass 16 | time: 0.019715s |                              norm of gradient 0.000051 |
+| end of effective pass 17 | time: 0.019711s |                              norm of gradient 0.000017 |
+| end of effective pass 18 | time: 0.019618s |                              norm of gradient 0.000014 |
+| end of effective pass 19 | time: 0.019759s |                              norm of gradient 0.000011 |
+| end of effective pass 20 | time: 0.019830s |                              norm of gradient 0.000022 |
+| end of effective pass 21 | time: 0.019736s |                              norm of gradient 0.000003 |
+| end of effective pass 22 | time: 0.019678s |                              norm of gradient 0.000002 |
+| end of effective pass 23 | time: 0.019744s |                              norm of gradient 0.000016 |
+| end of effective pass 24 | time: 0.019618s |                              norm of gradient 0.000002 |
+| end of effective pass 25 | time: 0.019770s |                              norm of gradient 0.000001 |
+| end of effective pass 26 | time: 0.019825s |                              norm of gradient 0.000001 |
+| end of effective pass 27 | time: 0.019696s |                              norm of gradient 0.000000 |
+| end of effective pass 28 | time: 0.020892s |                              norm of gradient 0.000000 |
+| end of effective pass 29 | time: 0.021301s |                              norm of gradient 0.000000 |
+| end of effective pass 30 | time: 0.021202s |                              norm of gradient 0.000000 |
+------END SANA------
+------START SANID------
+1-th repetition:
+| end of effective pass 1 | time: 0.013976s |                              norm of gradient 0.053028 |
+| end of effective pass 2 | time: 0.014098s |                              norm of gradient 0.064136 |
+| end of effective pass 3 | time: 0.013937s |                              norm of gradient 0.035045 |
+| end of effective pass 4 | time: 0.013951s |                              norm of gradient 0.024155 |
+| end of effective pass 5 | time: 0.013962s |                              norm of gradient 0.019994 |
+| end of effective pass 6 | time: 0.013232s |                              norm of gradient 0.019864 |
+| end of effective pass 7 | time: 0.012753s |                              norm of gradient 0.013190 |
+| end of effective pass 8 | time: 0.012723s |                              norm of gradient 0.011468 |
+| end of effective pass 9 | time: 0.012837s |                              norm of gradient 0.007951 |
+| end of effective pass 10 | time: 0.012748s |                              norm of gradient 0.006134 |
+| end of effective pass 11 | time: 0.012847s |                              norm of gradient 0.005812 |
+| end of effective pass 12 | time: 0.012709s |                              norm of gradient 0.004840 |
+| end of effective pass 13 | time: 0.012758s |                              norm of gradient 0.005070 |
+| end of effective pass 14 | time: 0.012814s |                              norm of gradient 0.005000 |
+| end of effective pass 15 | time: 0.012757s |                              norm of gradient 0.005054 |
+| end of effective pass 16 | time: 0.012846s |                              norm of gradient 0.003445 |
+| end of effective pass 17 | time: 0.012765s |                              norm of gradient 0.003437 |
+| end of effective pass 18 | time: 0.012771s |                              norm of gradient 0.002579 |
+| end of effective pass 19 | time: 0.012823s |                              norm of gradient 0.002045 |
+| end of effective pass 20 | time: 0.012791s |                              norm of gradient 0.001603 |
+| end of effective pass 21 | time: 0.013087s |                              norm of gradient 0.001579 |
+| end of effective pass 22 | time: 0.012969s |                              norm of gradient 0.001215 |
+| end of effective pass 23 | time: 0.012823s |                              norm of gradient 0.000844 |
+| end of effective pass 24 | time: 0.012763s |                              norm of gradient 0.000880 |
+| end of effective pass 25 | time: 0.012830s |                              norm of gradient 0.000667 |
+| end of effective pass 26 | time: 0.012788s |                              norm of gradient 0.000673 |
+| end of effective pass 27 | time: 0.012806s |                              norm of gradient 0.000471 |
+| end of effective pass 28 | time: 0.012742s |                              norm of gradient 0.000330 |
+| end of effective pass 29 | time: 0.012765s |                              norm of gradient 0.000250 |
+| end of effective pass 30 | time: 0.012795s |                              norm of gradient 0.000201 |
+------END SANID------
+------START SAG------
+1-th repetition:
+| end of effective pass 1 | time: 0.005944s |                              norm of gradient 0.097405 |
+| end of effective pass 2 | time: 0.005905s |                              norm of gradient 0.053239 |
+| end of effective pass 3 | time: 0.005926s |                              norm of gradient 0.092573 |
+| end of effective pass 4 | time: 0.005947s |                              norm of gradient 0.115383 |
+| end of effective pass 5 | time: 0.005933s |                              norm of gradient 0.022501 |
+| end of effective pass 6 | time: 0.005938s |                              norm of gradient 0.020040 |
+| end of effective pass 7 | time: 0.005916s |                              norm of gradient 0.023191 |
+| end of effective pass 8 | time: 0.005952s |                              norm of gradient 0.037221 |
+| end of effective pass 9 | time: 0.005919s |                              norm of gradient 0.005131 |
+| end of effective pass 10 | time: 0.005933s |                              norm of gradient 0.009770 |
+| end of effective pass 11 | time: 0.005892s |                              norm of gradient 0.004318 |
+| end of effective pass 12 | time: 0.005883s |                              norm of gradient 0.004896 |
+| end of effective pass 13 | time: 0.005930s |                              norm of gradient 0.007697 |
+| end of effective pass 14 | time: 0.005855s |                              norm of gradient 0.002025 |
+| end of effective pass 15 | time: 0.005861s |                              norm of gradient 0.002213 |
+| end of effective pass 16 | time: 0.005822s |                              norm of gradient 0.005835 |
+| end of effective pass 17 | time: 0.005881s |                              norm of gradient 0.002558 |
+| end of effective pass 18 | time: 0.005995s |                              norm of gradient 0.001030 |
+| end of effective pass 19 | time: 0.006140s |                              norm of gradient 0.001645 |
+| end of effective pass 20 | time: 0.005903s |                              norm of gradient 0.001172 |
+| end of effective pass 21 | time: 0.006291s |                              norm of gradient 0.000678 |
+| end of effective pass 22 | time: 0.005917s |                              norm of gradient 0.000264 |
+| end of effective pass 23 | time: 0.005889s |                              norm of gradient 0.000235 |
+| end of effective pass 24 | time: 0.005827s |                              norm of gradient 0.000540 |
+| end of effective pass 25 | time: 0.005899s |                              norm of gradient 0.000327 |
+| end of effective pass 26 | time: 0.005872s |                              norm of gradient 0.000261 |
+| end of effective pass 27 | time: 0.005868s |                              norm of gradient 0.000119 |
+| end of effective pass 28 | time: 0.005866s |                              norm of gradient 0.000019 |
+| end of effective pass 29 | time: 0.005887s |                              norm of gradient 0.000086 |
+| end of effective pass 30 | time: 0.005901s |                              norm of gradient 0.000080 |
+------END SAG------
+------START SVRG------
+1-th repetition:
+| end of effective pass 1 | time: 0.000037s |                              norm of gradient 0.154435 |
+| end of effective pass 2 | time: 0.007581s |                              norm of gradient 0.157612 |
+| end of effective pass 3 | time: 0.000038s |                              norm of gradient 0.115559 |
+| end of effective pass 4 | time: 0.007601s |                              norm of gradient 0.014330 |
+| end of effective pass 5 | time: 0.000038s |                              norm of gradient 0.012401 |
+| end of effective pass 6 | time: 0.007532s |                              norm of gradient 0.008310 |
+| end of effective pass 7 | time: 0.000036s |                              norm of gradient 0.005649 |
+| end of effective pass 8 | time: 0.007581s |                              norm of gradient 0.001152 |
+| end of effective pass 9 | time: 0.000037s |                              norm of gradient 0.000994 |
+| end of effective pass 10 | time: 0.007551s |                              norm of gradient 0.000581 |
+| end of effective pass 11 | time: 0.000036s |                              norm of gradient 0.000431 |
+| end of effective pass 12 | time: 0.007550s |                              norm of gradient 0.000130 |
+| end of effective pass 13 | time: 0.000036s |                              norm of gradient 0.000088 |
+| end of effective pass 14 | time: 0.007540s |                              norm of gradient 0.000029 |
+| end of effective pass 15 | time: 0.000036s |                              norm of gradient 0.000021 |
+| end of effective pass 16 | time: 0.007586s |                              norm of gradient 0.000006 |
+| end of effective pass 17 | time: 0.000036s |                              norm of gradient 0.000004 |
+| end of effective pass 18 | time: 0.007564s |                              norm of gradient 0.000002 |
+| end of effective pass 19 | time: 0.000036s |                              norm of gradient 0.000002 |
+| end of effective pass 20 | time: 0.007534s |                              norm of gradient 0.000001 |
+| end of effective pass 21 | time: 0.000036s |                              norm of gradient 0.000001 |
+| end of effective pass 22 | time: 0.007551s |                              norm of gradient 0.000000 |
+| end of effective pass 23 | time: 0.000036s |                              norm of gradient 0.000000 |
+| end of effective pass 24 | time: 0.007568s |                              norm of gradient 0.000000 |
+| end of effective pass 25 | time: 0.000037s |                              norm of gradient 0.000000 |
+| end of effective pass 26 | time: 0.007591s |                              norm of gradient 0.000000 |
+| end of effective pass 27 | time: 0.000037s |                              norm of gradient 0.000000 |
+| end of effective pass 28 | time: 0.007554s |                              norm of gradient 0.000000 |
+------END SVRG------
+------START GD------
+1-th repetition:
+| end of effective pass 1 | time: 0.000033s |                              norm of gradient 0.094450 |
+| end of effective pass 2 | time: 0.000034s |                              norm of gradient 0.061230 |
+| end of effective pass 3 | time: 0.000034s |                              norm of gradient 0.040687 |
+| end of effective pass 4 | time: 0.000033s |                              norm of gradient 0.027530 |
+| end of effective pass 5 | time: 0.000034s |                              norm of gradient 0.018860 |
+| end of effective pass 6 | time: 0.000034s |                              norm of gradient 0.013030 |
+| end of effective pass 7 | time: 0.000034s |                              norm of gradient 0.009054 |
+| end of effective pass 8 | time: 0.000034s |                              norm of gradient 0.006317 |
+| end of effective pass 9 | time: 0.000033s |                              norm of gradient 0.004419 |
+| end of effective pass 10 | time: 0.000034s |                              norm of gradient 0.003097 |
+| end of effective pass 11 | time: 0.000034s |                              norm of gradient 0.002174 |
+| end of effective pass 12 | time: 0.000034s |                              norm of gradient 0.001527 |
+| end of effective pass 13 | time: 0.000033s |                              norm of gradient 0.001074 |
+| end of effective pass 14 | time: 0.000034s |                              norm of gradient 0.000755 |
+| end of effective pass 15 | time: 0.000036s |                              norm of gradient 0.000531 |
+| end of effective pass 16 | time: 0.000033s |                              norm of gradient 0.000374 |
+| end of effective pass 17 | time: 0.000035s |                              norm of gradient 0.000263 |
+| end of effective pass 18 | time: 0.000034s |                              norm of gradient 0.000185 |
+| end of effective pass 19 | time: 0.000034s |                              norm of gradient 0.000130 |
+| end of effective pass 20 | time: 0.000034s |                              norm of gradient 0.000092 |
+| end of effective pass 21 | time: 0.000033s |                              norm of gradient 0.000065 |
+| end of effective pass 22 | time: 0.000034s |                              norm of gradient 0.000045 |
+| end of effective pass 23 | time: 0.000034s |                              norm of gradient 0.000032 |
+| end of effective pass 24 | time: 0.000034s |                              norm of gradient 0.000023 |
+| end of effective pass 25 | time: 0.000034s |                              norm of gradient 0.000016 |
+| end of effective pass 26 | time: 0.000034s |                              norm of gradient 0.000011 |
+| end of effective pass 27 | time: 0.000035s |                              norm of gradient 0.000008 |
+| end of effective pass 28 | time: 0.000034s |                              norm of gradient 0.000006 |
+| end of effective pass 29 | time: 0.000034s |                              norm of gradient 0.000004 |
+| end of effective pass 30 | time: 0.000034s |                              norm of gradient 0.000003 |
+------END GD------
+------START NEWTON------
+1-th repetition:
+| end of effective pass 1 | time: 0.001034s |                              norm of gradient 0.020868 |
+| end of effective pass 2 | time: 0.000080s |                              norm of gradient 0.000655 |
+| end of effective pass 3 | time: 0.000069s |                              norm of gradient 0.000001 |
+| end of effective pass 4 | time: 0.000067s |                              norm of gradient 0.000000 |
+------END NEWTON------
+Tue Feb 22 21:59:56 2022
+Data Sparsity: 0.004060324825986079
+Number of data points: 862; Number of features: 3
+Regularization param: 0.03406013516450858
+------START SAN------
+1-th repetition:
+| end of effective pass 1 | time: 0.013081s |                              norm of gradient 0.042059 |
+| end of effective pass 2 | time: 0.013013s |                              norm of gradient 0.015647 |
+| end of effective pass 3 | time: 0.013019s |                              norm of gradient 0.024264 |
+| end of effective pass 4 | time: 0.013018s |                              norm of gradient 0.011529 |
+| end of effective pass 5 | time: 0.012925s |                              norm of gradient 0.005368 |
+| end of effective pass 6 | time: 0.013007s |                              norm of gradient 0.003170 |
+| end of effective pass 7 | time: 0.012952s |                              norm of gradient 0.001624 |
+| end of effective pass 8 | time: 0.013020s |                              norm of gradient 0.008770 |
+| end of effective pass 9 | time: 0.012990s |                              norm of gradient 0.000753 |
+| end of effective pass 10 | time: 0.012969s |                              norm of gradient 0.000241 |
+| end of effective pass 11 | time: 0.012953s |                              norm of gradient 0.000757 |
+| end of effective pass 12 | time: 0.012931s |                              norm of gradient 0.000202 |
+| end of effective pass 13 | time: 0.012962s |                              norm of gradient 0.000123 |
+| end of effective pass 14 | time: 0.012946s |                              norm of gradient 0.000116 |
+| end of effective pass 15 | time: 0.012995s |                              norm of gradient 0.000062 |
+| end of effective pass 16 | time: 0.012976s |                              norm of gradient 0.000057 |
+| end of effective pass 17 | time: 0.013020s |                              norm of gradient 0.000022 |
+| end of effective pass 18 | time: 0.013026s |                              norm of gradient 0.000035 |
+| end of effective pass 19 | time: 0.013029s |                              norm of gradient 0.000022 |
+| end of effective pass 20 | time: 0.013068s |                              norm of gradient 0.000003 |
+| end of effective pass 21 | time: 0.012913s |                              norm of gradient 0.000004 |
+| end of effective pass 22 | time: 0.013068s |                              norm of gradient 0.000002 |
+| end of effective pass 23 | time: 0.012980s |                              norm of gradient 0.000010 |
+| end of effective pass 24 | time: 0.013109s |                              norm of gradient 0.000000 |
+| end of effective pass 25 | time: 0.012966s |                              norm of gradient 0.000002 |
+| end of effective pass 26 | time: 0.012980s |                              norm of gradient 0.000001 |
+| end of effective pass 27 | time: 0.013813s |                              norm of gradient 0.000000 |
+| end of effective pass 28 | time: 0.012965s |                              norm of gradient 0.000001 |
+| end of effective pass 29 | time: 0.013000s |                              norm of gradient 0.000000 |
+| end of effective pass 30 | time: 0.012985s |                              norm of gradient 0.000000 |
+------END SAN------
+------START SANA------
+1-th repetition:
+| end of effective pass 1 | time: 0.019892s |                              norm of gradient 0.040437 |
+| end of effective pass 2 | time: 0.019940s |                              norm of gradient 0.031818 |
+| end of effective pass 3 | time: 0.019946s |                              norm of gradient 0.021511 |
+| end of effective pass 4 | time: 0.019904s |                              norm of gradient 0.004613 |
+| end of effective pass 5 | time: 0.019870s |                              norm of gradient 0.004715 |
+| end of effective pass 6 | time: 0.019838s |                              norm of gradient 0.010073 |
+| end of effective pass 7 | time: 0.019928s |                              norm of gradient 0.001256 |
+| end of effective pass 8 | time: 0.019889s |                              norm of gradient 0.003725 |
+| end of effective pass 9 | time: 0.019887s |                              norm of gradient 0.000859 |
+| end of effective pass 10 | time: 0.019919s |                              norm of gradient 0.000394 |
+| end of effective pass 11 | time: 0.019944s |                              norm of gradient 0.000291 |
+| end of effective pass 12 | time: 0.019997s |                              norm of gradient 0.000115 |
+| end of effective pass 13 | time: 0.019924s |                              norm of gradient 0.000225 |
+| end of effective pass 14 | time: 0.019855s |                              norm of gradient 0.000144 |
+| end of effective pass 15 | time: 0.019828s |                              norm of gradient 0.000064 |
+| end of effective pass 16 | time: 0.019923s |                              norm of gradient 0.000051 |
+| end of effective pass 17 | time: 0.019976s |                              norm of gradient 0.000017 |
+| end of effective pass 18 | time: 0.019955s |                              norm of gradient 0.000014 |
+| end of effective pass 19 | time: 0.019850s |                              norm of gradient 0.000011 |
+| end of effective pass 20 | time: 0.019841s |                              norm of gradient 0.000022 |
+| end of effective pass 21 | time: 0.019846s |                              norm of gradient 0.000003 |
+| end of effective pass 22 | time: 0.019792s |                              norm of gradient 0.000002 |
+| end of effective pass 23 | time: 0.019901s |                              norm of gradient 0.000016 |
+| end of effective pass 24 | time: 0.019928s |                              norm of gradient 0.000002 |
+| end of effective pass 25 | time: 0.019902s |                              norm of gradient 0.000001 |
+| end of effective pass 26 | time: 0.019914s |                              norm of gradient 0.000001 |
+| end of effective pass 27 | time: 0.019947s |                              norm of gradient 0.000000 |
+| end of effective pass 28 | time: 0.019978s |                              norm of gradient 0.000000 |
+| end of effective pass 29 | time: 0.019941s |                              norm of gradient 0.000000 |
+| end of effective pass 30 | time: 0.019895s |                              norm of gradient 0.000000 |
+------END SANA------
+------START SANID------
+1-th repetition:
+| end of effective pass 1 | time: 0.012967s |                              norm of gradient 0.053028 |
+| end of effective pass 2 | time: 0.012987s |                              norm of gradient 0.064136 |
+| end of effective pass 3 | time: 0.012918s |                              norm of gradient 0.035045 |
+| end of effective pass 4 | time: 0.012972s |                              norm of gradient 0.024155 |
+| end of effective pass 5 | time: 0.012929s |                              norm of gradient 0.019994 |
+| end of effective pass 6 | time: 0.012887s |                              norm of gradient 0.019864 |
+| end of effective pass 7 | time: 0.012923s |                              norm of gradient 0.013190 |
+| end of effective pass 8 | time: 0.012850s |                              norm of gradient 0.011468 |
+| end of effective pass 9 | time: 0.012936s |                              norm of gradient 0.007951 |
+| end of effective pass 10 | time: 0.012925s |                              norm of gradient 0.006134 |
+| end of effective pass 11 | time: 0.012835s |                              norm of gradient 0.005812 |
+| end of effective pass 12 | time: 0.013695s |                              norm of gradient 0.004840 |
+| end of effective pass 13 | time: 0.013989s |                              norm of gradient 0.005070 |
+| end of effective pass 14 | time: 0.013980s |                              norm of gradient 0.005000 |
+| end of effective pass 15 | time: 0.013945s |                              norm of gradient 0.005054 |
+| end of effective pass 16 | time: 0.013276s |                              norm of gradient 0.003445 |
+| end of effective pass 17 | time: 0.012802s |                              norm of gradient 0.003437 |
+| end of effective pass 18 | time: 0.012961s |                              norm of gradient 0.002579 |
+| end of effective pass 19 | time: 0.012943s |                              norm of gradient 0.002045 |
+| end of effective pass 20 | time: 0.012982s |                              norm of gradient 0.001603 |
+| end of effective pass 21 | time: 0.012956s |                              norm of gradient 0.001579 |
+| end of effective pass 22 | time: 0.012923s |                              norm of gradient 0.001215 |
+| end of effective pass 23 | time: 0.012897s |                              norm of gradient 0.000844 |
+| end of effective pass 24 | time: 0.012850s |                              norm of gradient 0.000880 |
+| end of effective pass 25 | time: 0.012921s |                              norm of gradient 0.000667 |
+| end of effective pass 26 | time: 0.012859s |                              norm of gradient 0.000673 |
+| end of effective pass 27 | time: 0.012852s |                              norm of gradient 0.000471 |
+| end of effective pass 28 | time: 0.012887s |                              norm of gradient 0.000330 |
+| end of effective pass 29 | time: 0.012929s |                              norm of gradient 0.000250 |
+| end of effective pass 30 | time: 0.012983s |                              norm of gradient 0.000201 |
+------END SANID------
+------START SAG------
+1-th repetition:
+| end of effective pass 1 | time: 0.005893s |                              norm of gradient 0.097405 |
+| end of effective pass 2 | time: 0.005906s |                              norm of gradient 0.053239 |
+| end of effective pass 3 | time: 0.005889s |                              norm of gradient 0.092573 |
+| end of effective pass 4 | time: 0.005939s |                              norm of gradient 0.115383 |
+| end of effective pass 5 | time: 0.005904s |                              norm of gradient 0.022501 |
+| end of effective pass 6 | time: 0.005904s |                              norm of gradient 0.020040 |
+| end of effective pass 7 | time: 0.005893s |                              norm of gradient 0.023191 |
+| end of effective pass 8 | time: 0.005881s |                              norm of gradient 0.037221 |
+| end of effective pass 9 | time: 0.005922s |                              norm of gradient 0.005131 |
+| end of effective pass 10 | time: 0.005915s |                              norm of gradient 0.009770 |
+| end of effective pass 11 | time: 0.005927s |                              norm of gradient 0.004318 |
+| end of effective pass 12 | time: 0.005925s |                              norm of gradient 0.004896 |
+| end of effective pass 13 | time: 0.005993s |                              norm of gradient 0.007697 |
+| end of effective pass 14 | time: 0.005956s |                              norm of gradient 0.002025 |
+| end of effective pass 15 | time: 0.005916s |                              norm of gradient 0.002213 |
+| end of effective pass 16 | time: 0.005934s |                              norm of gradient 0.005835 |
+| end of effective pass 17 | time: 0.005909s |                              norm of gradient 0.002558 |
+| end of effective pass 18 | time: 0.005892s |                              norm of gradient 0.001030 |
+| end of effective pass 19 | time: 0.005905s |                              norm of gradient 0.001645 |
+| end of effective pass 20 | time: 0.005879s |                              norm of gradient 0.001172 |
+| end of effective pass 21 | time: 0.005881s |                              norm of gradient 0.000678 |
+| end of effective pass 22 | time: 0.005901s |                              norm of gradient 0.000264 |
+| end of effective pass 23 | time: 0.005899s |                              norm of gradient 0.000235 |
+| end of effective pass 24 | time: 0.005915s |                              norm of gradient 0.000540 |
+| end of effective pass 25 | time: 0.005915s |                              norm of gradient 0.000327 |
+| end of effective pass 26 | time: 0.005897s |                              norm of gradient 0.000261 |
+| end of effective pass 27 | time: 0.005910s |                              norm of gradient 0.000119 |
+| end of effective pass 28 | time: 0.005913s |                              norm of gradient 0.000019 |
+| end of effective pass 29 | time: 0.005928s |                              norm of gradient 0.000086 |
+| end of effective pass 30 | time: 0.005892s |                              norm of gradient 0.000080 |
+------END SAG------
+------START SVRG------
+1-th repetition:
+| end of effective pass 1 | time: 0.000036s |                              norm of gradient 0.154435 |
+| end of effective pass 2 | time: 0.007599s |                              norm of gradient 0.157612 |
+| end of effective pass 3 | time: 0.000036s |                              norm of gradient 0.115559 |
+| end of effective pass 4 | time: 0.007537s |                              norm of gradient 0.014330 |
+| end of effective pass 5 | time: 0.000037s |                              norm of gradient 0.012401 |
+| end of effective pass 6 | time: 0.007567s |                              norm of gradient 0.008310 |
+| end of effective pass 7 | time: 0.000036s |                              norm of gradient 0.005649 |
+| end of effective pass 8 | time: 0.007563s |                              norm of gradient 0.001152 |
+| end of effective pass 9 | time: 0.000036s |                              norm of gradient 0.000994 |
+| end of effective pass 10 | time: 0.007509s |                              norm of gradient 0.000581 |
+| end of effective pass 11 | time: 0.000037s |                              norm of gradient 0.000431 |
+| end of effective pass 12 | time: 0.007550s |                              norm of gradient 0.000130 |
+| end of effective pass 13 | time: 0.000036s |                              norm of gradient 0.000088 |
+| end of effective pass 14 | time: 0.007533s |                              norm of gradient 0.000029 |
+| end of effective pass 15 | time: 0.000037s |                              norm of gradient 0.000021 |
+| end of effective pass 16 | time: 0.007633s |                              norm of gradient 0.000006 |
+| end of effective pass 17 | time: 0.000036s |                              norm of gradient 0.000004 |
+| end of effective pass 18 | time: 0.007550s |                              norm of gradient 0.000002 |
+| end of effective pass 19 | time: 0.000036s |                              norm of gradient 0.000002 |
+| end of effective pass 20 | time: 0.007568s |                              norm of gradient 0.000001 |
+| end of effective pass 21 | time: 0.000036s |                              norm of gradient 0.000001 |
+| end of effective pass 22 | time: 0.007560s |                              norm of gradient 0.000000 |
+| end of effective pass 23 | time: 0.000036s |                              norm of gradient 0.000000 |
+| end of effective pass 24 | time: 0.007548s |                              norm of gradient 0.000000 |
+| end of effective pass 25 | time: 0.000036s |                              norm of gradient 0.000000 |
+| end of effective pass 26 | time: 0.007571s |                              norm of gradient 0.000000 |
+| end of effective pass 27 | time: 0.000036s |                              norm of gradient 0.000000 |
+| end of effective pass 28 | time: 0.007528s |                              norm of gradient 0.000000 |
+------END SVRG------
+------START GD------
+1-th repetition:
+| end of effective pass 1 | time: 0.000033s |                              norm of gradient 0.094450 |
+| end of effective pass 2 | time: 0.000035s |                              norm of gradient 0.061230 |
+| end of effective pass 3 | time: 0.000034s |                              norm of gradient 0.040687 |
+| end of effective pass 4 | time: 0.000035s |                              norm of gradient 0.027530 |
+| end of effective pass 5 | time: 0.000035s |                              norm of gradient 0.018860 |
+| end of effective pass 6 | time: 0.000035s |                              norm of gradient 0.013030 |
+| end of effective pass 7 | time: 0.000034s |                              norm of gradient 0.009054 |
+| end of effective pass 8 | time: 0.000034s |                              norm of gradient 0.006317 |
+| end of effective pass 9 | time: 0.000035s |                              norm of gradient 0.004419 |
+| end of effective pass 10 | time: 0.000034s |                              norm of gradient 0.003097 |
+| end of effective pass 11 | time: 0.000034s |                              norm of gradient 0.002174 |
+| end of effective pass 12 | time: 0.000034s |                              norm of gradient 0.001527 |
+| end of effective pass 13 | time: 0.000034s |                              norm of gradient 0.001074 |
+| end of effective pass 14 | time: 0.000035s |                              norm of gradient 0.000755 |
+| end of effective pass 15 | time: 0.000034s |                              norm of gradient 0.000531 |
+| end of effective pass 16 | time: 0.000035s |                              norm of gradient 0.000374 |
+| end of effective pass 17 | time: 0.000034s |                              norm of gradient 0.000263 |
+| end of effective pass 18 | time: 0.000034s |                              norm of gradient 0.000185 |
+| end of effective pass 19 | time: 0.000034s |                              norm of gradient 0.000130 |
+| end of effective pass 20 | time: 0.000034s |                              norm of gradient 0.000092 |
+| end of effective pass 21 | time: 0.000034s |                              norm of gradient 0.000065 |
+| end of effective pass 22 | time: 0.000034s |                              norm of gradient 0.000045 |
+| end of effective pass 23 | time: 0.000035s |                              norm of gradient 0.000032 |
+| end of effective pass 24 | time: 0.000035s |                              norm of gradient 0.000023 |
+| end of effective pass 25 | time: 0.000036s |                              norm of gradient 0.000016 |
+| end of effective pass 26 | time: 0.000035s |                              norm of gradient 0.000011 |
+| end of effective pass 27 | time: 0.000034s |                              norm of gradient 0.000008 |
+| end of effective pass 28 | time: 0.000034s |                              norm of gradient 0.000006 |
+| end of effective pass 29 | time: 0.000034s |                              norm of gradient 0.000004 |
+| end of effective pass 30 | time: 0.000035s |                              norm of gradient 0.000003 |
+------END GD------
+------START NEWTON------
+1-th repetition:
+| end of effective pass 1 | time: 0.000114s |                              norm of gradient 0.020868 |
+| end of effective pass 2 | time: 0.000074s |                              norm of gradient 0.000655 |
+| end of effective pass 3 | time: 0.000068s |                              norm of gradient 0.000001 |
+| end of effective pass 4 | time: 0.000070s |                              norm of gradient 0.000000 |
+------END NEWTON------
+Tue Feb 22 22:05:40 2022
+Data Sparsity: 0.004060324825986079
+Number of data points: 862; Number of features: 3
+Regularization param: 0.03406013516450858
+------START SAN------
+1-th repetition:
+| end of effective pass 1 | time: 0.013650s |                              norm of gradient 0.042059 |
+| end of effective pass 2 | time: 0.013548s |                              norm of gradient 0.015647 |
+| end of effective pass 3 | time: 0.013516s |                              norm of gradient 0.024264 |
+| end of effective pass 4 | time: 0.013416s |                              norm of gradient 0.011529 |
+| end of effective pass 5 | time: 0.013406s |                              norm of gradient 0.005368 |
+| end of effective pass 6 | time: 0.013437s |                              norm of gradient 0.003170 |
+| end of effective pass 7 | time: 0.013423s |                              norm of gradient 0.001624 |
+| end of effective pass 8 | time: 0.013326s |                              norm of gradient 0.008770 |
+| end of effective pass 9 | time: 0.013467s |                              norm of gradient 0.000753 |
+| end of effective pass 10 | time: 0.013395s |                              norm of gradient 0.000241 |
+| end of effective pass 11 | time: 0.013431s |                              norm of gradient 0.000757 |
+| end of effective pass 12 | time: 0.013436s |                              norm of gradient 0.000202 |
+| end of effective pass 13 | time: 0.013448s |                              norm of gradient 0.000123 |
+| end of effective pass 14 | time: 0.013541s |                              norm of gradient 0.000116 |
+| end of effective pass 15 | time: 0.013474s |                              norm of gradient 0.000062 |
+| end of effective pass 16 | time: 0.013486s |                              norm of gradient 0.000057 |
+| end of effective pass 17 | time: 0.013507s |                              norm of gradient 0.000022 |
+| end of effective pass 18 | time: 0.013442s |                              norm of gradient 0.000035 |
+| end of effective pass 19 | time: 0.013443s |                              norm of gradient 0.000022 |
+| end of effective pass 20 | time: 0.013357s |                              norm of gradient 0.000003 |
+| end of effective pass 21 | time: 0.013418s |                              norm of gradient 0.000004 |
+| end of effective pass 22 | time: 0.013439s |                              norm of gradient 0.000002 |
+| end of effective pass 23 | time: 0.013493s |                              norm of gradient 0.000010 |
+| end of effective pass 24 | time: 0.013543s |                              norm of gradient 0.000000 |
+| end of effective pass 25 | time: 0.013447s |                              norm of gradient 0.000002 |
+| end of effective pass 26 | time: 0.013534s |                              norm of gradient 0.000001 |
+| end of effective pass 27 | time: 0.013514s |                              norm of gradient 0.000000 |
+| end of effective pass 28 | time: 0.013439s |                              norm of gradient 0.000001 |
+| end of effective pass 29 | time: 0.013443s |                              norm of gradient 0.000000 |
+| end of effective pass 30 | time: 0.013507s |                              norm of gradient 0.000000 |
+------END SAN------
+------START SANA------
+1-th repetition:
+| end of effective pass 1 | time: 0.020562s |                              norm of gradient 0.040437 |
+| end of effective pass 2 | time: 0.020432s |                              norm of gradient 0.031818 |
+| end of effective pass 3 | time: 0.020466s |                              norm of gradient 0.021511 |
+| end of effective pass 4 | time: 0.020317s |                              norm of gradient 0.004613 |
+| end of effective pass 5 | time: 0.020500s |                              norm of gradient 0.004715 |
+| end of effective pass 6 | time: 0.020539s |                              norm of gradient 0.010073 |
+| end of effective pass 7 | time: 0.020509s |                              norm of gradient 0.001256 |
+| end of effective pass 8 | time: 0.020411s |                              norm of gradient 0.003725 |
+| end of effective pass 9 | time: 0.020515s |                              norm of gradient 0.000859 |
+| end of effective pass 10 | time: 0.020566s |                              norm of gradient 0.000394 |
+| end of effective pass 11 | time: 0.020470s |                              norm of gradient 0.000291 |
+| end of effective pass 12 | time: 0.020493s |                              norm of gradient 0.000115 |
+| end of effective pass 13 | time: 0.020502s |                              norm of gradient 0.000225 |
+| end of effective pass 14 | time: 0.020578s |                              norm of gradient 0.000144 |
+| end of effective pass 15 | time: 0.020455s |                              norm of gradient 0.000064 |
+| end of effective pass 16 | time: 0.020297s |                              norm of gradient 0.000051 |
+| end of effective pass 17 | time: 0.020437s |                              norm of gradient 0.000017 |
+| end of effective pass 18 | time: 0.020467s |                              norm of gradient 0.000014 |
+| end of effective pass 19 | time: 0.020457s |                              norm of gradient 0.000011 |
+| end of effective pass 20 | time: 0.020502s |                              norm of gradient 0.000022 |
+| end of effective pass 21 | time: 0.020433s |                              norm of gradient 0.000003 |
+| end of effective pass 22 | time: 0.020377s |                              norm of gradient 0.000002 |
+| end of effective pass 23 | time: 0.020473s |                              norm of gradient 0.000016 |
+| end of effective pass 24 | time: 0.020460s |                              norm of gradient 0.000002 |
+| end of effective pass 25 | time: 0.020487s |                              norm of gradient 0.000001 |
+| end of effective pass 26 | time: 0.020479s |                              norm of gradient 0.000001 |
+| end of effective pass 27 | time: 0.020429s |                              norm of gradient 0.000000 |
+| end of effective pass 28 | time: 0.020366s |                              norm of gradient 0.000000 |
+| end of effective pass 29 | time: 0.020430s |                              norm of gradient 0.000000 |
+| end of effective pass 30 | time: 0.020412s |                              norm of gradient 0.000000 |
+------END SANA------
+------START SANID------
+1-th repetition:
+| end of effective pass 1 | time: 0.013247s |                              norm of gradient 0.053028 |
+| end of effective pass 2 | time: 0.013272s |                              norm of gradient 0.064136 |
+| end of effective pass 3 | time: 0.013128s |                              norm of gradient 0.035045 |
+| end of effective pass 4 | time: 0.013189s |                              norm of gradient 0.024155 |
+| end of effective pass 5 | time: 0.013139s |                              norm of gradient 0.019994 |
+| end of effective pass 6 | time: 0.013155s |                              norm of gradient 0.019864 |
+| end of effective pass 7 | time: 0.013017s |                              norm of gradient 0.013190 |
+| end of effective pass 8 | time: 0.013077s |                              norm of gradient 0.011468 |
+| end of effective pass 9 | time: 0.013153s |                              norm of gradient 0.007951 |
+| end of effective pass 10 | time: 0.013113s |                              norm of gradient 0.006134 |
+| end of effective pass 11 | time: 0.013119s |                              norm of gradient 0.005812 |
+| end of effective pass 12 | time: 0.013197s |                              norm of gradient 0.004840 |
+| end of effective pass 13 | time: 0.013180s |                              norm of gradient 0.005070 |
+| end of effective pass 14 | time: 0.013101s |                              norm of gradient 0.005000 |
+| end of effective pass 15 | time: 0.013134s |                              norm of gradient 0.005054 |
+| end of effective pass 16 | time: 0.013187s |                              norm of gradient 0.003445 |
+| end of effective pass 17 | time: 0.013086s |                              norm of gradient 0.003437 |
+| end of effective pass 18 | time: 0.013173s |                              norm of gradient 0.002579 |
+| end of effective pass 19 | time: 0.013156s |                              norm of gradient 0.002045 |
+| end of effective pass 20 | time: 0.013122s |                              norm of gradient 0.001603 |
+| end of effective pass 21 | time: 0.013241s |                              norm of gradient 0.001579 |
+| end of effective pass 22 | time: 0.013101s |                              norm of gradient 0.001215 |
+| end of effective pass 23 | time: 0.013236s |                              norm of gradient 0.000844 |
+| end of effective pass 24 | time: 0.013157s |                              norm of gradient 0.000880 |
+| end of effective pass 25 | time: 0.013196s |                              norm of gradient 0.000667 |
+| end of effective pass 26 | time: 0.013195s |                              norm of gradient 0.000673 |
+| end of effective pass 27 | time: 0.013112s |                              norm of gradient 0.000471 |
+| end of effective pass 28 | time: 0.013185s |                              norm of gradient 0.000330 |
+| end of effective pass 29 | time: 0.013175s |                              norm of gradient 0.000250 |
+| end of effective pass 30 | time: 0.013160s |                              norm of gradient 0.000201 |
+------END SANID------
+------START SAG------
+1-th repetition:
+| end of effective pass 1 | time: 0.006063s |                              norm of gradient 0.097405 |
+| end of effective pass 2 | time: 0.006053s |                              norm of gradient 0.053239 |
+| end of effective pass 3 | time: 0.006053s |                              norm of gradient 0.092573 |
+| end of effective pass 4 | time: 0.006070s |                              norm of gradient 0.115383 |
+| end of effective pass 5 | time: 0.006014s |                              norm of gradient 0.022501 |
+| end of effective pass 6 | time: 0.006048s |                              norm of gradient 0.020040 |
+| end of effective pass 7 | time: 0.006002s |                              norm of gradient 0.023191 |
+| end of effective pass 8 | time: 0.006001s |                              norm of gradient 0.037221 |
+| end of effective pass 9 | time: 0.005985s |                              norm of gradient 0.005131 |
+| end of effective pass 10 | time: 0.006030s |                              norm of gradient 0.009770 |
+| end of effective pass 11 | time: 0.006012s |                              norm of gradient 0.004318 |
+| end of effective pass 12 | time: 0.006045s |                              norm of gradient 0.004896 |
+| end of effective pass 13 | time: 0.006084s |                              norm of gradient 0.007697 |
+| end of effective pass 14 | time: 0.006047s |                              norm of gradient 0.002025 |
+| end of effective pass 15 | time: 0.005972s |                              norm of gradient 0.002213 |
+| end of effective pass 16 | time: 0.006006s |                              norm of gradient 0.005835 |
+| end of effective pass 17 | time: 0.005990s |                              norm of gradient 0.002558 |
+| end of effective pass 18 | time: 0.006038s |                              norm of gradient 0.001030 |
+| end of effective pass 19 | time: 0.006112s |                              norm of gradient 0.001645 |
+| end of effective pass 20 | time: 0.006035s |                              norm of gradient 0.001172 |
+| end of effective pass 21 | time: 0.006053s |                              norm of gradient 0.000678 |
+| end of effective pass 22 | time: 0.006023s |                              norm of gradient 0.000264 |
+| end of effective pass 23 | time: 0.006039s |                              norm of gradient 0.000235 |
+| end of effective pass 24 | time: 0.006074s |                              norm of gradient 0.000540 |
+| end of effective pass 25 | time: 0.006065s |                              norm of gradient 0.000327 |
+| end of effective pass 26 | time: 0.006063s |                              norm of gradient 0.000261 |
+| end of effective pass 27 | time: 0.006034s |                              norm of gradient 0.000119 |
+| end of effective pass 28 | time: 0.006037s |                              norm of gradient 0.000019 |
+| end of effective pass 29 | time: 0.006078s |                              norm of gradient 0.000086 |
+| end of effective pass 30 | time: 0.006057s |                              norm of gradient 0.000080 |
+------END SAG------
+------START SVRG------
+1-th repetition:
+| end of effective pass 1 | time: 0.000037s |                              norm of gradient 0.154435 |
+| end of effective pass 2 | time: 0.007875s |                              norm of gradient 0.157612 |
+| end of effective pass 3 | time: 0.000038s |                              norm of gradient 0.115559 |
+| end of effective pass 4 | time: 0.007830s |                              norm of gradient 0.014330 |
+| end of effective pass 5 | time: 0.000038s |                              norm of gradient 0.012401 |
+| end of effective pass 6 | time: 0.007943s |                              norm of gradient 0.008310 |
+| end of effective pass 7 | time: 0.000037s |                              norm of gradient 0.005649 |
+| end of effective pass 8 | time: 0.007848s |                              norm of gradient 0.001152 |
+| end of effective pass 9 | time: 0.000037s |                              norm of gradient 0.000994 |
+| end of effective pass 10 | time: 0.007812s |                              norm of gradient 0.000581 |
+| end of effective pass 11 | time: 0.000037s |                              norm of gradient 0.000431 |
+| end of effective pass 12 | time: 0.007847s |                              norm of gradient 0.000130 |
+| end of effective pass 13 | time: 0.000036s |                              norm of gradient 0.000088 |
+| end of effective pass 14 | time: 0.007827s |                              norm of gradient 0.000029 |
+| end of effective pass 15 | time: 0.000037s |                              norm of gradient 0.000021 |
+| end of effective pass 16 | time: 0.007931s |                              norm of gradient 0.000006 |
+| end of effective pass 17 | time: 0.000037s |                              norm of gradient 0.000004 |
+| end of effective pass 18 | time: 0.007929s |                              norm of gradient 0.000002 |
+| end of effective pass 19 | time: 0.000044s |                              norm of gradient 0.000002 |
+| end of effective pass 20 | time: 0.007863s |                              norm of gradient 0.000001 |
+| end of effective pass 21 | time: 0.000037s |                              norm of gradient 0.000001 |
+| end of effective pass 22 | time: 0.007924s |                              norm of gradient 0.000000 |
+| end of effective pass 23 | time: 0.000038s |                              norm of gradient 0.000000 |
+| end of effective pass 24 | time: 0.007857s |                              norm of gradient 0.000000 |
+| end of effective pass 25 | time: 0.000037s |                              norm of gradient 0.000000 |
+| end of effective pass 26 | time: 0.007873s |                              norm of gradient 0.000000 |
+| end of effective pass 27 | time: 0.000037s |                              norm of gradient 0.000000 |
+| end of effective pass 28 | time: 0.007805s |                              norm of gradient 0.000000 |
+------END SVRG------
+------START GD------
+1-th repetition:
+| end of effective pass 1 | time: 0.000035s |                              norm of gradient 0.094450 |
+| end of effective pass 2 | time: 0.000036s |                              norm of gradient 0.061230 |
+| end of effective pass 3 | time: 0.000036s |                              norm of gradient 0.040687 |
+| end of effective pass 4 | time: 0.000035s |                              norm of gradient 0.027530 |
+| end of effective pass 5 | time: 0.000035s |                              norm of gradient 0.018860 |
+| end of effective pass 6 | time: 0.000036s |                              norm of gradient 0.013030 |
+| end of effective pass 7 | time: 0.000035s |                              norm of gradient 0.009054 |
+| end of effective pass 8 | time: 0.000036s |                              norm of gradient 0.006317 |
+| end of effective pass 9 | time: 0.000036s |                              norm of gradient 0.004419 |
+| end of effective pass 10 | time: 0.000036s |                              norm of gradient 0.003097 |
+| end of effective pass 11 | time: 0.000035s |                              norm of gradient 0.002174 |
+| end of effective pass 12 | time: 0.000035s |                              norm of gradient 0.001527 |
+| end of effective pass 13 | time: 0.000035s |                              norm of gradient 0.001074 |
+| end of effective pass 14 | time: 0.000035s |                              norm of gradient 0.000755 |
+| end of effective pass 15 | time: 0.000035s |                              norm of gradient 0.000531 |
+| end of effective pass 16 | time: 0.000036s |                              norm of gradient 0.000374 |
+| end of effective pass 17 | time: 0.000036s |                              norm of gradient 0.000263 |
+| end of effective pass 18 | time: 0.000035s |                              norm of gradient 0.000185 |
+| end of effective pass 19 | time: 0.000035s |                              norm of gradient 0.000130 |
+| end of effective pass 20 | time: 0.000035s |                              norm of gradient 0.000092 |
+| end of effective pass 21 | time: 0.000035s |                              norm of gradient 0.000065 |
+| end of effective pass 22 | time: 0.000036s |                              norm of gradient 0.000045 |
+| end of effective pass 23 | time: 0.000036s |                              norm of gradient 0.000032 |
+| end of effective pass 24 | time: 0.000035s |                              norm of gradient 0.000023 |
+| end of effective pass 25 | time: 0.000036s |                              norm of gradient 0.000016 |
+| end of effective pass 26 | time: 0.000035s |                              norm of gradient 0.000011 |
+| end of effective pass 27 | time: 0.000035s |                              norm of gradient 0.000008 |
+| end of effective pass 28 | time: 0.000035s |                              norm of gradient 0.000006 |
+| end of effective pass 29 | time: 0.000034s |                              norm of gradient 0.000004 |
+| end of effective pass 30 | time: 0.000035s |                              norm of gradient 0.000003 |
+------END GD------
+------START NEWTON------
+1-th repetition:
+| end of effective pass 1 | time: 0.000111s |                              norm of gradient 0.020868 |
+| end of effective pass 2 | time: 0.000076s |                              norm of gradient 0.000655 |
+| end of effective pass 3 | time: 0.000072s |                              norm of gradient 0.000001 |
+| end of effective pass 4 | time: 0.000070s |                              norm of gradient 0.000000 |
+------END NEWTON------
+Tue Feb 22 22:08:29 2022
+Data Sparsity: 0.004060324825986079
+Number of data points: 862; Number of features: 3
+Regularization param: 0.03406013516450858
+------START SAN------
+1-th repetition:
+| end of effective pass 1 | time: 0.012923s |                              norm of gradient 0.042059 |
+| end of effective pass 2 | time: 0.012744s |                              norm of gradient 0.015647 |
+| end of effective pass 3 | time: 0.013050s |                              norm of gradient 0.024264 |
+| end of effective pass 4 | time: 0.012810s |                              norm of gradient 0.011529 |
+| end of effective pass 5 | time: 0.012732s |                              norm of gradient 0.005368 |
+| end of effective pass 6 | time: 0.012602s |                              norm of gradient 0.003170 |
+| end of effective pass 7 | time: 0.012715s |                              norm of gradient 0.001624 |
+| end of effective pass 8 | time: 0.012682s |                              norm of gradient 0.008770 |
+| end of effective pass 9 | time: 0.013912s |                              norm of gradient 0.000753 |
+| end of effective pass 10 | time: 0.012740s |                              norm of gradient 0.000241 |
+| end of effective pass 11 | time: 0.012701s |                              norm of gradient 0.000757 |
+| end of effective pass 12 | time: 0.012671s |                              norm of gradient 0.000202 |
+| end of effective pass 13 | time: 0.012699s |                              norm of gradient 0.000123 |
+| end of effective pass 14 | time: 0.012700s |                              norm of gradient 0.000116 |
+| end of effective pass 15 | time: 0.012733s |                              norm of gradient 0.000062 |
+| end of effective pass 16 | time: 0.012704s |                              norm of gradient 0.000057 |
+| end of effective pass 17 | time: 0.012691s |                              norm of gradient 0.000022 |
+| end of effective pass 18 | time: 0.012803s |                              norm of gradient 0.000035 |
+| end of effective pass 19 | time: 0.012743s |                              norm of gradient 0.000022 |
+| end of effective pass 20 | time: 0.012801s |                              norm of gradient 0.000003 |
+| end of effective pass 21 | time: 0.012717s |                              norm of gradient 0.000004 |
+| end of effective pass 22 | time: 0.012686s |                              norm of gradient 0.000002 |
+| end of effective pass 23 | time: 0.012715s |                              norm of gradient 0.000010 |
+| end of effective pass 24 | time: 0.012725s |                              norm of gradient 0.000000 |
+| end of effective pass 25 | time: 0.012617s |                              norm of gradient 0.000002 |
+| end of effective pass 26 | time: 0.012620s |                              norm of gradient 0.000001 |
+| end of effective pass 27 | time: 0.012668s |                              norm of gradient 0.000000 |
+| end of effective pass 28 | time: 0.012630s |                              norm of gradient 0.000001 |
+| end of effective pass 29 | time: 0.012628s |                              norm of gradient 0.000000 |
+| end of effective pass 30 | time: 0.012793s |                              norm of gradient 0.000000 |
+------END SAN------
+------START SANA------
+1-th repetition:
+| end of effective pass 1 | time: 0.019597s |                              norm of gradient 0.040437 |
+| end of effective pass 2 | time: 0.019694s |                              norm of gradient 0.031818 |
+| end of effective pass 3 | time: 0.019579s |                              norm of gradient 0.021511 |
+| end of effective pass 4 | time: 0.019667s |                              norm of gradient 0.004613 |
+| end of effective pass 5 | time: 0.019711s |                              norm of gradient 0.004715 |
+| end of effective pass 6 | time: 0.019535s |                              norm of gradient 0.010073 |
+| end of effective pass 7 | time: 0.019792s |                              norm of gradient 0.001256 |
+| end of effective pass 8 | time: 0.019730s |                              norm of gradient 0.003725 |
+| end of effective pass 9 | time: 0.019645s |                              norm of gradient 0.000859 |
+| end of effective pass 10 | time: 0.019681s |                              norm of gradient 0.000394 |
+| end of effective pass 11 | time: 0.019673s |                              norm of gradient 0.000291 |
+| end of effective pass 12 | time: 0.019671s |                              norm of gradient 0.000115 |
+| end of effective pass 13 | time: 0.019724s |                              norm of gradient 0.000225 |
+| end of effective pass 14 | time: 0.019727s |                              norm of gradient 0.000144 |
+| end of effective pass 15 | time: 0.019591s |                              norm of gradient 0.000064 |
+| end of effective pass 16 | time: 0.019759s |                              norm of gradient 0.000051 |
+| end of effective pass 17 | time: 0.019742s |                              norm of gradient 0.000017 |
+| end of effective pass 18 | time: 0.019781s |                              norm of gradient 0.000014 |
+| end of effective pass 19 | time: 0.019701s |                              norm of gradient 0.000011 |
+| end of effective pass 20 | time: 0.019595s |                              norm of gradient 0.000022 |
+| end of effective pass 21 | time: 0.019703s |                              norm of gradient 0.000003 |
+| end of effective pass 22 | time: 0.019618s |                              norm of gradient 0.000002 |
+| end of effective pass 23 | time: 0.019605s |                              norm of gradient 0.000016 |
+| end of effective pass 24 | time: 0.019670s |                              norm of gradient 0.000002 |
+| end of effective pass 25 | time: 0.019740s |                              norm of gradient 0.000001 |
+| end of effective pass 26 | time: 0.019737s |                              norm of gradient 0.000001 |
+| end of effective pass 27 | time: 0.019674s |                              norm of gradient 0.000000 |
+| end of effective pass 28 | time: 0.019691s |                              norm of gradient 0.000000 |
+| end of effective pass 29 | time: 0.019789s |                              norm of gradient 0.000000 |
+| end of effective pass 30 | time: 0.019751s |                              norm of gradient 0.000000 |
+------END SANA------
+------START SANID------
+1-th repetition:
+| end of effective pass 1 | time: 0.012405s |                              norm of gradient 0.053028 |
+| end of effective pass 2 | time: 0.012554s |                              norm of gradient 0.064136 |
+| end of effective pass 3 | time: 0.012472s |                              norm of gradient 0.035045 |
+| end of effective pass 4 | time: 0.012501s |                              norm of gradient 0.024155 |
+| end of effective pass 5 | time: 0.012477s |                              norm of gradient 0.019994 |
+| end of effective pass 6 | time: 0.012408s |                              norm of gradient 0.019864 |
+| end of effective pass 7 | time: 0.012441s |                              norm of gradient 0.013190 |
+| end of effective pass 8 | time: 0.012469s |                              norm of gradient 0.011468 |
+| end of effective pass 9 | time: 0.012551s |                              norm of gradient 0.007951 |
+| end of effective pass 10 | time: 0.012438s |                              norm of gradient 0.006134 |
+| end of effective pass 11 | time: 0.012493s |                              norm of gradient 0.005812 |
+| end of effective pass 12 | time: 0.012453s |                              norm of gradient 0.004840 |
+| end of effective pass 13 | time: 0.012395s |                              norm of gradient 0.005070 |
+| end of effective pass 14 | time: 0.012442s |                              norm of gradient 0.005000 |
+| end of effective pass 15 | time: 0.012476s |                              norm of gradient 0.005054 |
+| end of effective pass 16 | time: 0.012455s |                              norm of gradient 0.003445 |
+| end of effective pass 17 | time: 0.012456s |                              norm of gradient 0.003437 |
+| end of effective pass 18 | time: 0.012545s |                              norm of gradient 0.002579 |
+| end of effective pass 19 | time: 0.012540s |                              norm of gradient 0.002045 |
+| end of effective pass 20 | time: 0.012558s |                              norm of gradient 0.001603 |
+| end of effective pass 21 | time: 0.012430s |                              norm of gradient 0.001579 |
+| end of effective pass 22 | time: 0.012540s |                              norm of gradient 0.001215 |
+| end of effective pass 23 | time: 0.012500s |                              norm of gradient 0.000844 |
+| end of effective pass 24 | time: 0.012533s |                              norm of gradient 0.000880 |
+| end of effective pass 25 | time: 0.012429s |                              norm of gradient 0.000667 |
+| end of effective pass 26 | time: 0.012533s |                              norm of gradient 0.000673 |
+| end of effective pass 27 | time: 0.012496s |                              norm of gradient 0.000471 |
+| end of effective pass 28 | time: 0.012517s |                              norm of gradient 0.000330 |
+| end of effective pass 29 | time: 0.012547s |                              norm of gradient 0.000250 |
+| end of effective pass 30 | time: 0.012550s |                              norm of gradient 0.000201 |
+------END SANID------
+------START SAG------
+1-th repetition:
+| end of effective pass 1 | time: 0.005791s |                              norm of gradient 0.097405 |
+| end of effective pass 2 | time: 0.005786s |                              norm of gradient 0.053239 |
+| end of effective pass 3 | time: 0.005727s |                              norm of gradient 0.092573 |
+| end of effective pass 4 | time: 0.005711s |                              norm of gradient 0.115383 |
+| end of effective pass 5 | time: 0.005767s |                              norm of gradient 0.022501 |
+| end of effective pass 6 | time: 0.005718s |                              norm of gradient 0.020040 |
+| end of effective pass 7 | time: 0.005687s |                              norm of gradient 0.023191 |
+| end of effective pass 8 | time: 0.005770s |                              norm of gradient 0.037221 |
+| end of effective pass 9 | time: 0.005733s |                              norm of gradient 0.005131 |
+| end of effective pass 10 | time: 0.005809s |                              norm of gradient 0.009770 |
+| end of effective pass 11 | time: 0.005783s |                              norm of gradient 0.004318 |
+| end of effective pass 12 | time: 0.005862s |                              norm of gradient 0.004896 |
+| end of effective pass 13 | time: 0.005758s |                              norm of gradient 0.007697 |
+| end of effective pass 14 | time: 0.005794s |                              norm of gradient 0.002025 |
+| end of effective pass 15 | time: 0.005768s |                              norm of gradient 0.002213 |
+| end of effective pass 16 | time: 0.005742s |                              norm of gradient 0.005835 |
+| end of effective pass 17 | time: 0.005756s |                              norm of gradient 0.002558 |
+| end of effective pass 18 | time: 0.005771s |                              norm of gradient 0.001030 |
+| end of effective pass 19 | time: 0.005800s |                              norm of gradient 0.001645 |
+| end of effective pass 20 | time: 0.005785s |                              norm of gradient 0.001172 |
+| end of effective pass 21 | time: 0.005769s |                              norm of gradient 0.000678 |
+| end of effective pass 22 | time: 0.005772s |                              norm of gradient 0.000264 |
+| end of effective pass 23 | time: 0.005806s |                              norm of gradient 0.000235 |
+| end of effective pass 24 | time: 0.005794s |                              norm of gradient 0.000540 |
+| end of effective pass 25 | time: 0.005779s |                              norm of gradient 0.000327 |
+| end of effective pass 26 | time: 0.005752s |                              norm of gradient 0.000261 |
+| end of effective pass 27 | time: 0.005808s |                              norm of gradient 0.000119 |
+| end of effective pass 28 | time: 0.005784s |                              norm of gradient 0.000019 |
+| end of effective pass 29 | time: 0.005748s |                              norm of gradient 0.000086 |
+| end of effective pass 30 | time: 0.005732s |                              norm of gradient 0.000080 |
+------END SAG------
+------START SVRG------
+1-th repetition:
+| end of effective pass 1 | time: 0.000036s |                              norm of gradient 0.154435 |
+| end of effective pass 2 | time: 0.007529s |                              norm of gradient 0.157612 |
+| end of effective pass 3 | time: 0.000037s |                              norm of gradient 0.115559 |
+| end of effective pass 4 | time: 0.007511s |                              norm of gradient 0.014330 |
+| end of effective pass 5 | time: 0.000037s |                              norm of gradient 0.012401 |
+| end of effective pass 6 | time: 0.007515s |                              norm of gradient 0.008310 |
+| end of effective pass 7 | time: 0.000037s |                              norm of gradient 0.005649 |
+| end of effective pass 8 | time: 0.007490s |                              norm of gradient 0.001152 |
+| end of effective pass 9 | time: 0.000036s |                              norm of gradient 0.000994 |
+| end of effective pass 10 | time: 0.007550s |                              norm of gradient 0.000581 |
+| end of effective pass 11 | time: 0.000036s |                              norm of gradient 0.000431 |
+| end of effective pass 12 | time: 0.007495s |                              norm of gradient 0.000130 |
+| end of effective pass 13 | time: 0.000036s |                              norm of gradient 0.000088 |
+| end of effective pass 14 | time: 0.007529s |                              norm of gradient 0.000029 |
+| end of effective pass 15 | time: 0.000036s |                              norm of gradient 0.000021 |
+| end of effective pass 16 | time: 0.007551s |                              norm of gradient 0.000006 |
+| end of effective pass 17 | time: 0.000043s |                              norm of gradient 0.000004 |
+| end of effective pass 18 | time: 0.007535s |                              norm of gradient 0.000002 |
+| end of effective pass 19 | time: 0.000036s |                              norm of gradient 0.000002 |
+| end of effective pass 20 | time: 0.007481s |                              norm of gradient 0.000001 |
+| end of effective pass 21 | time: 0.000036s |                              norm of gradient 0.000001 |
+| end of effective pass 22 | time: 0.007551s |                              norm of gradient 0.000000 |
+| end of effective pass 23 | time: 0.000036s |                              norm of gradient 0.000000 |
+| end of effective pass 24 | time: 0.007513s |                              norm of gradient 0.000000 |
+| end of effective pass 25 | time: 0.000036s |                              norm of gradient 0.000000 |
+| end of effective pass 26 | time: 0.007560s |                              norm of gradient 0.000000 |
+| end of effective pass 27 | time: 0.000036s |                              norm of gradient 0.000000 |
+| end of effective pass 28 | time: 0.007514s |                              norm of gradient 0.000000 |
+------END SVRG------
+------START GD------
+1-th repetition:
+| end of effective pass 1 | time: 0.000033s |                              norm of gradient 0.094450 |
+| end of effective pass 2 | time: 0.000036s |                              norm of gradient 0.061230 |
+| end of effective pass 3 | time: 0.000034s |                              norm of gradient 0.040687 |
+| end of effective pass 4 | time: 0.000034s |                              norm of gradient 0.027530 |
+| end of effective pass 5 | time: 0.000034s |                              norm of gradient 0.018860 |
+| end of effective pass 6 | time: 0.000036s |                              norm of gradient 0.013030 |
+| end of effective pass 7 | time: 0.000035s |                              norm of gradient 0.009054 |
+| end of effective pass 8 | time: 0.000035s |                              norm of gradient 0.006317 |
+| end of effective pass 9 | time: 0.000034s |                              norm of gradient 0.004419 |
+| end of effective pass 10 | time: 0.000034s |                              norm of gradient 0.003097 |
+| end of effective pass 11 | time: 0.000034s |                              norm of gradient 0.002174 |
+| end of effective pass 12 | time: 0.000034s |                              norm of gradient 0.001527 |
+| end of effective pass 13 | time: 0.000034s |                              norm of gradient 0.001074 |
+| end of effective pass 14 | time: 0.000034s |                              norm of gradient 0.000755 |
+| end of effective pass 15 | time: 0.000035s |                              norm of gradient 0.000531 |
+| end of effective pass 16 | time: 0.000034s |                              norm of gradient 0.000374 |
+| end of effective pass 17 | time: 0.000034s |                              norm of gradient 0.000263 |
+| end of effective pass 18 | time: 0.000034s |                              norm of gradient 0.000185 |
+| end of effective pass 19 | time: 0.000034s |                              norm of gradient 0.000130 |
+| end of effective pass 20 | time: 0.000034s |                              norm of gradient 0.000092 |
+| end of effective pass 21 | time: 0.000035s |                              norm of gradient 0.000065 |
+| end of effective pass 22 | time: 0.000034s |                              norm of gradient 0.000045 |
+| end of effective pass 23 | time: 0.000034s |                              norm of gradient 0.000032 |
+| end of effective pass 24 | time: 0.000035s |                              norm of gradient 0.000023 |
+| end of effective pass 25 | time: 0.000035s |                              norm of gradient 0.000016 |
+| end of effective pass 26 | time: 0.000034s |                              norm of gradient 0.000011 |
+| end of effective pass 27 | time: 0.000033s |                              norm of gradient 0.000008 |
+| end of effective pass 28 | time: 0.000034s |                              norm of gradient 0.000006 |
+| end of effective pass 29 | time: 0.000034s |                              norm of gradient 0.000004 |
+| end of effective pass 30 | time: 0.000034s |                              norm of gradient 0.000003 |
+------END GD------
+------START NEWTON------
+1-th repetition:
+| end of effective pass 1 | time: 0.000116s |                              norm of gradient 0.020868 |
+| end of effective pass 2 | time: 0.000073s |                              norm of gradient 0.000655 |
+| end of effective pass 3 | time: 0.000068s |                              norm of gradient 0.000001 |
+| end of effective pass 4 | time: 0.000066s |                              norm of gradient 0.000000 |
+------END NEWTON------
+Tue Feb 22 22:11:09 2022
+Data Sparsity: 0.004060324825986079
+Number of data points: 862; Number of features: 3
+Regularization param: 0.03406013516450858
+------START SAN------
+1-th repetition:
+| end of effective pass 1 | time: 0.012819s |                              norm of gradient 0.042059 |
+| end of effective pass 2 | time: 0.012755s |                              norm of gradient 0.015647 |
+| end of effective pass 3 | time: 0.012599s |                              norm of gradient 0.024264 |
+| end of effective pass 4 | time: 0.012602s |                              norm of gradient 0.011529 |
+| end of effective pass 5 | time: 0.012671s |                              norm of gradient 0.005368 |
+| end of effective pass 6 | time: 0.012518s |                              norm of gradient 0.003170 |
+| end of effective pass 7 | time: 0.012599s |                              norm of gradient 0.001624 |
+| end of effective pass 8 | time: 0.012602s |                              norm of gradient 0.008770 |
+| end of effective pass 9 | time: 0.012596s |                              norm of gradient 0.000753 |
+| end of effective pass 10 | time: 0.012665s |                              norm of gradient 0.000241 |
+| end of effective pass 11 | time: 0.012571s |                              norm of gradient 0.000757 |
+| end of effective pass 12 | time: 0.012631s |                              norm of gradient 0.000202 |
+| end of effective pass 13 | time: 0.012580s |                              norm of gradient 0.000123 |
+| end of effective pass 14 | time: 0.012488s |                              norm of gradient 0.000116 |
+| end of effective pass 15 | time: 0.012584s |                              norm of gradient 0.000062 |
+| end of effective pass 16 | time: 0.012535s |                              norm of gradient 0.000057 |
+| end of effective pass 17 | time: 0.012613s |                              norm of gradient 0.000022 |
+| end of effective pass 18 | time: 0.012625s |                              norm of gradient 0.000035 |
+| end of effective pass 19 | time: 0.012616s |                              norm of gradient 0.000022 |
+| end of effective pass 20 | time: 0.012599s |                              norm of gradient 0.000003 |
+| end of effective pass 21 | time: 0.012590s |                              norm of gradient 0.000004 |
+| end of effective pass 22 | time: 0.012549s |                              norm of gradient 0.000002 |
+| end of effective pass 23 | time: 0.012575s |                              norm of gradient 0.000010 |
+| end of effective pass 24 | time: 0.012564s |                              norm of gradient 0.000000 |
+| end of effective pass 25 | time: 0.012510s |                              norm of gradient 0.000002 |
+| end of effective pass 26 | time: 0.012513s |                              norm of gradient 0.000001 |
+| end of effective pass 27 | time: 0.012538s |                              norm of gradient 0.000000 |
+| end of effective pass 28 | time: 0.012544s |                              norm of gradient 0.000001 |
+| end of effective pass 29 | time: 0.012560s |                              norm of gradient 0.000000 |
+| end of effective pass 30 | time: 0.012592s |                              norm of gradient 0.000000 |
+------END SAN------
+------START SANA------
+1-th repetition:
+| end of effective pass 1 | time: 0.019400s |                              norm of gradient 0.040437 |
+| end of effective pass 2 | time: 0.019401s |                              norm of gradient 0.031818 |
+| end of effective pass 3 | time: 0.019390s |                              norm of gradient 0.021511 |
+| end of effective pass 4 | time: 0.019389s |                              norm of gradient 0.004613 |
+| end of effective pass 5 | time: 0.019199s |                              norm of gradient 0.004715 |
+| end of effective pass 6 | time: 0.019296s |                              norm of gradient 0.010073 |
+| end of effective pass 7 | time: 0.019204s |                              norm of gradient 0.001256 |
+| end of effective pass 8 | time: 0.019236s |                              norm of gradient 0.003725 |
+| end of effective pass 9 | time: 0.019340s |                              norm of gradient 0.000859 |
+| end of effective pass 10 | time: 0.019183s |                              norm of gradient 0.000394 |
+| end of effective pass 11 | time: 0.019236s |                              norm of gradient 0.000291 |
+| end of effective pass 12 | time: 0.019324s |                              norm of gradient 0.000115 |
+| end of effective pass 13 | time: 0.019357s |                              norm of gradient 0.000225 |
+| end of effective pass 14 | time: 0.019242s |                              norm of gradient 0.000144 |
+| end of effective pass 15 | time: 0.019280s |                              norm of gradient 0.000064 |
+| end of effective pass 16 | time: 0.019433s |                              norm of gradient 0.000051 |
+| end of effective pass 17 | time: 0.019432s |                              norm of gradient 0.000017 |
+| end of effective pass 18 | time: 0.019386s |                              norm of gradient 0.000014 |
+| end of effective pass 19 | time: 0.019265s |                              norm of gradient 0.000011 |
+| end of effective pass 20 | time: 0.019313s |                              norm of gradient 0.000022 |
+| end of effective pass 21 | time: 0.019232s |                              norm of gradient 0.000003 |
+| end of effective pass 22 | time: 0.019310s |                              norm of gradient 0.000002 |
+| end of effective pass 23 | time: 0.019353s |                              norm of gradient 0.000016 |
+| end of effective pass 24 | time: 0.019474s |                              norm of gradient 0.000002 |
+| end of effective pass 25 | time: 0.019310s |                              norm of gradient 0.000001 |
+| end of effective pass 26 | time: 0.019260s |                              norm of gradient 0.000001 |
+| end of effective pass 27 | time: 0.019363s |                              norm of gradient 0.000000 |
+| end of effective pass 28 | time: 0.019158s |                              norm of gradient 0.000000 |
+| end of effective pass 29 | time: 0.019419s |                              norm of gradient 0.000000 |
+| end of effective pass 30 | time: 0.019383s |                              norm of gradient 0.000000 |
+------END SANA------
+------START SANID------
+1-th repetition:
+| end of effective pass 1 | time: 0.012457s |                              norm of gradient 0.053028 |
+| end of effective pass 2 | time: 0.012513s |                              norm of gradient 0.064136 |
+| end of effective pass 3 | time: 0.012485s |                              norm of gradient 0.035045 |
+| end of effective pass 4 | time: 0.012432s |                              norm of gradient 0.024155 |
+| end of effective pass 5 | time: 0.012373s |                              norm of gradient 0.019994 |
+| end of effective pass 6 | time: 0.012491s |                              norm of gradient 0.019864 |
+| end of effective pass 7 | time: 0.012445s |                              norm of gradient 0.013190 |
+| end of effective pass 8 | time: 0.012378s |                              norm of gradient 0.011468 |
+| end of effective pass 9 | time: 0.012526s |                              norm of gradient 0.007951 |
+| end of effective pass 10 | time: 0.012445s |                              norm of gradient 0.006134 |
+| end of effective pass 11 | time: 0.012435s |                              norm of gradient 0.005812 |
+| end of effective pass 12 | time: 0.012489s |                              norm of gradient 0.004840 |
+| end of effective pass 13 | time: 0.012434s |                              norm of gradient 0.005070 |
+| end of effective pass 14 | time: 0.012380s |                              norm of gradient 0.005000 |
+| end of effective pass 15 | time: 0.012444s |                              norm of gradient 0.005054 |
+| end of effective pass 16 | time: 0.012492s |                              norm of gradient 0.003445 |
+| end of effective pass 17 | time: 0.012351s |                              norm of gradient 0.003437 |
+| end of effective pass 18 | time: 0.012512s |                              norm of gradient 0.002579 |
+| end of effective pass 19 | time: 0.012397s |                              norm of gradient 0.002045 |
+| end of effective pass 20 | time: 0.012491s |                              norm of gradient 0.001603 |
+| end of effective pass 21 | time: 0.012459s |                              norm of gradient 0.001579 |
+| end of effective pass 22 | time: 0.012484s |                              norm of gradient 0.001215 |
+| end of effective pass 23 | time: 0.012459s |                              norm of gradient 0.000844 |
+| end of effective pass 24 | time: 0.012506s |                              norm of gradient 0.000880 |
+| end of effective pass 25 | time: 0.012458s |                              norm of gradient 0.000667 |
+| end of effective pass 26 | time: 0.012376s |                              norm of gradient 0.000673 |
+| end of effective pass 27 | time: 0.012517s |                              norm of gradient 0.000471 |
+| end of effective pass 28 | time: 0.012535s |                              norm of gradient 0.000330 |
+| end of effective pass 29 | time: 0.012420s |                              norm of gradient 0.000250 |
+| end of effective pass 30 | time: 0.012557s |                              norm of gradient 0.000201 |
+------END SANID------
+------START SAG------
+1-th repetition:
+| end of effective pass 1 | time: 0.005863s |                              norm of gradient 0.097405 |
+| end of effective pass 2 | time: 0.005822s |                              norm of gradient 0.053239 |
+| end of effective pass 3 | time: 0.005761s |                              norm of gradient 0.092573 |
+| end of effective pass 4 | time: 0.005797s |                              norm of gradient 0.115383 |
+| end of effective pass 5 | time: 0.005797s |                              norm of gradient 0.022501 |
+| end of effective pass 6 | time: 0.005755s |                              norm of gradient 0.020040 |
+| end of effective pass 7 | time: 0.005785s |                              norm of gradient 0.023191 |
+| end of effective pass 8 | time: 0.005841s |                              norm of gradient 0.037221 |
+| end of effective pass 9 | time: 0.005807s |                              norm of gradient 0.005131 |
+| end of effective pass 10 | time: 0.005794s |                              norm of gradient 0.009770 |
+| end of effective pass 11 | time: 0.005781s |                              norm of gradient 0.004318 |
+| end of effective pass 12 | time: 0.005838s |                              norm of gradient 0.004896 |
+| end of effective pass 13 | time: 0.005860s |                              norm of gradient 0.007697 |
+| end of effective pass 14 | time: 0.005797s |                              norm of gradient 0.002025 |
+| end of effective pass 15 | time: 0.005843s |                              norm of gradient 0.002213 |
+| end of effective pass 16 | time: 0.005804s |                              norm of gradient 0.005835 |
+| end of effective pass 17 | time: 0.005852s |                              norm of gradient 0.002558 |
+| end of effective pass 18 | time: 0.005831s |                              norm of gradient 0.001030 |
+| end of effective pass 19 | time: 0.005798s |                              norm of gradient 0.001645 |
+| end of effective pass 20 | time: 0.005859s |                              norm of gradient 0.001172 |
+| end of effective pass 21 | time: 0.005801s |                              norm of gradient 0.000678 |
+| end of effective pass 22 | time: 0.005793s |                              norm of gradient 0.000264 |
+| end of effective pass 23 | time: 0.005850s |                              norm of gradient 0.000235 |
+| end of effective pass 24 | time: 0.005831s |                              norm of gradient 0.000540 |
+| end of effective pass 25 | time: 0.005847s |                              norm of gradient 0.000327 |
+| end of effective pass 26 | time: 0.005804s |                              norm of gradient 0.000261 |
+| end of effective pass 27 | time: 0.005859s |                              norm of gradient 0.000119 |
+| end of effective pass 28 | time: 0.005823s |                              norm of gradient 0.000019 |
+| end of effective pass 29 | time: 0.005828s |                              norm of gradient 0.000086 |
+| end of effective pass 30 | time: 0.005824s |                              norm of gradient 0.000080 |
+------END SAG------
+------START SVRG------
+1-th repetition:
+| end of effective pass 1 | time: 0.000037s |                              norm of gradient 0.154435 |
+| end of effective pass 2 | time: 0.007512s |                              norm of gradient 0.157612 |
+| end of effective pass 3 | time: 0.000036s |                              norm of gradient 0.115559 |
+| end of effective pass 4 | time: 0.007556s |                              norm of gradient 0.014330 |
+| end of effective pass 5 | time: 0.000037s |                              norm of gradient 0.012401 |
+| end of effective pass 6 | time: 0.007488s |                              norm of gradient 0.008310 |
+| end of effective pass 7 | time: 0.000036s |                              norm of gradient 0.005649 |
+| end of effective pass 8 | time: 0.007524s |                              norm of gradient 0.001152 |
+| end of effective pass 9 | time: 0.000036s |                              norm of gradient 0.000994 |
+| end of effective pass 10 | time: 0.007582s |                              norm of gradient 0.000581 |
+| end of effective pass 11 | time: 0.000036s |                              norm of gradient 0.000431 |
+| end of effective pass 12 | time: 0.007529s |                              norm of gradient 0.000130 |
+| end of effective pass 13 | time: 0.000036s |                              norm of gradient 0.000088 |
+| end of effective pass 14 | time: 0.007501s |                              norm of gradient 0.000029 |
+| end of effective pass 15 | time: 0.000036s |                              norm of gradient 0.000021 |
+| end of effective pass 16 | time: 0.007478s |                              norm of gradient 0.000006 |
+| end of effective pass 17 | time: 0.000035s |                              norm of gradient 0.000004 |
+| end of effective pass 18 | time: 0.007529s |                              norm of gradient 0.000002 |
+| end of effective pass 19 | time: 0.000036s |                              norm of gradient 0.000002 |
+| end of effective pass 20 | time: 0.007479s |                              norm of gradient 0.000001 |
+| end of effective pass 21 | time: 0.000035s |                              norm of gradient 0.000001 |
+| end of effective pass 22 | time: 0.007529s |                              norm of gradient 0.000000 |
+| end of effective pass 23 | time: 0.000037s |                              norm of gradient 0.000000 |
+| end of effective pass 24 | time: 0.007527s |                              norm of gradient 0.000000 |
+| end of effective pass 25 | time: 0.000036s |                              norm of gradient 0.000000 |
+| end of effective pass 26 | time: 0.007552s |                              norm of gradient 0.000000 |
+| end of effective pass 27 | time: 0.000041s |                              norm of gradient 0.000000 |
+| end of effective pass 28 | time: 0.007519s |                              norm of gradient 0.000000 |
+------END SVRG------
+------START GD------
+1-th repetition:
+| end of effective pass 1 | time: 0.000033s |                              norm of gradient 0.094450 |
+| end of effective pass 2 | time: 0.000035s |                              norm of gradient 0.061230 |
+| end of effective pass 3 | time: 0.000042s |                              norm of gradient 0.040687 |
+| end of effective pass 4 | time: 0.000035s |                              norm of gradient 0.027530 |
+| end of effective pass 5 | time: 0.000034s |                              norm of gradient 0.018860 |
+| end of effective pass 6 | time: 0.000035s |                              norm of gradient 0.013030 |
+| end of effective pass 7 | time: 0.000033s |                              norm of gradient 0.009054 |
+| end of effective pass 8 | time: 0.000035s |                              norm of gradient 0.006317 |
+| end of effective pass 9 | time: 0.000034s |                              norm of gradient 0.004419 |
+| end of effective pass 10 | time: 0.000034s |                              norm of gradient 0.003097 |
+| end of effective pass 11 | time: 0.000035s |                              norm of gradient 0.002174 |
+| end of effective pass 12 | time: 0.000035s |                              norm of gradient 0.001527 |
+| end of effective pass 13 | time: 0.000034s |                              norm of gradient 0.001074 |
+| end of effective pass 14 | time: 0.000036s |                              norm of gradient 0.000755 |
+| end of effective pass 15 | time: 0.000034s |                              norm of gradient 0.000531 |
+| end of effective pass 16 | time: 0.000035s |                              norm of gradient 0.000374 |
+| end of effective pass 17 | time: 0.000036s |                              norm of gradient 0.000263 |
+| end of effective pass 18 | time: 0.000040s |                              norm of gradient 0.000185 |
+| end of effective pass 19 | time: 0.000034s |                              norm of gradient 0.000130 |
+| end of effective pass 20 | time: 0.000035s |                              norm of gradient 0.000092 |
+| end of effective pass 21 | time: 0.000034s |                              norm of gradient 0.000065 |
+| end of effective pass 22 | time: 0.000034s |                              norm of gradient 0.000045 |
+| end of effective pass 23 | time: 0.000034s |                              norm of gradient 0.000032 |
+| end of effective pass 24 | time: 0.000034s |                              norm of gradient 0.000023 |
+| end of effective pass 25 | time: 0.000035s |                              norm of gradient 0.000016 |
+| end of effective pass 26 | time: 0.000034s |                              norm of gradient 0.000011 |
+| end of effective pass 27 | time: 0.000034s |                              norm of gradient 0.000008 |
+| end of effective pass 28 | time: 0.000035s |                              norm of gradient 0.000006 |
+| end of effective pass 29 | time: 0.000034s |                              norm of gradient 0.000004 |
+| end of effective pass 30 | time: 0.000034s |                              norm of gradient 0.000003 |
+------END GD------
+------START NEWTON------
+1-th repetition:
+| end of effective pass 1 | time: 0.000117s |                              norm of gradient 0.020868 |
+| end of effective pass 2 | time: 0.000075s |                              norm of gradient 0.000655 |
+| end of effective pass 3 | time: 0.000071s |                              norm of gradient 0.000001 |
+| end of effective pass 4 | time: 0.000067s |                              norm of gradient 0.000000 |
+------END NEWTON------
+Tue Feb 22 22:11:48 2022
+Data Sparsity: 0.004060324825986079
+Number of data points: 862; Number of features: 3
+Regularization param: 0.03406013516450858
+------START SAN------
+1-th repetition:
+| end of effective pass 1 | time: 0.014561s |                              norm of gradient 0.042059 |
+| end of effective pass 2 | time: 0.013989s |                              norm of gradient 0.015647 |
+| end of effective pass 3 | time: 0.014059s |                              norm of gradient 0.024264 |
+| end of effective pass 4 | time: 0.013994s |                              norm of gradient 0.011529 |
+| end of effective pass 5 | time: 0.013968s |                              norm of gradient 0.005368 |
+| end of effective pass 6 | time: 0.013951s |                              norm of gradient 0.003170 |
+| end of effective pass 7 | time: 0.013903s |                              norm of gradient 0.001624 |
+| end of effective pass 8 | time: 0.014346s |                              norm of gradient 0.008770 |
+| end of effective pass 9 | time: 0.014069s |                              norm of gradient 0.000753 |
+| end of effective pass 10 | time: 0.013963s |                              norm of gradient 0.000241 |
+| end of effective pass 11 | time: 0.013841s |                              norm of gradient 0.000757 |
+| end of effective pass 12 | time: 0.013303s |                              norm of gradient 0.000202 |
+| end of effective pass 13 | time: 0.013271s |                              norm of gradient 0.000123 |
+| end of effective pass 14 | time: 0.013417s |                              norm of gradient 0.000116 |
+| end of effective pass 15 | time: 0.013326s |                              norm of gradient 0.000062 |
+| end of effective pass 16 | time: 0.013301s |                              norm of gradient 0.000057 |
+| end of effective pass 17 | time: 0.013270s |                              norm of gradient 0.000022 |
+| end of effective pass 18 | time: 0.013339s |                              norm of gradient 0.000035 |
+| end of effective pass 19 | time: 0.013330s |                              norm of gradient 0.000022 |
+| end of effective pass 20 | time: 0.013373s |                              norm of gradient 0.000003 |
+| end of effective pass 21 | time: 0.013427s |                              norm of gradient 0.000004 |
+| end of effective pass 22 | time: 0.014147s |                              norm of gradient 0.000002 |
+| end of effective pass 23 | time: 0.013397s |                              norm of gradient 0.000010 |
+| end of effective pass 24 | time: 0.013471s |                              norm of gradient 0.000000 |
+| end of effective pass 25 | time: 0.013384s |                              norm of gradient 0.000002 |
+| end of effective pass 26 | time: 0.013440s |                              norm of gradient 0.000001 |
+| end of effective pass 27 | time: 0.013325s |                              norm of gradient 0.000000 |
+| end of effective pass 28 | time: 0.013435s |                              norm of gradient 0.000001 |
+| end of effective pass 29 | time: 0.013447s |                              norm of gradient 0.000000 |
+| end of effective pass 30 | time: 0.013495s |                              norm of gradient 0.000000 |
+------END SAN------
+------START SANA------
+1-th repetition:
+| end of effective pass 1 | time: 0.020473s |                              norm of gradient 0.040437 |
+| end of effective pass 2 | time: 0.020281s |                              norm of gradient 0.031818 |
+| end of effective pass 3 | time: 0.020433s |                              norm of gradient 0.021511 |
+| end of effective pass 4 | time: 0.020448s |                              norm of gradient 0.004613 |
+| end of effective pass 5 | time: 0.020411s |                              norm of gradient 0.004715 |
+| end of effective pass 6 | time: 0.020387s |                              norm of gradient 0.010073 |
+| end of effective pass 7 | time: 0.020422s |                              norm of gradient 0.001256 |
+| end of effective pass 8 | time: 0.021399s |                              norm of gradient 0.003725 |
+| end of effective pass 9 | time: 0.020285s |                              norm of gradient 0.000859 |
+| end of effective pass 10 | time: 0.020531s |                              norm of gradient 0.000394 |
+| end of effective pass 11 | time: 0.020335s |                              norm of gradient 0.000291 |
+| end of effective pass 12 | time: 0.020492s |                              norm of gradient 0.000115 |
+| end of effective pass 13 | time: 0.020544s |                              norm of gradient 0.000225 |
+| end of effective pass 14 | time: 0.020490s |                              norm of gradient 0.000144 |
+| end of effective pass 15 | time: 0.020978s |                              norm of gradient 0.000064 |
+| end of effective pass 16 | time: 0.020993s |                              norm of gradient 0.000051 |
+| end of effective pass 17 | time: 0.020943s |                              norm of gradient 0.000017 |
+| end of effective pass 18 | time: 0.020953s |                              norm of gradient 0.000014 |
+| end of effective pass 19 | time: 0.021741s |                              norm of gradient 0.000011 |
+| end of effective pass 20 | time: 0.021101s |                              norm of gradient 0.000022 |
+| end of effective pass 21 | time: 0.021007s |                              norm of gradient 0.000003 |
+| end of effective pass 22 | time: 0.021001s |                              norm of gradient 0.000002 |
+| end of effective pass 23 | time: 0.021010s |                              norm of gradient 0.000016 |
+| end of effective pass 24 | time: 0.021080s |                              norm of gradient 0.000002 |
+| end of effective pass 25 | time: 0.021115s |                              norm of gradient 0.000001 |
+| end of effective pass 26 | time: 0.021065s |                              norm of gradient 0.000001 |
+| end of effective pass 27 | time: 0.021067s |                              norm of gradient 0.000000 |
+| end of effective pass 28 | time: 0.020981s |                              norm of gradient 0.000000 |
+| end of effective pass 29 | time: 0.021029s |                              norm of gradient 0.000000 |
+| end of effective pass 30 | time: 0.020619s |                              norm of gradient 0.000000 |
+------END SANA------
+------START SANID------
+1-th repetition:
+| end of effective pass 1 | time: 0.012861s |                              norm of gradient 0.053028 |
+| end of effective pass 2 | time: 0.013010s |                              norm of gradient 0.064136 |
+| end of effective pass 3 | time: 0.012977s |                              norm of gradient 0.035045 |
+| end of effective pass 4 | time: 0.012941s |                              norm of gradient 0.024155 |
+| end of effective pass 5 | time: 0.012933s |                              norm of gradient 0.019994 |
+| end of effective pass 6 | time: 0.012992s |                              norm of gradient 0.019864 |
+| end of effective pass 7 | time: 0.013029s |                              norm of gradient 0.013190 |
+| end of effective pass 8 | time: 0.013104s |                              norm of gradient 0.011468 |
+| end of effective pass 9 | time: 0.013021s |                              norm of gradient 0.007951 |
+| end of effective pass 10 | time: 0.013006s |                              norm of gradient 0.006134 |
+| end of effective pass 11 | time: 0.012954s |                              norm of gradient 0.005812 |
+| end of effective pass 12 | time: 0.012873s |                              norm of gradient 0.004840 |
+| end of effective pass 13 | time: 0.012891s |                              norm of gradient 0.005070 |
+| end of effective pass 14 | time: 0.012933s |                              norm of gradient 0.005000 |
+| end of effective pass 15 | time: 0.012954s |                              norm of gradient 0.005054 |
+| end of effective pass 16 | time: 0.012969s |                              norm of gradient 0.003445 |
+| end of effective pass 17 | time: 0.012903s |                              norm of gradient 0.003437 |
+| end of effective pass 18 | time: 0.013065s |                              norm of gradient 0.002579 |
+| end of effective pass 19 | time: 0.012898s |                              norm of gradient 0.002045 |
+| end of effective pass 20 | time: 0.013040s |                              norm of gradient 0.001603 |
+| end of effective pass 21 | time: 0.012931s |                              norm of gradient 0.001579 |
+| end of effective pass 22 | time: 0.013184s |                              norm of gradient 0.001215 |
+| end of effective pass 23 | time: 0.013092s |                              norm of gradient 0.000844 |
+| end of effective pass 24 | time: 0.013296s |                              norm of gradient 0.000880 |
+| end of effective pass 25 | time: 0.013324s |                              norm of gradient 0.000667 |
+| end of effective pass 26 | time: 0.013247s |                              norm of gradient 0.000673 |
+| end of effective pass 27 | time: 0.013336s |                              norm of gradient 0.000471 |
+| end of effective pass 28 | time: 0.013260s |                              norm of gradient 0.000330 |
+| end of effective pass 29 | time: 0.013348s |                              norm of gradient 0.000250 |
+| end of effective pass 30 | time: 0.013389s |                              norm of gradient 0.000201 |
+------END SANID------
+------START SAG------
+1-th repetition:
+| end of effective pass 1 | time: 0.006326s |                              norm of gradient 0.097405 |
+| end of effective pass 2 | time: 0.006247s |                              norm of gradient 0.053239 |
+| end of effective pass 3 | time: 0.006260s |                              norm of gradient 0.092573 |
+| end of effective pass 4 | time: 0.006041s |                              norm of gradient 0.115383 |
+| end of effective pass 5 | time: 0.006226s |                              norm of gradient 0.022501 |
+| end of effective pass 6 | time: 0.006209s |                              norm of gradient 0.020040 |
+| end of effective pass 7 | time: 0.006236s |                              norm of gradient 0.023191 |
+| end of effective pass 8 | time: 0.006204s |                              norm of gradient 0.037221 |
+| end of effective pass 9 | time: 0.006257s |                              norm of gradient 0.005131 |
+| end of effective pass 10 | time: 0.006258s |                              norm of gradient 0.009770 |
+| end of effective pass 11 | time: 0.006248s |                              norm of gradient 0.004318 |
+| end of effective pass 12 | time: 0.006249s |                              norm of gradient 0.004896 |
+| end of effective pass 13 | time: 0.006274s |                              norm of gradient 0.007697 |
+| end of effective pass 14 | time: 0.006018s |                              norm of gradient 0.002025 |
+| end of effective pass 15 | time: 0.006256s |                              norm of gradient 0.002213 |
+| end of effective pass 16 | time: 0.006248s |                              norm of gradient 0.005835 |
+| end of effective pass 17 | time: 0.006266s |                              norm of gradient 0.002558 |
+| end of effective pass 18 | time: 0.006194s |                              norm of gradient 0.001030 |
+| end of effective pass 19 | time: 0.006233s |                              norm of gradient 0.001645 |
+| end of effective pass 20 | time: 0.006246s |                              norm of gradient 0.001172 |
+| end of effective pass 21 | time: 0.006238s |                              norm of gradient 0.000678 |
+| end of effective pass 22 | time: 0.006248s |                              norm of gradient 0.000264 |
+| end of effective pass 23 | time: 0.006245s |                              norm of gradient 0.000235 |
+| end of effective pass 24 | time: 0.006069s |                              norm of gradient 0.000540 |
+| end of effective pass 25 | time: 0.006255s |                              norm of gradient 0.000327 |
+| end of effective pass 26 | time: 0.006082s |                              norm of gradient 0.000261 |
+| end of effective pass 27 | time: 0.006081s |                              norm of gradient 0.000119 |
+| end of effective pass 28 | time: 0.006377s |                              norm of gradient 0.000019 |
+| end of effective pass 29 | time: 0.006696s |                              norm of gradient 0.000086 |
+| end of effective pass 30 | time: 0.006949s |                              norm of gradient 0.000080 |
+------END SAG------
+------START SVRG------
+1-th repetition:
+| end of effective pass 1 | time: 0.000057s |                              norm of gradient 0.154435 |
+| end of effective pass 2 | time: 0.008780s |                              norm of gradient 0.157612 |
+| end of effective pass 3 | time: 0.000039s |                              norm of gradient 0.115559 |
+| end of effective pass 4 | time: 0.008759s |                              norm of gradient 0.014330 |
+| end of effective pass 5 | time: 0.000038s |                              norm of gradient 0.012401 |
+| end of effective pass 6 | time: 0.007916s |                              norm of gradient 0.008310 |
+| end of effective pass 7 | time: 0.000037s |                              norm of gradient 0.005649 |
+| end of effective pass 8 | time: 0.007903s |                              norm of gradient 0.001152 |
+| end of effective pass 9 | time: 0.000036s |                              norm of gradient 0.000994 |
+| end of effective pass 10 | time: 0.007895s |                              norm of gradient 0.000581 |
+| end of effective pass 11 | time: 0.000037s |                              norm of gradient 0.000431 |
+| end of effective pass 12 | time: 0.007900s |                              norm of gradient 0.000130 |
+| end of effective pass 13 | time: 0.000036s |                              norm of gradient 0.000088 |
+| end of effective pass 14 | time: 0.007935s |                              norm of gradient 0.000029 |
+| end of effective pass 15 | time: 0.000037s |                              norm of gradient 0.000021 |
+| end of effective pass 16 | time: 0.007937s |                              norm of gradient 0.000006 |
+| end of effective pass 17 | time: 0.000037s |                              norm of gradient 0.000004 |
+| end of effective pass 18 | time: 0.007825s |                              norm of gradient 0.000002 |
+| end of effective pass 19 | time: 0.000036s |                              norm of gradient 0.000002 |
+| end of effective pass 20 | time: 0.007885s |                              norm of gradient 0.000001 |
+| end of effective pass 21 | time: 0.000037s |                              norm of gradient 0.000001 |
+| end of effective pass 22 | time: 0.007849s |                              norm of gradient 0.000000 |
+| end of effective pass 23 | time: 0.000037s |                              norm of gradient 0.000000 |
+| end of effective pass 24 | time: 0.007880s |                              norm of gradient 0.000000 |
+| end of effective pass 25 | time: 0.000036s |                              norm of gradient 0.000000 |
+| end of effective pass 26 | time: 0.007860s |                              norm of gradient 0.000000 |
+| end of effective pass 27 | time: 0.000036s |                              norm of gradient 0.000000 |
+| end of effective pass 28 | time: 0.007939s |                              norm of gradient 0.000000 |
+------END SVRG------
+------START GD------
+1-th repetition:
+| end of effective pass 1 | time: 0.000035s |                              norm of gradient 0.094450 |
+| end of effective pass 2 | time: 0.000035s |                              norm of gradient 0.061230 |
+| end of effective pass 3 | time: 0.000045s |                              norm of gradient 0.040687 |
+| end of effective pass 4 | time: 0.000035s |                              norm of gradient 0.027530 |
+| end of effective pass 5 | time: 0.000036s |                              norm of gradient 0.018860 |
+| end of effective pass 6 | time: 0.000035s |                              norm of gradient 0.013030 |
+| end of effective pass 7 | time: 0.000035s |                              norm of gradient 0.009054 |
+| end of effective pass 8 | time: 0.000036s |                              norm of gradient 0.006317 |
+| end of effective pass 9 | time: 0.000035s |                              norm of gradient 0.004419 |
+| end of effective pass 10 | time: 0.000035s |                              norm of gradient 0.003097 |
+| end of effective pass 11 | time: 0.000036s |                              norm of gradient 0.002174 |
+| end of effective pass 12 | time: 0.000036s |                              norm of gradient 0.001527 |
+| end of effective pass 13 | time: 0.000035s |                              norm of gradient 0.001074 |
+| end of effective pass 14 | time: 0.000035s |                              norm of gradient 0.000755 |
+| end of effective pass 15 | time: 0.000034s |                              norm of gradient 0.000531 |
+| end of effective pass 16 | time: 0.000035s |                              norm of gradient 0.000374 |
+| end of effective pass 17 | time: 0.000035s |                              norm of gradient 0.000263 |
+| end of effective pass 18 | time: 0.000034s |                              norm of gradient 0.000185 |
+| end of effective pass 19 | time: 0.000035s |                              norm of gradient 0.000130 |
+| end of effective pass 20 | time: 0.000035s |                              norm of gradient 0.000092 |
+| end of effective pass 21 | time: 0.000035s |                              norm of gradient 0.000065 |
+| end of effective pass 22 | time: 0.000036s |                              norm of gradient 0.000045 |
+| end of effective pass 23 | time: 0.000035s |                              norm of gradient 0.000032 |
+| end of effective pass 24 | time: 0.000035s |                              norm of gradient 0.000023 |
+| end of effective pass 25 | time: 0.000036s |                              norm of gradient 0.000016 |
+| end of effective pass 26 | time: 0.000036s |                              norm of gradient 0.000011 |
+| end of effective pass 27 | time: 0.000035s |                              norm of gradient 0.000008 |
+| end of effective pass 28 | time: 0.000046s |                              norm of gradient 0.000006 |
+| end of effective pass 29 | time: 0.000036s |                              norm of gradient 0.000004 |
+| end of effective pass 30 | time: 0.000040s |                              norm of gradient 0.000003 |
+------END GD------
+------START NEWTON------
+1-th repetition:
+| end of effective pass 1 | time: 0.000120s |                              norm of gradient 0.020868 |
+| end of effective pass 2 | time: 0.000077s |                              norm of gradient 0.000655 |
+| end of effective pass 3 | time: 0.000075s |                              norm of gradient 0.000001 |
+| end of effective pass 4 | time: 0.000068s |                              norm of gradient 0.000000 |
+------END NEWTON------
+Wed Feb 23 11:34:56 2022
+Data Sparsity: 0.004060324825986079
+Number of data points: 862; Number of features: 3
+Regularization param: 0.03406013516450858
+------START SAN------
+1-th repetition:
+| end of effective pass 1 | time: 0.013027s |                              norm of gradient 0.042059 |
+| end of effective pass 2 | time: 0.012866s |                              norm of gradient 0.015647 |
+| end of effective pass 3 | time: 0.012773s |                              norm of gradient 0.024264 |
+| end of effective pass 4 | time: 0.012780s |                              norm of gradient 0.011529 |
+| end of effective pass 5 | time: 0.012801s |                              norm of gradient 0.005368 |
+| end of effective pass 6 | time: 0.012765s |                              norm of gradient 0.003170 |
+| end of effective pass 7 | time: 0.012741s |                              norm of gradient 0.001624 |
+| end of effective pass 8 | time: 0.012725s |                              norm of gradient 0.008770 |
+| end of effective pass 9 | time: 0.012746s |                              norm of gradient 0.000753 |
+| end of effective pass 10 | time: 0.012754s |                              norm of gradient 0.000241 |
+| end of effective pass 11 | time: 0.012828s |                              norm of gradient 0.000757 |
+| end of effective pass 12 | time: 0.012701s |                              norm of gradient 0.000202 |
+| end of effective pass 13 | time: 0.012748s |                              norm of gradient 0.000123 |
+| end of effective pass 14 | time: 0.012671s |                              norm of gradient 0.000116 |
+| end of effective pass 15 | time: 0.012685s |                              norm of gradient 0.000062 |
+| end of effective pass 16 | time: 0.012833s |                              norm of gradient 0.000057 |
+| end of effective pass 17 | time: 0.012743s |                              norm of gradient 0.000022 |
+| end of effective pass 18 | time: 0.012976s |                              norm of gradient 0.000035 |
+| end of effective pass 19 | time: 0.012812s |                              norm of gradient 0.000022 |
+| end of effective pass 20 | time: 0.012767s |                              norm of gradient 0.000003 |
+| end of effective pass 21 | time: 0.012728s |                              norm of gradient 0.000004 |
+| end of effective pass 22 | time: 0.012673s |                              norm of gradient 0.000002 |
+| end of effective pass 23 | time: 0.012709s |                              norm of gradient 0.000010 |
+| end of effective pass 24 | time: 0.012867s |                              norm of gradient 0.000000 |
+| end of effective pass 25 | time: 0.012716s |                              norm of gradient 0.000002 |
+| end of effective pass 26 | time: 0.012803s |                              norm of gradient 0.000001 |
+| end of effective pass 27 | time: 0.012731s |                              norm of gradient 0.000000 |
+| end of effective pass 28 | time: 0.012822s |                              norm of gradient 0.000001 |
+| end of effective pass 29 | time: 0.012904s |                              norm of gradient 0.000000 |
+| end of effective pass 30 | time: 0.012781s |                              norm of gradient 0.000000 |
+------END SAN------
+------START SANA------
+1-th repetition:
+| end of effective pass 1 | time: 0.019840s |                              norm of gradient 0.040437 |
+| end of effective pass 2 | time: 0.019820s |                              norm of gradient 0.031818 |
+| end of effective pass 3 | time: 0.019885s |                              norm of gradient 0.021511 |
+| end of effective pass 4 | time: 0.019860s |                              norm of gradient 0.004613 |
+| end of effective pass 5 | time: 0.019702s |                              norm of gradient 0.004715 |
+| end of effective pass 6 | time: 0.019694s |                              norm of gradient 0.010073 |
+| end of effective pass 7 | time: 0.019879s |                              norm of gradient 0.001256 |
+| end of effective pass 8 | time: 0.019817s |                              norm of gradient 0.003725 |
+| end of effective pass 9 | time: 0.019879s |                              norm of gradient 0.000859 |
+| end of effective pass 10 | time: 0.019780s |                              norm of gradient 0.000394 |
+| end of effective pass 11 | time: 0.019695s |                              norm of gradient 0.000291 |
+| end of effective pass 12 | time: 0.019875s |                              norm of gradient 0.000115 |
+| end of effective pass 13 | time: 0.019855s |                              norm of gradient 0.000225 |
+| end of effective pass 14 | time: 0.019771s |                              norm of gradient 0.000144 |
+| end of effective pass 15 | time: 0.019851s |                              norm of gradient 0.000064 |
+| end of effective pass 16 | time: 0.019806s |                              norm of gradient 0.000051 |
+| end of effective pass 17 | time: 0.019797s |                              norm of gradient 0.000017 |
+| end of effective pass 18 | time: 0.019718s |                              norm of gradient 0.000014 |
+| end of effective pass 19 | time: 0.019789s |                              norm of gradient 0.000011 |
+| end of effective pass 20 | time: 0.019766s |                              norm of gradient 0.000022 |
+| end of effective pass 21 | time: 0.019745s |                              norm of gradient 0.000003 |
+| end of effective pass 22 | time: 0.019778s |                              norm of gradient 0.000002 |
+| end of effective pass 23 | time: 0.019776s |                              norm of gradient 0.000016 |
+| end of effective pass 24 | time: 0.019853s |                              norm of gradient 0.000002 |
+| end of effective pass 25 | time: 0.019877s |                              norm of gradient 0.000001 |
+| end of effective pass 26 | time: 0.019818s |                              norm of gradient 0.000001 |
+| end of effective pass 27 | time: 0.019810s |                              norm of gradient 0.000000 |
+| end of effective pass 28 | time: 0.019822s |                              norm of gradient 0.000000 |
+| end of effective pass 29 | time: 0.019777s |                              norm of gradient 0.000000 |
+| end of effective pass 30 | time: 0.019860s |                              norm of gradient 0.000000 |
+------END SANA------
+------START SANID------
+1-th repetition:
+| end of effective pass 1 | time: 0.012766s |                              norm of gradient 0.053028 |
+| end of effective pass 2 | time: 0.012748s |                              norm of gradient 0.064136 |
+| end of effective pass 3 | time: 0.012664s |                              norm of gradient 0.035045 |
+| end of effective pass 4 | time: 0.012711s |                              norm of gradient 0.024155 |
+| end of effective pass 5 | time: 0.012825s |                              norm of gradient 0.019994 |
+| end of effective pass 6 | time: 0.012632s |                              norm of gradient 0.019864 |
+| end of effective pass 7 | time: 0.012683s |                              norm of gradient 0.013190 |
+| end of effective pass 8 | time: 0.012693s |                              norm of gradient 0.011468 |
+| end of effective pass 9 | time: 0.012805s |                              norm of gradient 0.007951 |
+| end of effective pass 10 | time: 0.012779s |                              norm of gradient 0.006134 |
+| end of effective pass 11 | time: 0.012771s |                              norm of gradient 0.005812 |
+| end of effective pass 12 | time: 0.012855s |                              norm of gradient 0.004840 |
+| end of effective pass 13 | time: 0.012765s |                              norm of gradient 0.005070 |
+| end of effective pass 14 | time: 0.012707s |                              norm of gradient 0.005000 |
+| end of effective pass 15 | time: 0.012713s |                              norm of gradient 0.005054 |
+| end of effective pass 16 | time: 0.012685s |                              norm of gradient 0.003445 |
+| end of effective pass 17 | time: 0.012780s |                              norm of gradient 0.003437 |
+| end of effective pass 18 | time: 0.012707s |                              norm of gradient 0.002579 |
+| end of effective pass 19 | time: 0.012871s |                              norm of gradient 0.002045 |
+| end of effective pass 20 | time: 0.012793s |                              norm of gradient 0.001603 |
+| end of effective pass 21 | time: 0.012702s |                              norm of gradient 0.001579 |
+| end of effective pass 22 | time: 0.012636s |                              norm of gradient 0.001215 |
+| end of effective pass 23 | time: 0.012653s |                              norm of gradient 0.000844 |
+| end of effective pass 24 | time: 0.012696s |                              norm of gradient 0.000880 |
+| end of effective pass 25 | time: 0.012737s |                              norm of gradient 0.000667 |
+| end of effective pass 26 | time: 0.012637s |                              norm of gradient 0.000673 |
+| end of effective pass 27 | time: 0.012730s |                              norm of gradient 0.000471 |
+| end of effective pass 28 | time: 0.012725s |                              norm of gradient 0.000330 |
+| end of effective pass 29 | time: 0.012735s |                              norm of gradient 0.000250 |
+| end of effective pass 30 | time: 0.012770s |                              norm of gradient 0.000201 |
+------END SANID------
+------START SAG------
+1-th repetition:
+| end of effective pass 1 | time: 0.005830s |                              norm of gradient 0.097405 |
+| end of effective pass 2 | time: 0.005895s |                              norm of gradient 0.053239 |
+| end of effective pass 3 | time: 0.005893s |                              norm of gradient 0.092573 |
+| end of effective pass 4 | time: 0.005897s |                              norm of gradient 0.115383 |
+| end of effective pass 5 | time: 0.005877s |                              norm of gradient 0.022501 |
+| end of effective pass 6 | time: 0.005849s |                              norm of gradient 0.020040 |
+| end of effective pass 7 | time: 0.005931s |                              norm of gradient 0.023191 |
+| end of effective pass 8 | time: 0.005867s |                              norm of gradient 0.037221 |
+| end of effective pass 9 | time: 0.005945s |                              norm of gradient 0.005131 |
+| end of effective pass 10 | time: 0.005943s |                              norm of gradient 0.009770 |
+| end of effective pass 11 | time: 0.005874s |                              norm of gradient 0.004318 |
+| end of effective pass 12 | time: 0.005922s |                              norm of gradient 0.004896 |
+| end of effective pass 13 | time: 0.005877s |                              norm of gradient 0.007697 |
+| end of effective pass 14 | time: 0.005909s |                              norm of gradient 0.002025 |
+| end of effective pass 15 | time: 0.005893s |                              norm of gradient 0.002213 |
+| end of effective pass 16 | time: 0.005908s |                              norm of gradient 0.005835 |
+| end of effective pass 17 | time: 0.005943s |                              norm of gradient 0.002558 |
+| end of effective pass 18 | time: 0.005843s |                              norm of gradient 0.001030 |
+| end of effective pass 19 | time: 0.005888s |                              norm of gradient 0.001645 |
+| end of effective pass 20 | time: 0.005882s |                              norm of gradient 0.001172 |
+| end of effective pass 21 | time: 0.006034s |                              norm of gradient 0.000678 |
+| end of effective pass 22 | time: 0.005953s |                              norm of gradient 0.000264 |
+| end of effective pass 23 | time: 0.005910s |                              norm of gradient 0.000235 |
+| end of effective pass 24 | time: 0.005853s |                              norm of gradient 0.000540 |
+| end of effective pass 25 | time: 0.005870s |                              norm of gradient 0.000327 |
+| end of effective pass 26 | time: 0.005837s |                              norm of gradient 0.000261 |
+| end of effective pass 27 | time: 0.005946s |                              norm of gradient 0.000119 |
+| end of effective pass 28 | time: 0.005885s |                              norm of gradient 0.000019 |
+| end of effective pass 29 | time: 0.005970s |                              norm of gradient 0.000086 |
+| end of effective pass 30 | time: 0.005916s |                              norm of gradient 0.000080 |
+------END SAG------
+------START SVRG------
+1-th repetition:
+| end of effective pass 1 | time: 0.000035s |                              norm of gradient 0.154435 |
+| end of effective pass 2 | time: 0.007649s |                              norm of gradient 0.157612 |
+| end of effective pass 3 | time: 0.000036s |                              norm of gradient 0.115559 |
+| end of effective pass 4 | time: 0.007578s |                              norm of gradient 0.014330 |
+| end of effective pass 5 | time: 0.000035s |                              norm of gradient 0.012401 |
+| end of effective pass 6 | time: 0.007687s |                              norm of gradient 0.008310 |
+| end of effective pass 7 | time: 0.000035s |                              norm of gradient 0.005649 |
+| end of effective pass 8 | time: 0.007583s |                              norm of gradient 0.001152 |
+| end of effective pass 9 | time: 0.000036s |                              norm of gradient 0.000994 |
+| end of effective pass 10 | time: 0.007542s |                              norm of gradient 0.000581 |
+| end of effective pass 11 | time: 0.000036s |                              norm of gradient 0.000431 |
+| end of effective pass 12 | time: 0.008801s |                              norm of gradient 0.000130 |
+| end of effective pass 13 | time: 0.000040s |                              norm of gradient 0.000088 |
+| end of effective pass 14 | time: 0.007702s |                              norm of gradient 0.000029 |
+| end of effective pass 15 | time: 0.000036s |                              norm of gradient 0.000021 |
+| end of effective pass 16 | time: 0.007614s |                              norm of gradient 0.000006 |
+| end of effective pass 17 | time: 0.000035s |                              norm of gradient 0.000004 |
+| end of effective pass 18 | time: 0.007596s |                              norm of gradient 0.000002 |
+| end of effective pass 19 | time: 0.000035s |                              norm of gradient 0.000002 |
+| end of effective pass 20 | time: 0.007702s |                              norm of gradient 0.000001 |
+| end of effective pass 21 | time: 0.000034s |                              norm of gradient 0.000001 |
+| end of effective pass 22 | time: 0.007673s |                              norm of gradient 0.000000 |
+| end of effective pass 23 | time: 0.000036s |                              norm of gradient 0.000000 |
+| end of effective pass 24 | time: 0.007645s |                              norm of gradient 0.000000 |
+| end of effective pass 25 | time: 0.000037s |                              norm of gradient 0.000000 |
+| end of effective pass 26 | time: 0.007642s |                              norm of gradient 0.000000 |
+| end of effective pass 27 | time: 0.000035s |                              norm of gradient 0.000000 |
+| end of effective pass 28 | time: 0.008162s |                              norm of gradient 0.000000 |
+------END SVRG------
+------START GD------
+1-th repetition:
+| end of effective pass 1 | time: 0.000033s |                              norm of gradient 0.094450 |
+| end of effective pass 2 | time: 0.000035s |                              norm of gradient 0.061230 |
+| end of effective pass 3 | time: 0.000033s |                              norm of gradient 0.040687 |
+| end of effective pass 4 | time: 0.000034s |                              norm of gradient 0.027530 |
+| end of effective pass 5 | time: 0.000032s |                              norm of gradient 0.018860 |
+| end of effective pass 6 | time: 0.000033s |                              norm of gradient 0.013030 |
+| end of effective pass 7 | time: 0.000033s |                              norm of gradient 0.009054 |
+| end of effective pass 8 | time: 0.000032s |                              norm of gradient 0.006317 |
+| end of effective pass 9 | time: 0.000033s |                              norm of gradient 0.004419 |
+| end of effective pass 10 | time: 0.000032s |                              norm of gradient 0.003097 |
+| end of effective pass 11 | time: 0.000033s |                              norm of gradient 0.002174 |
+| end of effective pass 12 | time: 0.000033s |                              norm of gradient 0.001527 |
+| end of effective pass 13 | time: 0.000033s |                              norm of gradient 0.001074 |
+| end of effective pass 14 | time: 0.000032s |                              norm of gradient 0.000755 |
+| end of effective pass 15 | time: 0.000033s |                              norm of gradient 0.000531 |
+| end of effective pass 16 | time: 0.000033s |                              norm of gradient 0.000374 |
+| end of effective pass 17 | time: 0.000033s |                              norm of gradient 0.000263 |
+| end of effective pass 18 | time: 0.000033s |                              norm of gradient 0.000185 |
+| end of effective pass 19 | time: 0.000033s |                              norm of gradient 0.000130 |
+| end of effective pass 20 | time: 0.000034s |                              norm of gradient 0.000092 |
+| end of effective pass 21 | time: 0.000033s |                              norm of gradient 0.000065 |
+| end of effective pass 22 | time: 0.000033s |                              norm of gradient 0.000045 |
+| end of effective pass 23 | time: 0.000033s |                              norm of gradient 0.000032 |
+| end of effective pass 24 | time: 0.000032s |                              norm of gradient 0.000023 |
+| end of effective pass 25 | time: 0.000034s |                              norm of gradient 0.000016 |
+| end of effective pass 26 | time: 0.000034s |                              norm of gradient 0.000011 |
+| end of effective pass 27 | time: 0.000033s |                              norm of gradient 0.000008 |
+| end of effective pass 28 | time: 0.000034s |                              norm of gradient 0.000006 |
+| end of effective pass 29 | time: 0.000033s |                              norm of gradient 0.000004 |
+| end of effective pass 30 | time: 0.000034s |                              norm of gradient 0.000003 |
+------END GD------
+------START NEWTON------
+1-th repetition:
+| end of effective pass 1 | time: 0.000652s |                              norm of gradient 0.020868 |
+| end of effective pass 2 | time: 0.000080s |                              norm of gradient 0.000655 |
+| end of effective pass 3 | time: 0.000069s |                              norm of gradient 0.000001 |
+| end of effective pass 4 | time: 0.000068s |                              norm of gradient 0.000000 |
+------END NEWTON------
+Wed Feb 23 11:38:07 2022
+Data Sparsity: 0.004060324825986079
+Number of data points: 862; Number of features: 3
+Regularization param: 0.03406013516450858
+------START SAN------
+1-th repetition:
+| end of effective pass 1 | time: 0.013195s |                              norm of gradient 0.042059 |
+| end of effective pass 2 | time: 0.013078s |                              norm of gradient 0.015647 |
+| end of effective pass 3 | time: 0.013061s |                              norm of gradient 0.024264 |
+| end of effective pass 4 | time: 0.012954s |                              norm of gradient 0.011529 |
+| end of effective pass 5 | time: 0.013036s |                              norm of gradient 0.005368 |
+| end of effective pass 6 | time: 0.012904s |                              norm of gradient 0.003170 |
+| end of effective pass 7 | time: 0.013008s |                              norm of gradient 0.001624 |
+| end of effective pass 8 | time: 0.013463s |                              norm of gradient 0.008770 |
+| end of effective pass 9 | time: 0.013801s |                              norm of gradient 0.000753 |
+| end of effective pass 10 | time: 0.013135s |                              norm of gradient 0.000241 |
+| end of effective pass 11 | time: 0.013059s |                              norm of gradient 0.000757 |
+| end of effective pass 12 | time: 0.013040s |                              norm of gradient 0.000202 |
+| end of effective pass 13 | time: 0.013038s |                              norm of gradient 0.000123 |
+| end of effective pass 14 | time: 0.013035s |                              norm of gradient 0.000116 |
+| end of effective pass 15 | time: 0.013102s |                              norm of gradient 0.000062 |
+| end of effective pass 16 | time: 0.012974s |                              norm of gradient 0.000057 |
+| end of effective pass 17 | time: 0.013076s |                              norm of gradient 0.000022 |
+| end of effective pass 18 | time: 0.013042s |                              norm of gradient 0.000035 |
+| end of effective pass 19 | time: 0.013009s |                              norm of gradient 0.000022 |
+| end of effective pass 20 | time: 0.013023s |                              norm of gradient 0.000003 |
+| end of effective pass 21 | time: 0.013089s |                              norm of gradient 0.000004 |
+| end of effective pass 22 | time: 0.013041s |                              norm of gradient 0.000002 |
+| end of effective pass 23 | time: 0.013161s |                              norm of gradient 0.000010 |
+| end of effective pass 24 | time: 0.013133s |                              norm of gradient 0.000000 |
+| end of effective pass 25 | time: 0.012929s |                              norm of gradient 0.000002 |
+| end of effective pass 26 | time: 0.013023s |                              norm of gradient 0.000001 |
+| end of effective pass 27 | time: 0.012966s |                              norm of gradient 0.000000 |
+| end of effective pass 28 | time: 0.013027s |                              norm of gradient 0.000001 |
+| end of effective pass 29 | time: 0.013075s |                              norm of gradient 0.000000 |
+| end of effective pass 30 | time: 0.013038s |                              norm of gradient 0.000000 |
+------END SAN------
+------START SANA------
+1-th repetition:
+| end of effective pass 1 | time: 0.019910s |                              norm of gradient 0.040437 |
+| end of effective pass 2 | time: 0.019987s |                              norm of gradient 0.031818 |
+| end of effective pass 3 | time: 0.019824s |                              norm of gradient 0.021511 |
+| end of effective pass 4 | time: 0.019836s |                              norm of gradient 0.004613 |
+| end of effective pass 5 | time: 0.019861s |                              norm of gradient 0.004715 |
+| end of effective pass 6 | time: 0.020111s |                              norm of gradient 0.010073 |
+| end of effective pass 7 | time: 0.020277s |                              norm of gradient 0.001256 |
+| end of effective pass 8 | time: 0.020128s |                              norm of gradient 0.003725 |
+| end of effective pass 9 | time: 0.020009s |                              norm of gradient 0.000859 |
+| end of effective pass 10 | time: 0.019894s |                              norm of gradient 0.000394 |
+| end of effective pass 11 | time: 0.019851s |                              norm of gradient 0.000291 |
+| end of effective pass 12 | time: 0.019862s |                              norm of gradient 0.000115 |
+| end of effective pass 13 | time: 0.019861s |                              norm of gradient 0.000225 |
+| end of effective pass 14 | time: 0.019959s |                              norm of gradient 0.000144 |
+| end of effective pass 15 | time: 0.019886s |                              norm of gradient 0.000064 |
+| end of effective pass 16 | time: 0.019876s |                              norm of gradient 0.000051 |
+| end of effective pass 17 | time: 0.019964s |                              norm of gradient 0.000017 |
+| end of effective pass 18 | time: 0.020036s |                              norm of gradient 0.000014 |
+| end of effective pass 19 | time: 0.020000s |                              norm of gradient 0.000011 |
+| end of effective pass 20 | time: 0.020123s |                              norm of gradient 0.000022 |
+| end of effective pass 21 | time: 0.020129s |                              norm of gradient 0.000003 |
+| end of effective pass 22 | time: 0.020025s |                              norm of gradient 0.000002 |
+| end of effective pass 23 | time: 0.019894s |                              norm of gradient 0.000016 |
+| end of effective pass 24 | time: 0.019963s |                              norm of gradient 0.000002 |
+| end of effective pass 25 | time: 0.019978s |                              norm of gradient 0.000001 |
+| end of effective pass 26 | time: 0.019973s |                              norm of gradient 0.000001 |
+| end of effective pass 27 | time: 0.020023s |                              norm of gradient 0.000000 |
+| end of effective pass 28 | time: 0.020024s |                              norm of gradient 0.000000 |
+| end of effective pass 29 | time: 0.019981s |                              norm of gradient 0.000000 |
+| end of effective pass 30 | time: 0.020041s |                              norm of gradient 0.000000 |
+------END SANA------
+------START SANID------
+1-th repetition:
+| end of effective pass 1 | time: 0.012896s |                              norm of gradient 0.053028 |
+| end of effective pass 2 | time: 0.013002s |                              norm of gradient 0.064136 |
+| end of effective pass 3 | time: 0.013088s |                              norm of gradient 0.035045 |
+| end of effective pass 4 | time: 0.012846s |                              norm of gradient 0.024155 |
+| end of effective pass 5 | time: 0.012845s |                              norm of gradient 0.019994 |
+| end of effective pass 6 | time: 0.012756s |                              norm of gradient 0.019864 |
+| end of effective pass 7 | time: 0.012906s |                              norm of gradient 0.013190 |
+| end of effective pass 8 | time: 0.012718s |                              norm of gradient 0.011468 |
+| end of effective pass 9 | time: 0.012754s |                              norm of gradient 0.007951 |
+| end of effective pass 10 | time: 0.012847s |                              norm of gradient 0.006134 |
+| end of effective pass 11 | time: 0.012829s |                              norm of gradient 0.005812 |
+| end of effective pass 12 | time: 0.012808s |                              norm of gradient 0.004840 |
+| end of effective pass 13 | time: 0.012836s |                              norm of gradient 0.005070 |
+| end of effective pass 14 | time: 0.012764s |                              norm of gradient 0.005000 |
+| end of effective pass 15 | time: 0.012788s |                              norm of gradient 0.005054 |
+| end of effective pass 16 | time: 0.012878s |                              norm of gradient 0.003445 |
+| end of effective pass 17 | time: 0.012753s |                              norm of gradient 0.003437 |
+| end of effective pass 18 | time: 0.012846s |                              norm of gradient 0.002579 |
+| end of effective pass 19 | time: 0.012823s |                              norm of gradient 0.002045 |
+| end of effective pass 20 | time: 0.012771s |                              norm of gradient 0.001603 |
+| end of effective pass 21 | time: 0.012780s |                              norm of gradient 0.001579 |
+| end of effective pass 22 | time: 0.012727s |                              norm of gradient 0.001215 |
+| end of effective pass 23 | time: 0.012800s |                              norm of gradient 0.000844 |
+| end of effective pass 24 | time: 0.012767s |                              norm of gradient 0.000880 |
+| end of effective pass 25 | time: 0.012810s |                              norm of gradient 0.000667 |
+| end of effective pass 26 | time: 0.012810s |                              norm of gradient 0.000673 |
+| end of effective pass 27 | time: 0.012865s |                              norm of gradient 0.000471 |
+| end of effective pass 28 | time: 0.012897s |                              norm of gradient 0.000330 |
+| end of effective pass 29 | time: 0.012828s |                              norm of gradient 0.000250 |
+| end of effective pass 30 | time: 0.012910s |                              norm of gradient 0.000201 |
+------END SANID------
+------START SAG------
+1-th repetition:
+| end of effective pass 1 | time: 0.005972s |                              norm of gradient 0.097405 |
+| end of effective pass 2 | time: 0.005951s |                              norm of gradient 0.053239 |
+| end of effective pass 3 | time: 0.006046s |                              norm of gradient 0.092573 |
+| end of effective pass 4 | time: 0.005917s |                              norm of gradient 0.115383 |
+| end of effective pass 5 | time: 0.005936s |                              norm of gradient 0.022501 |
+| end of effective pass 6 | time: 0.006019s |                              norm of gradient 0.020040 |
+| end of effective pass 7 | time: 0.005949s |                              norm of gradient 0.023191 |
+| end of effective pass 8 | time: 0.005911s |                              norm of gradient 0.037221 |
+| end of effective pass 9 | time: 0.006021s |                              norm of gradient 0.005131 |
+| end of effective pass 10 | time: 0.005996s |                              norm of gradient 0.009770 |
+| end of effective pass 11 | time: 0.005875s |                              norm of gradient 0.004318 |
+| end of effective pass 12 | time: 0.006098s |                              norm of gradient 0.004896 |
+| end of effective pass 13 | time: 0.005983s |                              norm of gradient 0.007697 |
+| end of effective pass 14 | time: 0.006001s |                              norm of gradient 0.002025 |
+| end of effective pass 15 | time: 0.005951s |                              norm of gradient 0.002213 |
+| end of effective pass 16 | time: 0.005945s |                              norm of gradient 0.005835 |
+| end of effective pass 17 | time: 0.006006s |                              norm of gradient 0.002558 |
+| end of effective pass 18 | time: 0.005996s |                              norm of gradient 0.001030 |
+| end of effective pass 19 | time: 0.005944s |                              norm of gradient 0.001645 |
+| end of effective pass 20 | time: 0.005961s |                              norm of gradient 0.001172 |
+| end of effective pass 21 | time: 0.005976s |                              norm of gradient 0.000678 |
+| end of effective pass 22 | time: 0.005969s |                              norm of gradient 0.000264 |
+| end of effective pass 23 | time: 0.005953s |                              norm of gradient 0.000235 |
+| end of effective pass 24 | time: 0.006050s |                              norm of gradient 0.000540 |
+| end of effective pass 25 | time: 0.005974s |                              norm of gradient 0.000327 |
+| end of effective pass 26 | time: 0.005940s |                              norm of gradient 0.000261 |
+| end of effective pass 27 | time: 0.006014s |                              norm of gradient 0.000119 |
+| end of effective pass 28 | time: 0.006007s |                              norm of gradient 0.000019 |
+| end of effective pass 29 | time: 0.005947s |                              norm of gradient 0.000086 |
+| end of effective pass 30 | time: 0.005996s |                              norm of gradient 0.000080 |
+------END SAG------
+------START SVRG------
+1-th repetition:
+| end of effective pass 1 | time: 0.000036s |                              norm of gradient 0.154435 |
+| end of effective pass 2 | time: 0.007774s |                              norm of gradient 0.157612 |
+| end of effective pass 3 | time: 0.000037s |                              norm of gradient 0.115559 |
+| end of effective pass 4 | time: 0.007738s |                              norm of gradient 0.014330 |
+| end of effective pass 5 | time: 0.000037s |                              norm of gradient 0.012401 |
+| end of effective pass 6 | time: 0.007685s |                              norm of gradient 0.008310 |
+| end of effective pass 7 | time: 0.000036s |                              norm of gradient 0.005649 |
+| end of effective pass 8 | time: 0.007704s |                              norm of gradient 0.001152 |
+| end of effective pass 9 | time: 0.000036s |                              norm of gradient 0.000994 |
+| end of effective pass 10 | time: 0.007673s |                              norm of gradient 0.000581 |
+| end of effective pass 11 | time: 0.000036s |                              norm of gradient 0.000431 |
+| end of effective pass 12 | time: 0.007616s |                              norm of gradient 0.000130 |
+| end of effective pass 13 | time: 0.000036s |                              norm of gradient 0.000088 |
+| end of effective pass 14 | time: 0.007717s |                              norm of gradient 0.000029 |
+| end of effective pass 15 | time: 0.000036s |                              norm of gradient 0.000021 |
+| end of effective pass 16 | time: 0.007690s |                              norm of gradient 0.000006 |
+| end of effective pass 17 | time: 0.000036s |                              norm of gradient 0.000004 |
+| end of effective pass 18 | time: 0.007697s |                              norm of gradient 0.000002 |
+| end of effective pass 19 | time: 0.000036s |                              norm of gradient 0.000002 |
+| end of effective pass 20 | time: 0.007743s |                              norm of gradient 0.000001 |
+| end of effective pass 21 | time: 0.000036s |                              norm of gradient 0.000001 |
+| end of effective pass 22 | time: 0.007751s |                              norm of gradient 0.000000 |
+| end of effective pass 23 | time: 0.000036s |                              norm of gradient 0.000000 |
+| end of effective pass 24 | time: 0.007672s |                              norm of gradient 0.000000 |
+| end of effective pass 25 | time: 0.000037s |                              norm of gradient 0.000000 |
+| end of effective pass 26 | time: 0.007720s |                              norm of gradient 0.000000 |
+| end of effective pass 27 | time: 0.000036s |                              norm of gradient 0.000000 |
+| end of effective pass 28 | time: 0.007660s |                              norm of gradient 0.000000 |
+------END SVRG------
+------START GD------
+1-th repetition:
+| end of effective pass 1 | time: 0.000034s |                              norm of gradient 0.094450 |
+| end of effective pass 2 | time: 0.000035s |                              norm of gradient 0.061230 |
+| end of effective pass 3 | time: 0.000041s |                              norm of gradient 0.040687 |
+| end of effective pass 4 | time: 0.000033s |                              norm of gradient 0.027530 |
+| end of effective pass 5 | time: 0.000034s |                              norm of gradient 0.018860 |
+| end of effective pass 6 | time: 0.000034s |                              norm of gradient 0.013030 |
+| end of effective pass 7 | time: 0.000033s |                              norm of gradient 0.009054 |
+| end of effective pass 8 | time: 0.000034s |                              norm of gradient 0.006317 |
+| end of effective pass 9 | time: 0.000033s |                              norm of gradient 0.004419 |
+| end of effective pass 10 | time: 0.000034s |                              norm of gradient 0.003097 |
+| end of effective pass 11 | time: 0.000033s |                              norm of gradient 0.002174 |
+| end of effective pass 12 | time: 0.000033s |                              norm of gradient 0.001527 |
+| end of effective pass 13 | time: 0.000033s |                              norm of gradient 0.001074 |
+| end of effective pass 14 | time: 0.000033s |                              norm of gradient 0.000755 |
+| end of effective pass 15 | time: 0.000034s |                              norm of gradient 0.000531 |
+| end of effective pass 16 | time: 0.000034s |                              norm of gradient 0.000374 |
+| end of effective pass 17 | time: 0.000033s |                              norm of gradient 0.000263 |
+| end of effective pass 18 | time: 0.000034s |                              norm of gradient 0.000185 |
+| end of effective pass 19 | time: 0.000033s |                              norm of gradient 0.000130 |
+| end of effective pass 20 | time: 0.000033s |                              norm of gradient 0.000092 |
+| end of effective pass 21 | time: 0.000034s |                              norm of gradient 0.000065 |
+| end of effective pass 22 | time: 0.000034s |                              norm of gradient 0.000045 |
+| end of effective pass 23 | time: 0.000034s |                              norm of gradient 0.000032 |
+| end of effective pass 24 | time: 0.000033s |                              norm of gradient 0.000023 |
+| end of effective pass 25 | time: 0.000034s |                              norm of gradient 0.000016 |
+| end of effective pass 26 | time: 0.000032s |                              norm of gradient 0.000011 |
+| end of effective pass 27 | time: 0.000033s |                              norm of gradient 0.000008 |
+| end of effective pass 28 | time: 0.000034s |                              norm of gradient 0.000006 |
+| end of effective pass 29 | time: 0.000033s |                              norm of gradient 0.000004 |
+| end of effective pass 30 | time: 0.000033s |                              norm of gradient 0.000003 |
+------END GD------
+------START NEWTON------
+1-th repetition:
+| end of effective pass 1 | time: 0.000114s |                              norm of gradient 0.020868 |
+| end of effective pass 2 | time: 0.000072s |                              norm of gradient 0.000655 |
+| end of effective pass 3 | time: 0.000068s |                              norm of gradient 0.000001 |
+| end of effective pass 4 | time: 0.000066s |                              norm of gradient 0.000000 |
+------END NEWTON------
+Thu Mar  3 22:35:24 2022
+Data Sparsity: 0.004060324825986079
+Number of data points: 862; Number of features: 3
+Regularization param: 0.03406013516450858
+------START SAN------
+1-th repetition:
+| end of effective pass 1 | time: 0.013261s |                              norm of gradient 0.042059 |
+| end of effective pass 2 | time: 0.013176s |                              norm of gradient 0.015647 |
+| end of effective pass 3 | time: 0.013940s |                              norm of gradient 0.024264 |
+| end of effective pass 4 | time: 0.014030s |                              norm of gradient 0.011529 |
+| end of effective pass 5 | time: 0.013566s |                              norm of gradient 0.005368 |
+| end of effective pass 6 | time: 0.013319s |                              norm of gradient 0.003170 |
+| end of effective pass 7 | time: 0.013286s |                              norm of gradient 0.001624 |
+| end of effective pass 8 | time: 0.013406s |                              norm of gradient 0.008770 |
+| end of effective pass 9 | time: 0.013207s |                              norm of gradient 0.000753 |
+| end of effective pass 10 | time: 0.012992s |                              norm of gradient 0.000241 |
+| end of effective pass 11 | time: 0.013001s |                              norm of gradient 0.000757 |
+| end of effective pass 12 | time: 0.012893s |                              norm of gradient 0.000202 |
+| end of effective pass 13 | time: 0.013098s |                              norm of gradient 0.000123 |
+| end of effective pass 14 | time: 0.012972s |                              norm of gradient 0.000116 |
+| end of effective pass 15 | time: 0.013178s |                              norm of gradient 0.000062 |
+| end of effective pass 16 | time: 0.012966s |                              norm of gradient 0.000057 |
+| end of effective pass 17 | time: 0.012752s |                              norm of gradient 0.000022 |
+| end of effective pass 18 | time: 0.013194s |                              norm of gradient 0.000035 |
+| end of effective pass 19 | time: 0.013564s |                              norm of gradient 0.000022 |
+| end of effective pass 20 | time: 0.013317s |                              norm of gradient 0.000003 |
+| end of effective pass 21 | time: 0.013037s |                              norm of gradient 0.000004 |
+| end of effective pass 22 | time: 0.013177s |                              norm of gradient 0.000002 |
+| end of effective pass 23 | time: 0.015345s |                              norm of gradient 0.000010 |
+| end of effective pass 24 | time: 0.013272s |                              norm of gradient 0.000000 |
+| end of effective pass 25 | time: 0.013324s |                              norm of gradient 0.000002 |
+| end of effective pass 26 | time: 0.013033s |                              norm of gradient 0.000001 |
+| end of effective pass 27 | time: 0.013151s |                              norm of gradient 0.000000 |
+| end of effective pass 28 | time: 0.013409s |                              norm of gradient 0.000001 |
+| end of effective pass 29 | time: 0.013832s |                              norm of gradient 0.000000 |
+| end of effective pass 30 | time: 0.013809s |                              norm of gradient 0.000000 |
+------END SAN------
+------START SANA------
+1-th repetition:
+| end of effective pass 1 | time: 0.020267s |                              norm of gradient 0.040437 |
+| end of effective pass 2 | time: 0.020570s |                              norm of gradient 0.031818 |
+| end of effective pass 3 | time: 0.020479s |                              norm of gradient 0.021511 |
+| end of effective pass 4 | time: 0.020064s |                              norm of gradient 0.004613 |
+| end of effective pass 5 | time: 0.021868s |                              norm of gradient 0.004715 |
+| end of effective pass 6 | time: 0.021033s |                              norm of gradient 0.010073 |
+| end of effective pass 7 | time: 0.020752s |                              norm of gradient 0.001256 |
+| end of effective pass 8 | time: 0.020268s |                              norm of gradient 0.003725 |
+| end of effective pass 9 | time: 0.020127s |                              norm of gradient 0.000859 |
+| end of effective pass 10 | time: 0.020504s |                              norm of gradient 0.000394 |
+| end of effective pass 11 | time: 0.020165s |                              norm of gradient 0.000291 |
+| end of effective pass 12 | time: 0.021042s |                              norm of gradient 0.000115 |
+| end of effective pass 13 | time: 0.020339s |                              norm of gradient 0.000225 |
+| end of effective pass 14 | time: 0.020513s |                              norm of gradient 0.000144 |
+| end of effective pass 15 | time: 0.020380s |                              norm of gradient 0.000064 |
+| end of effective pass 16 | time: 0.020209s |                              norm of gradient 0.000051 |
+| end of effective pass 17 | time: 0.021025s |                              norm of gradient 0.000017 |
+| end of effective pass 18 | time: 0.020512s |                              norm of gradient 0.000014 |
+| end of effective pass 19 | time: 0.020722s |                              norm of gradient 0.000011 |
+| end of effective pass 20 | time: 0.020517s |                              norm of gradient 0.000022 |
+| end of effective pass 21 | time: 0.020897s |                              norm of gradient 0.000003 |
+| end of effective pass 22 | time: 0.020722s |                              norm of gradient 0.000002 |
+| end of effective pass 23 | time: 0.020259s |                              norm of gradient 0.000016 |
+| end of effective pass 24 | time: 0.020348s |                              norm of gradient 0.000002 |
+| end of effective pass 25 | time: 0.021125s |                              norm of gradient 0.000001 |
+| end of effective pass 26 | time: 0.020481s |                              norm of gradient 0.000001 |
+| end of effective pass 27 | time: 0.020414s |                              norm of gradient 0.000000 |
+| end of effective pass 28 | time: 0.020899s |                              norm of gradient 0.000000 |
+| end of effective pass 29 | time: 0.020981s |                              norm of gradient 0.000000 |
+| end of effective pass 30 | time: 0.020527s |                              norm of gradient 0.000000 |
+------END SANA------
+------START SANID------
+1-th repetition:
+| end of effective pass 1 | time: 0.013239s |                              norm of gradient 0.053028 |
+| end of effective pass 2 | time: 0.013879s |                              norm of gradient 0.064136 |
+| end of effective pass 3 | time: 0.013463s |                              norm of gradient 0.035045 |
+| end of effective pass 4 | time: 0.013118s |                              norm of gradient 0.024155 |
+| end of effective pass 5 | time: 0.012851s |                              norm of gradient 0.019994 |
+| end of effective pass 6 | time: 0.013013s |                              norm of gradient 0.019864 |
+| end of effective pass 7 | time: 0.013064s |                              norm of gradient 0.013190 |
+| end of effective pass 8 | time: 0.013029s |                              norm of gradient 0.011468 |
+| end of effective pass 9 | time: 0.013046s |                              norm of gradient 0.007951 |
+| end of effective pass 10 | time: 0.013179s |                              norm of gradient 0.006134 |
+| end of effective pass 11 | time: 0.012967s |                              norm of gradient 0.005812 |
+| end of effective pass 12 | time: 0.013220s |                              norm of gradient 0.004840 |
+| end of effective pass 13 | time: 0.013138s |                              norm of gradient 0.005070 |
+| end of effective pass 14 | time: 0.013094s |                              norm of gradient 0.005000 |
+| end of effective pass 15 | time: 0.013228s |                              norm of gradient 0.005054 |
+| end of effective pass 16 | time: 0.013128s |                              norm of gradient 0.003445 |
+| end of effective pass 17 | time: 0.013380s |                              norm of gradient 0.003437 |
+| end of effective pass 18 | time: 0.013151s |                              norm of gradient 0.002579 |
+| end of effective pass 19 | time: 0.012852s |                              norm of gradient 0.002045 |
+| end of effective pass 20 | time: 0.012828s |                              norm of gradient 0.001603 |
+| end of effective pass 21 | time: 0.012898s |                              norm of gradient 0.001579 |
+| end of effective pass 22 | time: 0.013000s |                              norm of gradient 0.001215 |
+| end of effective pass 23 | time: 0.012966s |                              norm of gradient 0.000844 |
+| end of effective pass 24 | time: 0.013218s |                              norm of gradient 0.000880 |
+| end of effective pass 25 | time: 0.012753s |                              norm of gradient 0.000667 |
+| end of effective pass 26 | time: 0.012996s |                              norm of gradient 0.000673 |
+| end of effective pass 27 | time: 0.012743s |                              norm of gradient 0.000471 |
+| end of effective pass 28 | time: 0.012965s |                              norm of gradient 0.000330 |
+| end of effective pass 29 | time: 0.012971s |                              norm of gradient 0.000250 |
+| end of effective pass 30 | time: 0.013430s |                              norm of gradient 0.000201 |
+------END SANID------
+------START SAG------
+1-th repetition:
+| end of effective pass 1 | time: 0.006029s |                              norm of gradient 0.097405 |
+| end of effective pass 2 | time: 0.006409s |                              norm of gradient 0.053239 |
+| end of effective pass 3 | time: 0.006152s |                              norm of gradient 0.092573 |
+| end of effective pass 4 | time: 0.006588s |                              norm of gradient 0.115383 |
+| end of effective pass 5 | time: 0.006328s |                              norm of gradient 0.022501 |
+| end of effective pass 6 | time: 0.006033s |                              norm of gradient 0.020040 |
+| end of effective pass 7 | time: 0.006215s |                              norm of gradient 0.023191 |
+| end of effective pass 8 | time: 0.006032s |                              norm of gradient 0.037221 |
+| end of effective pass 9 | time: 0.006075s |                              norm of gradient 0.005131 |
+| end of effective pass 10 | time: 0.006039s |                              norm of gradient 0.009770 |
+| end of effective pass 11 | time: 0.005876s |                              norm of gradient 0.004318 |
+| end of effective pass 12 | time: 0.006130s |                              norm of gradient 0.004896 |
+| end of effective pass 13 | time: 0.005938s |                              norm of gradient 0.007697 |
+| end of effective pass 14 | time: 0.006015s |                              norm of gradient 0.002025 |
+| end of effective pass 15 | time: 0.006283s |                              norm of gradient 0.002213 |
+| end of effective pass 16 | time: 0.005903s |                              norm of gradient 0.005835 |
+| end of effective pass 17 | time: 0.005934s |                              norm of gradient 0.002558 |
+| end of effective pass 18 | time: 0.006027s |                              norm of gradient 0.001030 |
+| end of effective pass 19 | time: 0.005927s |                              norm of gradient 0.001645 |
+| end of effective pass 20 | time: 0.006019s |                              norm of gradient 0.001172 |
+| end of effective pass 21 | time: 0.006238s |                              norm of gradient 0.000678 |
+| end of effective pass 22 | time: 0.005970s |                              norm of gradient 0.000264 |
+| end of effective pass 23 | time: 0.006065s |                              norm of gradient 0.000235 |
+| end of effective pass 24 | time: 0.005874s |                              norm of gradient 0.000540 |
+| end of effective pass 25 | time: 0.005939s |                              norm of gradient 0.000327 |
+| end of effective pass 26 | time: 0.006078s |                              norm of gradient 0.000261 |
+| end of effective pass 27 | time: 0.006115s |                              norm of gradient 0.000119 |
+| end of effective pass 28 | time: 0.006072s |                              norm of gradient 0.000019 |
+| end of effective pass 29 | time: 0.005968s |                              norm of gradient 0.000086 |
+| end of effective pass 30 | time: 0.005883s |                              norm of gradient 0.000080 |
+------END SAG------
+------START SVRG------
+1-th repetition:
+| end of effective pass 1 | time: 0.000036s |                              norm of gradient 0.154435 |
+| end of effective pass 2 | time: 0.007890s |                              norm of gradient 0.157612 |
+| end of effective pass 3 | time: 0.000037s |                              norm of gradient 0.115559 |
+| end of effective pass 4 | time: 0.007674s |                              norm of gradient 0.014330 |
+| end of effective pass 5 | time: 0.000058s |                              norm of gradient 0.012401 |
+| end of effective pass 6 | time: 0.007859s |                              norm of gradient 0.008310 |
+| end of effective pass 7 | time: 0.000041s |                              norm of gradient 0.005649 |
+| end of effective pass 8 | time: 0.007830s |                              norm of gradient 0.001152 |
+| end of effective pass 9 | time: 0.000039s |                              norm of gradient 0.000994 |
+| end of effective pass 10 | time: 0.007863s |                              norm of gradient 0.000581 |
+| end of effective pass 11 | time: 0.000037s |                              norm of gradient 0.000431 |
+| end of effective pass 12 | time: 0.007677s |                              norm of gradient 0.000130 |
+| end of effective pass 13 | time: 0.000036s |                              norm of gradient 0.000088 |
+| end of effective pass 14 | time: 0.007809s |                              norm of gradient 0.000029 |
+| end of effective pass 15 | time: 0.000038s |                              norm of gradient 0.000021 |
+| end of effective pass 16 | time: 0.007818s |                              norm of gradient 0.000006 |
+| end of effective pass 17 | time: 0.000037s |                              norm of gradient 0.000004 |
+| end of effective pass 18 | time: 0.007853s |                              norm of gradient 0.000002 |
+| end of effective pass 19 | time: 0.000038s |                              norm of gradient 0.000002 |
+| end of effective pass 20 | time: 0.007811s |                              norm of gradient 0.000001 |
+| end of effective pass 21 | time: 0.000038s |                              norm of gradient 0.000001 |
+| end of effective pass 22 | time: 0.008012s |                              norm of gradient 0.000000 |
+| end of effective pass 23 | time: 0.000038s |                              norm of gradient 0.000000 |
+| end of effective pass 24 | time: 0.007760s |                              norm of gradient 0.000000 |
+| end of effective pass 25 | time: 0.000036s |                              norm of gradient 0.000000 |
+| end of effective pass 26 | time: 0.007751s |                              norm of gradient 0.000000 |
+| end of effective pass 27 | time: 0.000037s |                              norm of gradient 0.000000 |
+| end of effective pass 28 | time: 0.007636s |                              norm of gradient 0.000000 |
+------END SVRG------
+------START GD------
+1-th repetition:
+| end of effective pass 1 | time: 0.000036s |                              norm of gradient 0.094450 |
+| end of effective pass 2 | time: 0.000043s |                              norm of gradient 0.061230 |
+| end of effective pass 3 | time: 0.000035s |                              norm of gradient 0.040687 |
+| end of effective pass 4 | time: 0.000035s |                              norm of gradient 0.027530 |
+| end of effective pass 5 | time: 0.000035s |                              norm of gradient 0.018860 |
+| end of effective pass 6 | time: 0.000035s |                              norm of gradient 0.013030 |
+| end of effective pass 7 | time: 0.000034s |                              norm of gradient 0.009054 |
+| end of effective pass 8 | time: 0.000051s |                              norm of gradient 0.006317 |
+| end of effective pass 9 | time: 0.000035s |                              norm of gradient 0.004419 |
+| end of effective pass 10 | time: 0.000037s |                              norm of gradient 0.003097 |
+| end of effective pass 11 | time: 0.000039s |                              norm of gradient 0.002174 |
+| end of effective pass 12 | time: 0.000034s |                              norm of gradient 0.001527 |
+| end of effective pass 13 | time: 0.000034s |                              norm of gradient 0.001074 |
+| end of effective pass 14 | time: 0.000033s |                              norm of gradient 0.000755 |
+| end of effective pass 15 | time: 0.000033s |                              norm of gradient 0.000531 |
+| end of effective pass 16 | time: 0.000035s |                              norm of gradient 0.000374 |
+| end of effective pass 17 | time: 0.000036s |                              norm of gradient 0.000263 |
+| end of effective pass 18 | time: 0.000034s |                              norm of gradient 0.000185 |
+| end of effective pass 19 | time: 0.000034s |                              norm of gradient 0.000130 |
+| end of effective pass 20 | time: 0.000034s |                              norm of gradient 0.000092 |
+| end of effective pass 21 | time: 0.000034s |                              norm of gradient 0.000065 |
+| end of effective pass 22 | time: 0.000033s |                              norm of gradient 0.000045 |
+| end of effective pass 23 | time: 0.000039s |                              norm of gradient 0.000032 |
+| end of effective pass 24 | time: 0.000035s |                              norm of gradient 0.000023 |
+| end of effective pass 25 | time: 0.000035s |                              norm of gradient 0.000016 |
+| end of effective pass 26 | time: 0.000035s |                              norm of gradient 0.000011 |
+| end of effective pass 27 | time: 0.000035s |                              norm of gradient 0.000008 |
+| end of effective pass 28 | time: 0.000035s |                              norm of gradient 0.000006 |
+| end of effective pass 29 | time: 0.000034s |                              norm of gradient 0.000004 |
+| end of effective pass 30 | time: 0.000034s |                              norm of gradient 0.000003 |
+------END GD------
+------START NEWTON------
+1-th repetition:
+| end of effective pass 1 | time: 0.000904s |                              norm of gradient 0.020868 |
+| end of effective pass 2 | time: 0.000081s |                              norm of gradient 0.000655 |
+| end of effective pass 3 | time: 0.000072s |                              norm of gradient 0.000001 |
+| end of effective pass 4 | time: 0.000084s |                              norm of gradient 0.000000 |
+------END NEWTON------

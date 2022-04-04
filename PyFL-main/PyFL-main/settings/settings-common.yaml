@@ -1,7 +1,7 @@
 storage:
   storage_config:
     storage_access_key: minioadmin
-    storage_hostname: 192.168.64.187
+    storage_hostname: 192.168.29.95
     storage_port: 9000
     storage_secret_key: minioadmin
     storage_secure_mode: false
@@ -28,4 +28,4 @@ training:
     value: 30
     weight_decay: 0.0001
 training_identifier:
-  id: '25'
+  id: '26'
