@@ -1,0 +1,14 @@
+/.idea
+/venv
+/data/clients
+/data/reducer
+/data/logs
+/data/runs
+/data/minio_logs
+**/__pycache__/
+/minio_data
+list_alphas.pkl
+lut.pkl
+/outputs
+/data/cifar-10-batches-py
+/data/cifar-10-python.tar.gz

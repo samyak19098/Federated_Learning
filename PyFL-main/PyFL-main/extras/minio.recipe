@@ -1,0 +1,18 @@
+Bootstrap: docker
+From: ubuntu:latest
+
+%environment
+	GET_HOSTS_FROM=dns
+	MINIO_HOST=minio
+	MINIO_PORT=9000
+	MINIO_ROOT_USER=fedn_admin
+	MINIO_ROOT_PASSWORD=password
+
+%runscript
+	wget https://dl.min.io/server/minio/release/linux-amd64/minio
+        chmod +x minio
+	./minio server /data --console-address ":9001"
+	
+%post 
+	apt-get update
+	apt-get install -y wget

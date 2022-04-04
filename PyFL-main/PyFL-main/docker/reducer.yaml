@@ -1,0 +1,22 @@
+version: "3.3"
+
+services:
+  reducer:
+    image: "fedn-container:v1"
+    container_name: "reducer"
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - capabilities:
+                - gpu
+              device_ids:
+                - "MIG-GPU-6ff250df-07f5-cf8e-bfdb-d56c3c464126/2/0"
+              driver: nvidia
+    working_dir: /app/
+    command: sh -c "python reducer.py"
+    volumes:
+      - ${PWD}:/app
+    ports:
+      - "8090:8090"
+      - "6090:6090"

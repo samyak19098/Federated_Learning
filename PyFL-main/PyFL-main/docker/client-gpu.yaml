@@ -1,0 +1,20 @@
+services:
+  client5:
+    command: sh -c 'python client.py settings/settings-client.yaml'
+    container_name: client5
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - capabilities:
+                - gpu
+              device_ids:
+                - "MIG-GPU-6ff250df-07f5-cf8e-bfdb-d56c3c464126/2/0"
+              driver: nvidia
+    image: "fedn-container:v1"
+    ports:
+      - 8095:8095
+    volumes:
+      - ${PWD}:/app
+    working_dir: /app/
+version: "3.3"
