@@ -8,7 +8,7 @@ import numpy as np
 import requests as r
 import matplotlib.pyplot as plt
 from flask import Flask, jsonify, request
-from flask_autodoc.autodoc import Autodoc
+# from flask_autodoc.autodoc import Autodoc
 from helper.pytorch.pytorch_helper import PytorchHelper
 from torch.utils.tensorboard import SummaryWriter
 from concurrent.futures import ThreadPoolExecutor
@@ -133,16 +133,16 @@ class ReducerRestService:
         log = logging.getLogger('werkzeug')
         # log.setLevel(logging.ERROR)
         app = Flask(__name__)
-        auto = Autodoc(app)
+        # auto = Autodoc(app)
 
         @app.route('/documentation')
-        @auto.doc()
+        # @# auto.doc()
         def documentation():
             """Return API documentation page"""
             return auto.html()
 
         @app.route('/')
-        @auto.doc()
+        # @# auto.doc()
         def index():
             """Return the type of flask server"""
             ret = {
@@ -151,7 +151,7 @@ class ReducerRestService:
             return jsonify(ret)
 
         @app.route('/addclient')
-        @auto.doc()
+        # @# auto.doc()
         def add_client():
             """Used the clients to get registered with the reducer"""
             name = request.args.get('name', None)
@@ -171,7 +171,7 @@ class ReducerRestService:
                 })
 
         @app.route('/reconnectclient')
-        @auto.doc()
+        # @# auto.doc()
         def reconnect_client():
             """Used the clients to get re-registered with the reducer"""
             name = request.args.get('name', None)
@@ -189,13 +189,13 @@ class ReducerRestService:
                 })
 
         @app.route('/status')
-        @auto.doc()
+        # @# auto.doc()
         def status_check():
             """Used by admin to check the status of reducer"""
             return jsonify({"status": self.status})
 
         @app.route('/training')
-        @auto.doc()
+        # @# auto.doc()
         def start_training():
             """Used by the admin to start the on-device training as per the supplied parameters"""
             if self.status == "Training":
@@ -217,7 +217,7 @@ class ReducerRestService:
             return jsonify(ret)
 
         @app.route('/stoptraining')
-        @auto.doc()
+        # @# auto.doc()
         def stop_training_request():
             """Used the admin to stop the ongoing training."""
             if self.training is None or self.status == "Idle":
@@ -229,7 +229,7 @@ class ReducerRestService:
             return jsonify({"status": "Stopping"})
 
         @app.route('/roundcompletedbyclient')
-        @auto.doc()
+        # @# auto.doc()
         def round_completed_by_client():
             """Used by the clients to notify reducer when the round is completed by them"""
             round_id = int(request.args.get('round_id', "-1"))
@@ -260,7 +260,7 @@ class ReducerRestService:
             return jsonify({'status': "Failure"})
 
         @app.route('/roundstoppedbyclient')
-        @auto.doc()
+        # @# auto.doc()
         def round_stopped_by_client():
             """Used by the clients to notify the reducer when the round is stopped by them."""
             round_id = int(request.args.get('round_id', "-1"))
@@ -272,7 +272,7 @@ class ReducerRestService:
             return jsonify({'status': "Failure"})
 
         @app.route('/clientcheck')
-        @auto.doc()
+        # @# auto.doc()
         def client_check():
             """Used by the clients for health-checking"""
             name = request.args.get('name', None)
@@ -290,7 +290,7 @@ class ReducerRestService:
                 return jsonify(ret)
 
         @app.route('/creategraph')
-        @auto.doc()
+        # @# auto.doc()
         def create_graph():
             """Not in use"""
             for key, client in self.clients.items():
