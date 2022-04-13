@@ -15,6 +15,7 @@ from contextlib import closing
 from Client.client_rest_service import ClientRestService
 from model.pytorch_model_trainer import PytorchModelTrainer
 
+os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 parser = argparse.ArgumentParser(description='Federated Learning Client')
 parser.add_argument('--gpu', default='None', type=str,
                     help='GPU device to be used by the client')

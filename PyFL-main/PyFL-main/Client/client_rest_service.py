@@ -4,7 +4,7 @@ from flask import Flask, jsonify, request
 import json
 import time
 import logging
-from flask_autodoc.autodoc import Autodoc
+# from flask_autodoc.autodoc import Autodoc
 # from flask.ext.autodoc import Autodoc
 
 
@@ -24,16 +24,16 @@ class ClientRestService:
         log = logging.getLogger('werkzeug')
         # log.setLevel(logging.ERROR)
         app = Flask(__name__)
-        auto = Autodoc(app)
+        # auto = Autodoc(app)
 
         @app.route('/documentation')
-        @auto.doc()
+        #@auto.doc()
         def documentation():
             """return API documentation page"""
             return auto.html()
 
         @app.route('/')
-        @auto.doc()
+        #@auto.doc()
         def index():
             """return the type of flask server"""
             ret = {
@@ -42,7 +42,7 @@ class ClientRestService:
             return jsonify(ret)
 
         @app.route('/startround')
-        @auto.doc()
+        #@auto.doc()
         def start_round():
             """used by the reducer to request client to start a round as per the given parameters"""
             config = {
@@ -60,7 +60,7 @@ class ClientRestService:
             return jsonify(ret)
 
         @app.route('/stopround')
-        @auto.doc()
+        #@auto.doc()
         def stop_round():
             """used by the reducer to request client to stop the ongoing round"""
             self.stop_round_event.set()

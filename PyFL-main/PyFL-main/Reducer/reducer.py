@@ -86,24 +86,36 @@ class Reducer:
             raise e
         print("Seed model created successfully !!")
         try:
+            print("RISHI")
             storage_config = common_config["storage"]
+            print("123")
             assert (storage_config["storage_type"] == "S3")
+            print("Cham cham")
             minio_config = storage_config["storage_config"]
+            print(1)
             self.minio_client = Minio("{0}:{1}".format(minio_config["storage_hostname"], minio_config["storage_port"]),
                                       access_key=minio_config["storage_access_key"],
                                       secret_key=minio_config["storage_secret_key"],
                                       secure=minio_config["storage_secure_mode"])
+            print(2)
             for bucket in self.buckets:
                 if not self.minio_client.bucket_exists(bucket):
                     self.minio_client.make_bucket(bucket)
-
+            
+            print(3)
             reducer_config_as_bytes = json.dumps(
                 {"reducer": {"hostname": get_local_ip(), "port": self.port}}).encode('utf-8')
+            
+            print(4)
             reducer_config_as_a_stream = io.BytesIO(reducer_config_as_bytes)
+            print(5)
             self.minio_client.put_object(self.buckets[0], "reducer_config.txt", reducer_config_as_a_stream,
                                          length=reducer_config_as_a_stream.getbuffer().nbytes)
+            print(6)
             self.minio_client.fput_object(self.buckets[0], self.global_model, self.global_model_path)
+            print(7)
             print("Address - http://", get_local_ip(), ":", self.port)
+            print(8)
         except Exception as e:
             print(e)
             print("Error while setting up minio configuration")

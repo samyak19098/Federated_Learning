@@ -142,6 +142,7 @@ def train(train_loader, model, criterion, optimizer, epoch, model_trainer):
         loss = criterion(output, target_var)
         # compute gradient and do SGD step
         optimizer.zero_grad()
+        print(optimizer.param_groups[0])
         loss.backward()
         optimizer.step()
         output = output.float()
