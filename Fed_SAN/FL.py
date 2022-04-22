@@ -38,12 +38,13 @@ def load_dataset(paths):
 
 		# load the image and extract the class labels
 		im_gray = cv2.imread(imgpath, cv2.IMREAD_GRAYSCALE)
-		image = np.array(im_gray).flatten()
+		image = np.array(im_gray).flatten()/255
+		image = np.append(image,np.array([1]))
 		label = imgpath.split(os.path.sep)[-2]
 
 		#print(label)
 		# scale the image to [0, 1] and add to list
-		data.append(image/255)
+		data.append(image)
 		labels.append(label)
 
 	# return a tuple of the data and labels
@@ -236,7 +237,7 @@ def train(wts, data, epochs, lr,reg):
 			
 			#print(i)
 	
-	print(wts_copy)
+	#print(wts_copy)
 	return wts_copy
 
 print("How many clients??")
@@ -258,16 +259,19 @@ for i in range(tot_clients):
 	epochs_list.append(epochx)
 	#print()
 
-img_path = './dataset/trainingSet/trainingSet'
+# img_path = './dataset/trainingSet/trainingSet'
 
-#get the path list using the path object
-image_paths = list(paths.list_images(img_path))
+# #get the path list using the path object
+# image_paths = list(paths.list_images(img_path))
 
-data, labels = load_dataset(image_paths)
+#data, labels = load_dataset(image_paths)
 
-print(len(data[0]), len(labels[0]))
+#print(len(data[0]), len(labels[0]))
 #print(labels_actual)
 
+# fourclass.txt
+data = list(np.load("Data.npy"))
+labels = list(np.load("label.npy"))
 
 #split data into training and test set
 X_train, X_test, Y_train, Y_test = train_test_split(data, labels,test_size=0.1, random_state=42)
@@ -280,7 +284,7 @@ clients = make_clients(X_train,Y_train,tot_clients,labels_actual)
 print(clients['client_1'][0])
 
 server_MLP = Model()
-server_model = server_MLP.make_model(784,10)
+server_model = server_MLP.make_model(3,2)
 # quantize_model = tfmot.quantization.keras.quantize_model
 # server_model = quantize_model(server_model)
 client_models = []
@@ -288,7 +292,7 @@ client_models = []
 for i in range(len(list(clients.keys()))):
 
 	client_MLP_x = Model()
-	client_model_x = client_MLP_x.make_model(784,10)
+	client_model_x = client_MLP_x.make_model(3,2)
 	client_models.append(client_model_x)
 
 K_clients = 3
@@ -306,10 +310,9 @@ for i in range(tot_rounds):
 		if(countx>K_clients):
 			break
 		client_model = client_models[countx]
-
 		# setting client_model weights as the server_model wts
 		print(len(server_wts))
-		client_model = server_wts
+		# client_model = server_wts
 
 		client_data = np.array(clients[client])
 		client_model = train(client_model, clients[client], epochs_list[countx], 0.01, 1)
@@ -329,9 +332,13 @@ for i in range(tot_rounds):
 
 	avg_wts_server = sum_scaled_wts(scaled_wts_clients_list)
 	print("HI" +str(len(avg_wts_server)))
-	server_model = avg_wts_server
+	server_model = np.array(avg_wts_server)
 
 	print(server_model)
+	countx = 0
+	for client in client_names:
+		client_models[countx] = server_model
+		countx += 1
 # 	server_acc, server_loss = test_model(X_test, Y_test, server_model)
 # 	test_acc_list.append(server_acc)
 # 	test_loss_list.append(server_loss)
