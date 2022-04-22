@@ -201,6 +201,7 @@ class Client:
         self.client_id = ""
         try:
             self.id = client_config["client"]["hostname"] + ":" + str(client_config["client"]["port"])
+            # self.id = str(client_config["client"]["port"])
             self.client_config = client_config["client"]
             self.server = Server(client_config["reducer"]["hostname"], client_config["reducer"]["port"], self.id)
             status, self.client_id = self.server.register_with_server(client_config["client"])

@@ -232,12 +232,18 @@ class ReducerRestService:
         # @# auto.doc()
         def round_completed_by_client():
             """Used by the clients to notify reducer when the round is completed by them"""
+            print(f"Request args : {request.args}", flush=True)
+            print(f"Request args client_id : {request.args.get('client_id')} || {request.args.get('client_id', '0')}", flush=True)
             round_id = int(request.args.get('round_id', "-1"))
+            print(f"Round id = {round_id}")
             id = request.args.get("client_id", "0")
+            print(f"id  = {id}", flush=True)
+            print(f"clients : {self.clients}", flush=True)
             if self.rounds == round_id and id in self.clients:
-                if not os.path.exists(self.tensorboard_path + "/" + id):
-                    os.mkdir(self.tensorboard_path + "/" + id)
-                writer = SummaryWriter(self.tensorboard_path + "/" + self.training_id + "-" + self.clients[id].id)
+                port_num = id.split(":")[1]
+                if not os.path.exists(self.tensorboard_path + "/" + port_num):
+                    os.mkdir(self.tensorboard_path + "/" + port_num)
+                writer = SummaryWriter(self.tensorboard_path + "/" + self.training_id + "-" + port_num)
                 self.clients[id].status = "Idle"
                 res = request.args.get("report", None)
                 if res is None:

@@ -1,6 +1,31 @@
+from email.policy import default
 import torch
+import numpy as np
 
 
+class SAN(torch.optim.Optimizer):
+    def __init__(self, params, learning_rate, dims, constraints=None):
+        if not (0.0 <= learning_rate <= 1.0):
+            raise ValueError("Invalid learning rate: {}".format(learning_rate))
+        self.constraints = constraints
+        self.n = dims[0]
+        self.d = dims[1]
+        self.alphas = np.zeros((n, d))
+        defaults = dict(lr=learning_rate)
+        super(SAN, self).__init__(params, defaults)
+    @torch.no_grad()
+    def step(self, constraints=None, closure=None):
+        if self.constraints is None:
+            if constraints is None:
+                raise ValueError("Please initialize Constraints before backpropagation")
+            else:
+                self.constraints = constraints
+        loss = None
+        if closure is not None:
+            with torch.enable_grad():
+                loss = closure()
+        print(f'loss : {loss}', flush=True)
+        return loss
 class SFW(torch.optim.Optimizer):
     """Stochastic Frank Wolfe Algorithm
     Args:
@@ -47,6 +72,7 @@ class SFW(torch.optim.Optimizer):
         for group in self.param_groups:
             weight_decay = group['weight_decay']
             for p in group['params']:
+                print(f"param attr : {p.keys()}")
                 if p.grad is None:
                     continue
                 d_p = p.grad
@@ -127,27 +153,22 @@ class AdaGradSFW(torch.optim.Optimizer):
         if closure is not None:
             with torch.enable_grad():
                 loss = closure()
-
         idx = 0
         for group in self.param_groups:
             for p in group['params']:
                 if p.grad is None:
                     continue
-
                 d_p = p.grad
                 param_state = self.state[p]
                 momentum = group['momentum']
-
                 if momentum > 0:
                     if 'momentum_buffer' not in param_state:
                         param_state['momentum_buffer'] = d_p.detach().clone()
                     else:
                         param_state['momentum_buffer'].mul_(momentum).add_(d_p, alpha=1 - momentum)
                         d_p = param_state['momentum_buffer']
-
                 param_state['sum'].addcmul_(d_p, d_p, value=1)  # Holds the cumulative sum
                 H = torch.sqrt(param_state['sum']).add(group['delta'])
-
                 y = p.detach().clone()
                 for _ in range(self.K):
                     d_Q = d_p.addcmul(H, y - p, value=1. / group['lr'])
@@ -155,7 +176,6 @@ class AdaGradSFW(torch.optim.Optimizer):
                     gamma = group['lr'] * torch.div(torch.sum(torch.mul(d_Q, y_v_diff)),
                                                     torch.sum(H.mul(torch.mul(y_v_diff, y_v_diff))))
                     gamma = max(0.0, min(gamma, 1.0))  # Clamp between [0, 1]
-
                     y.add_(y_v_diff, alpha=-gamma)  # -gamma needed as we want to add v-y, not y-v
                 p.copy_(y)
                 idx += 1
