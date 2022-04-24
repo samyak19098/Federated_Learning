@@ -1,0 +1,469 @@
+Client with details : id = f2628a4f-0928-4621-9f70-6c1b94209479, port = 54127, hostname = 192.168.29.95 trying to connect
+Client with detials : id = f2628a4f-0928-4621-9f70-6c1b94209479, port = 54127, hostname = 192.168.29.95 connected
+Client with details : id = 8f2f95ed-995c-4bfa-9864-893ae9b3bae7, port = 54130, hostname = 192.168.29.95 trying to connect
+Client with detials : id = 8f2f95ed-995c-4bfa-9864-893ae9b3bae7, port = 54130, hostname = 192.168.29.95 connected
+request for training received
+Starting training now
+Error while set_client_data_for_training  HTTPConnectionPool(host='192.168.29.95', port=54127): Max retries exceeded with url: /setClientData?start_ids=0&end_idx=344 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000011FC8977100>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+Error while set_client_data_for_training  [Errno Expecting value] <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+  "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+  <head>
+    <title>TypeError: int() argument must be a string, a bytes-like object or a number, not &#x27;NoneType&#x27; // Werkzeug Debugger</title>
+    <link rel="stylesheet" href="?__debugger__=yes&amp;cmd=resource&amp;f=style.css"
+        type="text/css">
+    <!-- We need to make sure this has a favicon so that the debugger does
+         not accidentally trigger a request to /favicon.ico which might
+         change the application's state. -->
+    <link rel="shortcut icon"
+        href="?__debugger__=yes&amp;cmd=resource&amp;f=console.png">
+    <script src="?__debugger__=yes&amp;cmd=resource&amp;f=debugger.js"></script>
+    <script type="text/javascript">
+      var TRACEBACK = 1917662476704,
+          CONSOLE_MODE = false,
+          EVALEX = true,
+          EVALEX_TRUSTED = false,
+          SECRET = "vJqIpEAGkRwOKTRb8LR9";
+    </script>
+  </head>
+  <body style="background-color: #fff">
+    <div class="debugger">
+<h1>TypeError</h1>
+<div class="detail">
+  <p class="errormsg">TypeError: int() argument must be a string, a bytes-like object or a number, not &#x27;NoneType&#x27;</p>
+</div>
+<h2 class="traceback">Traceback <em>(most recent call last)</em></h2>
+<div class="traceback">
+  <h3></h3>
+  <ul><li><div class="frame" id="frame-1917662476512">
+  <h4>File <cite class="filename">"C:\Users\Samyak Jain\AppData\Local\Programs\Python\Python38\Lib\site-packages\flask\app.py"</cite>,
+      line <em class="line">2095</em>,
+      in <code class="function">__call__</code></h4>
+  <div class="source library"><pre class="line before"><span class="ws">    </span>def __call__(self, environ: dict, start_response: t.Callable) -&gt; t.Any:</pre>
+<pre class="line before"><span class="ws">        </span>&quot;&quot;&quot;The WSGI server calls the Flask application object as the</pre>
+<pre class="line before"><span class="ws">        </span>WSGI application. This calls :meth:`wsgi_app`, which can be</pre>
+<pre class="line before"><span class="ws">        </span>wrapped to apply middleware.</pre>
+<pre class="line before"><span class="ws">        </span>&quot;&quot;&quot;</pre>
+<pre class="line current"><span class="ws">        </span>return self.wsgi_app(environ, start_response)</pre></div>
+</div>
+
+<li><div class="frame" id="frame-1917662476608">
+  <h4>File <cite class="filename">"C:\Users\Samyak Jain\AppData\Local\Programs\Python\Python38\Lib\site-packages\flask\app.py"</cite>,
+      line <em class="line">2080</em>,
+      in <code class="function">wsgi_app</code></h4>
+  <div class="source library"><pre class="line before"><span class="ws">            </span>try:</pre>
+<pre class="line before"><span class="ws">                </span>ctx.push()</pre>
+<pre class="line before"><span class="ws">                </span>response = self.full_dispatch_request()</pre>
+<pre class="line before"><span class="ws">            </span>except Exception as e:</pre>
+<pre class="line before"><span class="ws">                </span>error = e</pre>
+<pre class="line current"><span class="ws">                </span>response = self.handle_exception(e)</pre>
+<pre class="line after"><span class="ws">            </span>except:  # noqa: B001</pre>
+<pre class="line after"><span class="ws">                </span>error = sys.exc_info()[1]</pre>
+<pre class="line after"><span class="ws">                </span>raise</pre>
+<pre class="line after"><span class="ws">            </span>return response(environ, start_response)</pre>
+<pre class="line after"><span class="ws">        </span>finally:</pre></div>
+</div>
+
+<li><div class="frame" id="frame-1917662476800">
+  <h4>File <cite class="filename">"C:\Users\Samyak Jain\AppData\Local\Programs\Python\Python38\Lib\site-packages\flask\app.py"</cite>,
+      line <em class="line">2077</em>,
+      in <code class="function">wsgi_app</code></h4>
+  <div class="source library"><pre class="line before"><span class="ws">        </span>ctx = self.request_context(environ)</pre>
+<pre class="line before"><span class="ws">        </span>error: t.Optional[BaseException] = None</pre>
+<pre class="line before"><span class="ws">        </span>try:</pre>
+<pre class="line before"><span class="ws">            </span>try:</pre>
+<pre class="line before"><span class="ws">                </span>ctx.push()</pre>
+<pre class="line current"><span class="ws">                </span>response = self.full_dispatch_request()</pre>
+<pre class="line after"><span class="ws">            </span>except Exception as e:</pre>
+<pre class="line after"><span class="ws">                </span>error = e</pre>
+<pre class="line after"><span class="ws">                </span>response = self.handle_exception(e)</pre>
+<pre class="line after"><span class="ws">            </span>except:  # noqa: B001</pre>
+<pre class="line after"><span class="ws">                </span>error = sys.exc_info()[1]</pre></div>
+</div>
+
+<li><div class="frame" id="frame-1917662475024">
+  <h4>File <cite class="filename">"C:\Users\Samyak Jain\AppData\Local\Programs\Python\Python38\Lib\site-packages\flask\app.py"</cite>,
+      line <em class="line">1525</em>,
+      in <code class="function">full_dispatch_request</code></h4>
+  <div class="source library"><pre class="line before"><span class="ws">            </span>request_started.send(self)</pre>
+<pre class="line before"><span class="ws">            </span>rv = self.preprocess_request()</pre>
+<pre class="line before"><span class="ws">            </span>if rv is None:</pre>
+<pre class="line before"><span class="ws">                </span>rv = self.dispatch_request()</pre>
+<pre class="line before"><span class="ws">        </span>except Exception as e:</pre>
+<pre class="line current"><span class="ws">            </span>rv = self.handle_user_exception(e)</pre>
+<pre class="line after"><span class="ws">        </span>return self.finalize_request(rv)</pre>
+<pre class="line after"><span class="ws"></span> </pre>
+<pre class="line after"><span class="ws">    </span>def finalize_request(</pre>
+<pre class="line after"><span class="ws">        </span>self,</pre>
+<pre class="line after"><span class="ws">        </span>rv: t.Union[ResponseReturnValue, HTTPException],</pre></div>
+</div>
+
+<li><div class="frame" id="frame-1917662476752">
+  <h4>File <cite class="filename">"C:\Users\Samyak Jain\AppData\Local\Programs\Python\Python38\Lib\site-packages\flask\app.py"</cite>,
+      line <em class="line">1523</em>,
+      in <code class="function">full_dispatch_request</code></h4>
+  <div class="source library"><pre class="line before"><span class="ws">        </span>self.try_trigger_before_first_request_functions()</pre>
+<pre class="line before"><span class="ws">        </span>try:</pre>
+<pre class="line before"><span class="ws">            </span>request_started.send(self)</pre>
+<pre class="line before"><span class="ws">            </span>rv = self.preprocess_request()</pre>
+<pre class="line before"><span class="ws">            </span>if rv is None:</pre>
+<pre class="line current"><span class="ws">                </span>rv = self.dispatch_request()</pre>
+<pre class="line after"><span class="ws">        </span>except Exception as e:</pre>
+<pre class="line after"><span class="ws">            </span>rv = self.handle_user_exception(e)</pre>
+<pre class="line after"><span class="ws">        </span>return self.finalize_request(rv)</pre>
+<pre class="line after"><span class="ws"></span> </pre>
+<pre class="line after"><span class="ws">    </span>def finalize_request(</pre></div>
+</div>
+
+<li><div class="frame" id="frame-1917662476560">
+  <h4>File <cite class="filename">"C:\Users\Samyak Jain\AppData\Local\Programs\Python\Python38\Lib\site-packages\flask\app.py"</cite>,
+      line <em class="line">1509</em>,
+      in <code class="function">dispatch_request</code></h4>
+  <div class="source library"><pre class="line before"><span class="ws">            </span>getattr(rule, &quot;provide_automatic_options&quot;, False)</pre>
+<pre class="line before"><span class="ws">            </span>and req.method == &quot;OPTIONS&quot;</pre>
+<pre class="line before"><span class="ws">        </span>):</pre>
+<pre class="line before"><span class="ws">            </span>return self.make_default_options_response()</pre>
+<pre class="line before"><span class="ws">        </span># otherwise dispatch to the handler for that endpoint</pre>
+<pre class="line current"><span class="ws">        </span>return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)</pre>
+<pre class="line after"><span class="ws"></span> </pre>
+<pre class="line after"><span class="ws">    </span>def full_dispatch_request(self) -&gt; Response:</pre>
+<pre class="line after"><span class="ws">        </span>&quot;&quot;&quot;Dispatches the request and on top of that performs request</pre>
+<pre class="line after"><span class="ws">        </span>pre and postprocessing as well as HTTP exception catching and</pre>
+<pre class="line after"><span class="ws">        </span>error handling.</pre></div>
+</div>
+
+<li><div class="frame" id="frame-1917662476848">
+  <h4>File <cite class="filename">"C:\Users\Samyak Jain\Dropbox\My PC (DESKTOP-19GV4HH)\Documents\GitHub\Federated_Learning\Fed_SAN\flask_app\Client\client_rest_service.py"</cite>,
+      line <em class="line">51</em>,
+      in <code class="function">set_client_data</code></h4>
+  <div class="source "><pre class="line before"><span class="ws">                </span>&#x27;status&#x27;: &quot;started&quot;</pre>
+<pre class="line before"><span class="ws">            </span>}</pre>
+<pre class="line before"><span class="ws">            </span>return jsonify(ret)</pre>
+<pre class="line before"><span class="ws">        </span>@app.route(&#x27;/setClientData&#x27;)</pre>
+<pre class="line before"><span class="ws">        </span>def set_client_data():</pre>
+<pre class="line current"><span class="ws">            </span>self.client_data_range = [int(request.args.get(&#x27;start_idx&#x27;, None)), int(request.args.get(&#x27;end_idx&#x27;, None))]</pre>
+<pre class="line after"><span class="ws">            </span>ret = {</pre>
+<pre class="line after"><span class="ws">                </span>status:&#x27;set&#x27;</pre>
+<pre class="line after"><span class="ws">            </span>}</pre>
+<pre class="line after"><span class="ws">            </span>return jsonify(ret)</pre>
+<pre class="line after"><span class="ws"></span> </pre></div>
+</div>
+</ul>
+  <blockquote>TypeError: int() argument must be a string, a bytes-like object or a number, not &#x27;NoneType&#x27;</blockquote>
+</div>
+
+<div class="plain">
+    <p>
+      This is the Copy/Paste friendly version of the traceback.
+    </p>
+    <textarea cols="50" rows="10" name="code" readonly>Traceback (most recent call last):
+  File &quot;C:\Users\Samyak Jain\AppData\Local\Programs\Python\Python38\Lib\site-packages\flask\app.py&quot;, line 2095, in __call__
+    return self.wsgi_app(environ, start_response)
+  File &quot;C:\Users\Samyak Jain\AppData\Local\Programs\Python\Python38\Lib\site-packages\flask\app.py&quot;, line 2080, in wsgi_app
+    response = self.handle_exception(e)
+  File &quot;C:\Users\Samyak Jain\AppData\Local\Programs\Python\Python38\Lib\site-packages\flask\app.py&quot;, line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File &quot;C:\Users\Samyak Jain\AppData\Local\Programs\Python\Python38\Lib\site-packages\flask\app.py&quot;, line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File &quot;C:\Users\Samyak Jain\AppData\Local\Programs\Python\Python38\Lib\site-packages\flask\app.py&quot;, line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File &quot;C:\Users\Samyak Jain\AppData\Local\Programs\Python\Python38\Lib\site-packages\flask\app.py&quot;, line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File &quot;C:\Users\Samyak Jain\Dropbox\My PC (DESKTOP-19GV4HH)\Documents\GitHub\Federated_Learning\Fed_SAN\flask_app\Client\client_rest_service.py&quot;, line 51, in set_client_data
+    self.client_data_range = [int(request.args.get(&#x27;start_idx&#x27;, None)), int(request.args.get(&#x27;end_idx&#x27;, None))]
+TypeError: int() argument must be a string, a bytes-like object or a number, not &#x27;NoneType&#x27;</textarea>
+</div>
+<div class="explanation">
+  The debugger caught an exception in your WSGI application.  You can now
+  look at the traceback which led to the error.  <span class="nojavascript">
+  If you enable JavaScript you can also use additional features such as code
+  execution (if the evalex feature is enabled), automatic pasting of the
+  exceptions and much more.</span>
+</div>
+      <div class="footer">
+        Brought to you by <strong class="arthur">DON'T PANIC</strong>, your
+        friendly Werkzeug powered traceback interpreter.
+      </div>
+    </div>
+
+    <div class="pin-prompt">
+      <div class="inner">
+        <h3>Console Locked</h3>
+        <p>
+          The console is locked and needs to be unlocked by entering the PIN.
+          You can find the PIN printed out on the standard output of your
+          shell that runs the server.
+        <form>
+          <p>PIN:
+            <input type=text name=pin size=14>
+            <input type=submit name=btn value="Confirm Pin">
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
+
+<!--
+
+Traceback (most recent call last):
+  File "C:\Users\Samyak Jain\AppData\Local\Programs\Python\Python38\Lib\site-packages\flask\app.py", line 2095, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "C:\Users\Samyak Jain\AppData\Local\Programs\Python\Python38\Lib\site-packages\flask\app.py", line 2080, in wsgi_app
+    response = self.handle_exception(e)
+  File "C:\Users\Samyak Jain\AppData\Local\Programs\Python\Python38\Lib\site-packages\flask\app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Samyak Jain\AppData\Local\Programs\Python\Python38\Lib\site-packages\flask\app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Samyak Jain\AppData\Local\Programs\Python\Python38\Lib\site-packages\flask\app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Samyak Jain\AppData\Local\Programs\Python\Python38\Lib\site-packages\flask\app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\Samyak Jain\Dropbox\My PC (DESKTOP-19GV4HH)\Documents\GitHub\Federated_Learning\Fed_SAN\flask_app\Client\client_rest_service.py", line 51, in set_client_data
+    self.client_data_range = [int(request.args.get('start_idx', None)), int(request.args.get('end_idx', None))]
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+
+-->
+: 0
+------ Round  0  -----
+Error while send_round_start_request  HTTPConnectionPool(host='192.168.29.95', port=54127): Max retries exceeded with url: /startRound?round_num=0&global_model=C:%5CUsers%5CSamyak%20Jain%5CDropbox%5CMy%20PC%20(DESKTOP-19GV4HH)%5CDocuments%5CGitHub%5CFederated_Learning%5CFed_SAN%5Cflask_app/data/Reducerglobal_model.npy&epochs=1 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000011FC8975CD0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+Error while send_round_start_request  [Errno Expecting value] <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+  "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+  <head>
+    <title>AttributeError: &#x27;ClientRestService&#x27; object has no attribute &#x27;client_data_range&#x27; // Werkzeug Debugger</title>
+    <link rel="stylesheet" href="?__debugger__=yes&amp;cmd=resource&amp;f=style.css"
+        type="text/css">
+    <!-- We need to make sure this has a favicon so that the debugger does
+         not accidentally trigger a request to /favicon.ico which might
+         change the application's state. -->
+    <link rel="shortcut icon"
+        href="?__debugger__=yes&amp;cmd=resource&amp;f=console.png">
+    <script src="?__debugger__=yes&amp;cmd=resource&amp;f=debugger.js"></script>
+    <script type="text/javascript">
+      var TRACEBACK = 1917662478144,
+          CONSOLE_MODE = false,
+          EVALEX = true,
+          EVALEX_TRUSTED = false,
+          SECRET = "vJqIpEAGkRwOKTRb8LR9";
+    </script>
+  </head>
+  <body style="background-color: #fff">
+    <div class="debugger">
+<h1>AttributeError</h1>
+<div class="detail">
+  <p class="errormsg">AttributeError: &#x27;ClientRestService&#x27; object has no attribute &#x27;client_data_range&#x27;</p>
+</div>
+<h2 class="traceback">Traceback <em>(most recent call last)</em></h2>
+<div class="traceback">
+  <h3></h3>
+  <ul><li><div class="frame" id="frame-1917662617712">
+  <h4>File <cite class="filename">"C:\Users\Samyak Jain\AppData\Local\Programs\Python\Python38\Lib\site-packages\flask\app.py"</cite>,
+      line <em class="line">2095</em>,
+      in <code class="function">__call__</code></h4>
+  <div class="source library"><pre class="line before"><span class="ws">    </span>def __call__(self, environ: dict, start_response: t.Callable) -&gt; t.Any:</pre>
+<pre class="line before"><span class="ws">        </span>&quot;&quot;&quot;The WSGI server calls the Flask application object as the</pre>
+<pre class="line before"><span class="ws">        </span>WSGI application. This calls :meth:`wsgi_app`, which can be</pre>
+<pre class="line before"><span class="ws">        </span>wrapped to apply middleware.</pre>
+<pre class="line before"><span class="ws">        </span>&quot;&quot;&quot;</pre>
+<pre class="line current"><span class="ws">        </span>return self.wsgi_app(environ, start_response)</pre></div>
+</div>
+
+<li><div class="frame" id="frame-1917662477472">
+  <h4>File <cite class="filename">"C:\Users\Samyak Jain\AppData\Local\Programs\Python\Python38\Lib\site-packages\flask\app.py"</cite>,
+      line <em class="line">2080</em>,
+      in <code class="function">wsgi_app</code></h4>
+  <div class="source library"><pre class="line before"><span class="ws">            </span>try:</pre>
+<pre class="line before"><span class="ws">                </span>ctx.push()</pre>
+<pre class="line before"><span class="ws">                </span>response = self.full_dispatch_request()</pre>
+<pre class="line before"><span class="ws">            </span>except Exception as e:</pre>
+<pre class="line before"><span class="ws">                </span>error = e</pre>
+<pre class="line current"><span class="ws">                </span>response = self.handle_exception(e)</pre>
+<pre class="line after"><span class="ws">            </span>except:  # noqa: B001</pre>
+<pre class="line after"><span class="ws">                </span>error = sys.exc_info()[1]</pre>
+<pre class="line after"><span class="ws">                </span>raise</pre>
+<pre class="line after"><span class="ws">            </span>return response(environ, start_response)</pre>
+<pre class="line after"><span class="ws">        </span>finally:</pre></div>
+</div>
+
+<li><div class="frame" id="frame-1917662617760">
+  <h4>File <cite class="filename">"C:\Users\Samyak Jain\AppData\Local\Programs\Python\Python38\Lib\site-packages\flask\app.py"</cite>,
+      line <em class="line">2077</em>,
+      in <code class="function">wsgi_app</code></h4>
+  <div class="source library"><pre class="line before"><span class="ws">        </span>ctx = self.request_context(environ)</pre>
+<pre class="line before"><span class="ws">        </span>error: t.Optional[BaseException] = None</pre>
+<pre class="line before"><span class="ws">        </span>try:</pre>
+<pre class="line before"><span class="ws">            </span>try:</pre>
+<pre class="line before"><span class="ws">                </span>ctx.push()</pre>
+<pre class="line current"><span class="ws">                </span>response = self.full_dispatch_request()</pre>
+<pre class="line after"><span class="ws">            </span>except Exception as e:</pre>
+<pre class="line after"><span class="ws">                </span>error = e</pre>
+<pre class="line after"><span class="ws">                </span>response = self.handle_exception(e)</pre>
+<pre class="line after"><span class="ws">            </span>except:  # noqa: B001</pre>
+<pre class="line after"><span class="ws">                </span>error = sys.exc_info()[1]</pre></div>
+</div>
+
+<li><div class="frame" id="frame-1917662618336">
+  <h4>File <cite class="filename">"C:\Users\Samyak Jain\AppData\Local\Programs\Python\Python38\Lib\site-packages\flask\app.py"</cite>,
+      line <em class="line">1525</em>,
+      in <code class="function">full_dispatch_request</code></h4>
+  <div class="source library"><pre class="line before"><span class="ws">            </span>request_started.send(self)</pre>
+<pre class="line before"><span class="ws">            </span>rv = self.preprocess_request()</pre>
+<pre class="line before"><span class="ws">            </span>if rv is None:</pre>
+<pre class="line before"><span class="ws">                </span>rv = self.dispatch_request()</pre>
+<pre class="line before"><span class="ws">        </span>except Exception as e:</pre>
+<pre class="line current"><span class="ws">            </span>rv = self.handle_user_exception(e)</pre>
+<pre class="line after"><span class="ws">        </span>return self.finalize_request(rv)</pre>
+<pre class="line after"><span class="ws"></span> </pre>
+<pre class="line after"><span class="ws">    </span>def finalize_request(</pre>
+<pre class="line after"><span class="ws">        </span>self,</pre>
+<pre class="line after"><span class="ws">        </span>rv: t.Union[ResponseReturnValue, HTTPException],</pre></div>
+</div>
+
+<li><div class="frame" id="frame-1917662617808">
+  <h4>File <cite class="filename">"C:\Users\Samyak Jain\AppData\Local\Programs\Python\Python38\Lib\site-packages\flask\app.py"</cite>,
+      line <em class="line">1523</em>,
+      in <code class="function">full_dispatch_request</code></h4>
+  <div class="source library"><pre class="line before"><span class="ws">        </span>self.try_trigger_before_first_request_functions()</pre>
+<pre class="line before"><span class="ws">        </span>try:</pre>
+<pre class="line before"><span class="ws">            </span>request_started.send(self)</pre>
+<pre class="line before"><span class="ws">            </span>rv = self.preprocess_request()</pre>
+<pre class="line before"><span class="ws">            </span>if rv is None:</pre>
+<pre class="line current"><span class="ws">                </span>rv = self.dispatch_request()</pre>
+<pre class="line after"><span class="ws">        </span>except Exception as e:</pre>
+<pre class="line after"><span class="ws">            </span>rv = self.handle_user_exception(e)</pre>
+<pre class="line after"><span class="ws">        </span>return self.finalize_request(rv)</pre>
+<pre class="line after"><span class="ws"></span> </pre>
+<pre class="line after"><span class="ws">    </span>def finalize_request(</pre></div>
+</div>
+
+<li><div class="frame" id="frame-1917662617856">
+  <h4>File <cite class="filename">"C:\Users\Samyak Jain\AppData\Local\Programs\Python\Python38\Lib\site-packages\flask\app.py"</cite>,
+      line <em class="line">1509</em>,
+      in <code class="function">dispatch_request</code></h4>
+  <div class="source library"><pre class="line before"><span class="ws">            </span>getattr(rule, &quot;provide_automatic_options&quot;, False)</pre>
+<pre class="line before"><span class="ws">            </span>and req.method == &quot;OPTIONS&quot;</pre>
+<pre class="line before"><span class="ws">        </span>):</pre>
+<pre class="line before"><span class="ws">            </span>return self.make_default_options_response()</pre>
+<pre class="line before"><span class="ws">        </span># otherwise dispatch to the handler for that endpoint</pre>
+<pre class="line current"><span class="ws">        </span>return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)</pre>
+<pre class="line after"><span class="ws"></span> </pre>
+<pre class="line after"><span class="ws">    </span>def full_dispatch_request(self) -&gt; Response:</pre>
+<pre class="line after"><span class="ws">        </span>&quot;&quot;&quot;Dispatches the request and on top of that performs request</pre>
+<pre class="line after"><span class="ws">        </span>pre and postprocessing as well as HTTP exception catching and</pre>
+<pre class="line after"><span class="ws">        </span>error handling.</pre></div>
+</div>
+
+<li><div class="frame" id="frame-1917662617904">
+  <h4>File <cite class="filename">"C:\Users\Samyak Jain\Dropbox\My PC (DESKTOP-19GV4HH)\Documents\GitHub\Federated_Learning\Fed_SAN\flask_app\Client\client_rest_service.py"</cite>,
+      line <em class="line">41</em>,
+      in <code class="function">start_round</code></h4>
+  <div class="source "><pre class="line before"><span class="ws">            </span>round_config = {</pre>
+<pre class="line before"><span class="ws">                </span>&quot;round_num&quot;: request.args.get(&#x27;round_num&#x27;, None),</pre>
+<pre class="line before"><span class="ws">                </span>&quot;global_model&quot;: request.args.get(&#x27;global_model&#x27;, None),</pre>
+<pre class="line before"><span class="ws">                </span>&quot;epochs&quot;: int(request.args.get(&#x27;epochs&#x27;, &quot;1&quot;))</pre>
+<pre class="line before"><span class="ws">            </span>}</pre>
+<pre class="line current"><span class="ws">            </span>self.run_client_round(round_config)</pre>
+<pre class="line after"><span class="ws">            </span># self.round_thread = threading.Thread(target=self.run_round, args=(config,))</pre>
+<pre class="line after"><span class="ws">            </span># self.stop_round_event.clear()</pre>
+<pre class="line after"><span class="ws">            </span># self.round_thread.start()</pre>
+<pre class="line after"><span class="ws">            </span>ret = {</pre>
+<pre class="line after"><span class="ws">                </span>&#x27;status&#x27;: &quot;started&quot;</pre></div>
+</div>
+
+<li><div class="frame" id="frame-1917662617952">
+  <h4>File <cite class="filename">"C:\Users\Samyak Jain\Dropbox\My PC (DESKTOP-19GV4HH)\Documents\GitHub\Federated_Learning\Fed_SAN\flask_app\Client\client_rest_service.py"</cite>,
+      line <em class="line">65</em>,
+      in <code class="function">run_client_round</code></h4>
+  <div class="source "><pre class="line before"><span class="ws">    </span>def run_client_round(self, round_config):</pre>
+<pre class="line before"><span class="ws"></span> </pre>
+<pre class="line before"><span class="ws">        </span>round_num = round_config[&#x27;round_num&#x27;]</pre>
+<pre class="line before"><span class="ws">        </span>num_epochs = round_config[&#x27;epochs&#x27;]</pre>
+<pre class="line before"><span class="ws">        </span>global_model_path = round_config[&#x27;global_model&#x27;]</pre>
+<pre class="line current"><span class="ws">        </span>data_range = self.client_data_range</pre>
+<pre class="line after"><span class="ws">        </span>self.client_model.set_data_range(data_range)</pre>
+<pre class="line after"><span class="ws">        </span>self.client_model.load_data()</pre>
+<pre class="line after"><span class="ws">        </span>client_updated_weights = self.client_model.train()</pre>
+<pre class="line after"><span class="ws">        </span>np.save(f&#x27;../data/Client/{self.port}&#x27;, client_updated_weights)</pre>
+<pre class="line after"><span class="ws"></span> </pre></div>
+</div>
+</ul>
+  <blockquote>AttributeError: &#x27;ClientRestService&#x27; object has no attribute &#x27;client_data_range&#x27;</blockquote>
+</div>
+
+<div class="plain">
+    <p>
+      This is the Copy/Paste friendly version of the traceback.
+    </p>
+    <textarea cols="50" rows="10" name="code" readonly>Traceback (most recent call last):
+  File &quot;C:\Users\Samyak Jain\AppData\Local\Programs\Python\Python38\Lib\site-packages\flask\app.py&quot;, line 2095, in __call__
+    return self.wsgi_app(environ, start_response)
+  File &quot;C:\Users\Samyak Jain\AppData\Local\Programs\Python\Python38\Lib\site-packages\flask\app.py&quot;, line 2080, in wsgi_app
+    response = self.handle_exception(e)
+  File &quot;C:\Users\Samyak Jain\AppData\Local\Programs\Python\Python38\Lib\site-packages\flask\app.py&quot;, line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File &quot;C:\Users\Samyak Jain\AppData\Local\Programs\Python\Python38\Lib\site-packages\flask\app.py&quot;, line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File &quot;C:\Users\Samyak Jain\AppData\Local\Programs\Python\Python38\Lib\site-packages\flask\app.py&quot;, line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File &quot;C:\Users\Samyak Jain\AppData\Local\Programs\Python\Python38\Lib\site-packages\flask\app.py&quot;, line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File &quot;C:\Users\Samyak Jain\Dropbox\My PC (DESKTOP-19GV4HH)\Documents\GitHub\Federated_Learning\Fed_SAN\flask_app\Client\client_rest_service.py&quot;, line 41, in start_round
+    self.run_client_round(round_config)
+  File &quot;C:\Users\Samyak Jain\Dropbox\My PC (DESKTOP-19GV4HH)\Documents\GitHub\Federated_Learning\Fed_SAN\flask_app\Client\client_rest_service.py&quot;, line 65, in run_client_round
+    data_range = self.client_data_range
+AttributeError: &#x27;ClientRestService&#x27; object has no attribute &#x27;client_data_range&#x27;</textarea>
+</div>
+<div class="explanation">
+  The debugger caught an exception in your WSGI application.  You can now
+  look at the traceback which led to the error.  <span class="nojavascript">
+  If you enable JavaScript you can also use additional features such as code
+  execution (if the evalex feature is enabled), automatic pasting of the
+  exceptions and much more.</span>
+</div>
+      <div class="footer">
+        Brought to you by <strong class="arthur">DON'T PANIC</strong>, your
+        friendly Werkzeug powered traceback interpreter.
+      </div>
+    </div>
+
+    <div class="pin-prompt">
+      <div class="inner">
+        <h3>Console Locked</h3>
+        <p>
+          The console is locked and needs to be unlocked by entering the PIN.
+          You can find the PIN printed out on the standard output of your
+          shell that runs the server.
+        <form>
+          <p>PIN:
+            <input type=text name=pin size=14>
+            <input type=submit name=btn value="Confirm Pin">
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
+
+<!--
+
+Traceback (most recent call last):
+  File "C:\Users\Samyak Jain\AppData\Local\Programs\Python\Python38\Lib\site-packages\flask\app.py", line 2095, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "C:\Users\Samyak Jain\AppData\Local\Programs\Python\Python38\Lib\site-packages\flask\app.py", line 2080, in wsgi_app
+    response = self.handle_exception(e)
+  File "C:\Users\Samyak Jain\AppData\Local\Programs\Python\Python38\Lib\site-packages\flask\app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Samyak Jain\AppData\Local\Programs\Python\Python38\Lib\site-packages\flask\app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Samyak Jain\AppData\Local\Programs\Python\Python38\Lib\site-packages\flask\app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Samyak Jain\AppData\Local\Programs\Python\Python38\Lib\site-packages\flask\app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\Samyak Jain\Dropbox\My PC (DESKTOP-19GV4HH)\Documents\GitHub\Federated_Learning\Fed_SAN\flask_app\Client\client_rest_service.py", line 41, in start_round
+    self.run_client_round(round_config)
+  File "C:\Users\Samyak Jain\Dropbox\My PC (DESKTOP-19GV4HH)\Documents\GitHub\Federated_Learning\Fed_SAN\flask_app\Client\client_rest_service.py", line 65, in run_client_round
+    data_range = self.client_data_range
+AttributeError: 'ClientRestService' object has no attribute 'client_data_range'
+
+-->
+: 0
+Training call completed

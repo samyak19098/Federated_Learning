@@ -1,3 +1,4 @@
+from itertools import count
 from re import sub
 import numpy as np
 import cv2
@@ -65,7 +66,7 @@ def make_clients(images_data, labels, num_clients,labels_actual):
 	random.shuffle(data)
 
 	# sub-dividing the train set among n clients
-	size = len(data)//num_clients
+	size = len(data) // num_clients
 	sub_data_list = [data[i:i + size] for i in range(0, size*num_clients, size)]
 
 	# returning the sub train dataset for each client
@@ -222,7 +223,6 @@ def train(wts, data, epochs, lr,reg):
 				scaled_data = inv * data_i
 				# print(scaled_data.shape)
 
-
 				# 10th line 1st term
 
 				cte = dprime * (scaled_data @ diff) / (1 + dprime * (data_i @ scaled_data))
@@ -246,8 +246,8 @@ tot_clients = int(input())
 print("Total rounds??")
 tot_rounds =  int(input())
 
-batch_size_list =[]
-epochs_list =[]
+batch_size_list = []
+epochs_list = []
 print("Mini batch size for clients ")
 batchx = int(input())
 print("Epochs for clients ")
@@ -315,7 +315,7 @@ for i in range(tot_rounds):
 		# client_model = server_wts
 
 		client_data = np.array(clients[client])
-		client_model = train(client_model, clients[client], epochs_list[countx], 0.01, 1)
+		client_model = 		(client_model, clients[client], epochs_list[countx], 0.01, 1)
 		# client_model.compile(optimizer = 'adam',loss='categorical_crossentropy',metrics=['accuracy'])
 
 		# #fit local model with client's data
@@ -333,6 +333,11 @@ for i in range(tot_rounds):
 	avg_wts_server = sum_scaled_wts(scaled_wts_clients_list)
 	print("HI" +str(len(avg_wts_server)))
 	server_model = np.array(avg_wts_server)
+
+	countx = 0
+	for client in client_names:
+		client_model[countx] = server_model
+		countx += 1
 
 	print(server_model)
 	countx = 0
