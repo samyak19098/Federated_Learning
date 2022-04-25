@@ -70,11 +70,10 @@ class ClientRestService:
         client_updated_weights = self.client_model.train()
         print(client_updated_weights, flush=True)
         np.save(os.getcwd()+f'/data/Client/{self.port}'+'.npy', client_updated_weights)
+
+        run_url = self.hostname + ":" + str(self.port)
         print("HELLO", flush=True)
-        if (self.server.send_round_complete_request(round_num)):
-            print("TRUE")
-            return
-        return
+        self.server.send_round_complete_request(round_num, run_url)
     
 
 

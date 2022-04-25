@@ -54,12 +54,12 @@ class Reducer:
             self.connected = False
             return False, -1
 
-    def send_round_complete_request(self, round_id):
+    def send_round_complete_request(self, round_id, client_id):
         print(round_id)
         try:
             for i in range(10):
                 print(f"Notifying Reducer that training at client is done")
-                ret_val = r.get("{}?round_id={}&client_id={}".format('http://' + self.run_url + '/roundCompletedByClient',round_id, self.id))
+                ret_val = r.get("{}?round_id={}&client_id={}".format('http://' + self.run_url + '/roundCompletedByClient',round_id, client_id))
 
                 print(ret_val.json()['status'],flush=True)         
                 if ret_val.json()['status'] == "Success":

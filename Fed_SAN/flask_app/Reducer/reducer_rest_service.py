@@ -204,8 +204,10 @@ class ReducerRestService:
             total_clients_in_training = total_clients_started_training
             
             while True:
+                print("Hello Rishi",flush=True)
                 client_training = self.get_clients_training()
                 if client_training < total_clients_in_training:
+                    print("Samyak", flush = True)
                     print("Clients in Training : " + str(client_training), flush=True)
                     total_clients_in_training = client_training
                 if total_clients_in_training == 0:
