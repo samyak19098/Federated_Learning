@@ -12,20 +12,12 @@ from sklearn.utils import shuffle
 from sklearn.metrics import accuracy_score
 
 import tensorflow as tf
-from tensorflow.keras.models import Sequential
-from tensorflow.keras.layers import Conv2D
-from tensorflow.keras.layers import MaxPooling2D
-from tensorflow.keras.layers import Activation
-from tensorflow.keras.layers import Flatten
-from tensorflow.keras.layers import Dense
-from tensorflow.keras.optimizers import SGD
-from tensorflow.keras import backend as K
 import matplotlib.pyplot as plt
 from operator import add
 
 class Model:
 
-    def __init__(self, shape,dataset_path, labels_file_path, learning_rate, reg, classes=None):
+    def __init__(self, shape,dataset_path, labels_file_path, learning_rate, reg, epochs,classes=None):
         self.shape = shape
         self.weights = np.zeros((shape, ))
         self.classes = classes
@@ -34,6 +26,7 @@ class Model:
         self.labels_file_path = labels_file_path
         self.lr = learning_rate
         self.reg = reg
+        self.epochs = epochs
         # self.load_data()
 
     def make_model(self,shape, classes):
@@ -52,19 +45,19 @@ class Model:
         self.n_samples = len(self.data)
 
 
-    def loss_prime(y,y_hat):
+    def loss_prime(self,y,y_hat):
 
         return y_hat - y
 
-    def loss_dprime(y,y_hat):
+    def loss_dprime(self,y,y_hat):
 
         return np.ones_like(y_hat)
 
-    def regularizer_prime(x):
+    def regularizer_prime(self,x):
 
         return x
 
-    def regularizer_dprime(x):
+    def regularizer_dprime(self,x):
 
         return np.ones_like(x)
 

@@ -11,7 +11,6 @@ import json
 import socket
 import threading
 import requests as r
-from minio import Minio
 from contextlib import closing
 from Client.client_rest_service import ClientRestService
 from Models.model import Model
@@ -39,7 +38,7 @@ class Reducer:
 
     def add_client_to_server(self, client_config):
         try:
-            for i in range(10):
+            for i in range(1):
                 print(f"Connecting with Reducer at {self.run_url}")
                 ret_val = r.get("{}?client_id={}&port={}&client_hostname={}".format('http://' + self.run_url + '/connectClient',
                                                                                     client_config['client_id'], client_config['port'],
@@ -48,12 +47,29 @@ class Reducer:
                     print("Client added successfully")
                     self.connected = True
                     return True, ret_val.json()['client_number']
-                time.sleep(2)
+                #time.sleep(2)
             print("unsuccessful")
             return False, -1
         except Exception as e:
             self.connected = False
             return False, -1
+
+    def send_round_complete_request(self, round_id):
+        print(round_id)
+        try:
+            for i in range(10):
+                print(f"Notifying Reducer that training at client is done")
+                ret_val = r.get("{}?round_id={}&client_id={}".format('http://' + self.run_url + '/roundCompletedByClient',round_id, self.id))
+
+                print(ret_val.json()['status'],flush=True)         
+                if ret_val.json()['status'] == "Success":
+                    print("Round ended successfully and notification received by server successfully", flush=True)
+                    return True
+                time.sleep(2)
+            return False
+        except Exception as error:
+            print("Error while send_round_complete_request ", error)
+            return False
     
 
  
@@ -71,7 +87,8 @@ class Client:
             'port':self.port,
             'hostname':self.hostname
         }
-        self.client_model = Model(shape=3, dataset_path='../data/Data.npy', labels_file_path='../data/label.npy', learning_rate=0.1, reg=0.1)
+        print(self.client_config['client'])
+        self.client_model = Model(shape=3, dataset_path=(os.getcwd()+'/data/Data.npy'), labels_file_path=(os.getcwd()+'/data/label.npy'), learning_rate=0.1, reg=0.1, epochs = 10)
         self.rest = ClientRestService({'hostname':self.hostname, 'client_port': self.port, 'server':self.reducer, 'client_model':self.client_model})
         connection_status, self.client_number = self.reducer.add_client_to_server(self.client_config["client"])
         sys.stdout = open(os.getcwd() + f'/logs/client_{self.port}.txt', 'w')

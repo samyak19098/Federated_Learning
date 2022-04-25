@@ -48,13 +48,15 @@ class ClientRestService:
             return jsonify(ret)
         @app.route('/setClientData')
         def set_client_data():
+            print([int(request.args.get('start_idx', None)), int(request.args.get('end_idx', None))],flush=True)
             self.client_data_range = [int(request.args.get('start_idx', None)), int(request.args.get('end_idx', None))]
             ret = {
-                status:'set'
+                'status':'set'
             }
+            print(ret, flush=True)
             return jsonify(ret)
         
-        app.debug = True
+        # app.debug = True
         app.run(host='0.0.0.0', port=self.port)
     
     def run_client_round(self, round_config):
@@ -66,8 +68,15 @@ class ClientRestService:
         self.client_model.set_data_range(data_range)
         self.client_model.load_data()
         client_updated_weights = self.client_model.train()
-        np.save(f'../data/Client/{self.port}', client_updated_weights)
-        
+        print(client_updated_weights, flush=True)
+        np.save(os.getcwd()+f'/data/Client/{self.port}'+'.npy', client_updated_weights)
+        print("HELLO", flush=True)
+        if (self.server.send_round_complete_request(round_num)):
+            print("TRUE")
+            return
+        return
+    
+
 
 
 

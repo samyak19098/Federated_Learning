@@ -13,7 +13,6 @@ import yaml
 import json
 import socket
 import subprocess
-from minio import Minio
 from contextlib import closing
 from multiprocessing import Process
 # from helper.pytorch.pytorch_helper import PytorchHelper
