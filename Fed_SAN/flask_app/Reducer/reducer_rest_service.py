@@ -1,4 +1,5 @@
 from distutils.command.config import config
+from http import client
 import socket
 from contextlib import closing
 import os
@@ -30,6 +31,7 @@ class Client:
                         'http://' + self.run_url + '/startRound',
                         round_num, global_model,
                         epochs))
+                
                 if retval.json()['status'] == "started":
                     self.status = "training"
                     return True
@@ -42,11 +44,11 @@ class Client:
         try:
             print(data_range)
             for i in range(10):
-                print(i)
-                print(self.run_url)
-                print(type('http://' + self.run_url + '/setClientData'))
-                print(type(data_range[0]))
-                print(type(data_range[1]))
+                # print(i)
+                # print(self.run_url)
+                # print(type('http://' + self.run_url + '/setClientData'))
+                # print(type(data_range[0]))
+                # print(type(data_range[1]))
                 retval = r.get("{}?start_idx={}&end_idx={}".format('http://' + self.run_url + '/setClientData', data_range[0], data_range[1]))
                 if retval.json()['status'] == "set":
                     # self.status = "training"
@@ -103,14 +105,16 @@ class ReducerRestService:
                     'client_number':client_number
                 })
             return True
+
         @app.route('/tempReducer')
         def temp_request_processor():
             a = int(request.args.get('a', None))
             b = int(request.args.get('b', None))
             return str(a + b)
+
         @app.route('/training')
         def start_training():
-            print("request for training received", flush=True)
+            print("[reducer_rest_service] /training -> request for training received", flush=True)
             if self.status == "training":
                 return jsonify({"status": "Training already running!!"})
             training_config = {
@@ -119,10 +123,11 @@ class ReducerRestService:
                 "epochs": int(request.args.get('epochs', '2')),
                 "global_model": self.global_model_path
             }
-            print(f"Starting training now", flush=True)
-            self.train(training_config)
-            print(f"Training call completed", flush=True)
+            print(f"[reducer_rest_service] /training -> Starting training now", flush=True)
             self.status = "training"
+            self.train(training_config)
+            print(f"[reducer_rest_service] /training -> Training call completed", flush=True)
+            
             ret = {
                 'status': "Training started"
             }
@@ -131,12 +136,14 @@ class ReducerRestService:
         @app.route('/roundCompletedByClient')
         def round_completed_by_client():
             """Used by the clients to notify reducer when the round is completed by them"""
-            print("HELOO SERVER", flush=True)
+            # print("HELOO SERVER", flush=True)
+            print("[reducer_rest_service] /roundCompletedByClient -> Round completion message received from client", flush=True) 
             round_id = int(request.args.get('round_id', None))
-            id = request.args.get("client_id", None)
-            print(round_id, flush=True)
-            self.clients[id].status = "Idle"
-            print("Client - ", id, " completed round ", round_id, flush=True)
+            client_id = request.args.get("client_id", None)
+            print(f"[reducer_rest_service] /roundCompletedByClient -> Prev status = {self.clients[client_id].status}")
+            self.clients[client_id].status = "idle"
+            print(f"[reducer_rest_service] /roundCompletedByClient -> New status = {self.clients[client_id].status}")
+            print("Client - ", client_id, " completed round ", round_id, flush=True)
             return jsonify({'status': "Success"})
 
         # app.debug = True
@@ -153,6 +160,12 @@ class ReducerRestService:
                 client_training += 1
         return client_training
     
+    def print_client_train_status(self):
+
+        print("Printing all client's status : ", flush=True)
+        for key in self.clients.keys():
+            print(f"Client [{key}] : {self.clients[key].status}", flush=True)
+
     def scale_weights(self,n_k, n, l):
 
         factor = n_k/n
@@ -167,6 +180,7 @@ class ReducerRestService:
 
         Y_pred = wts @ X_test
         return Y_pred
+
 
 
     def train(self, training_config):
@@ -191,6 +205,8 @@ class ReducerRestService:
             client.set_client_data_for_training(data_range)
             idx += 1
 
+        print("[reducer_rest_service] func train() -> Client Data set !", flush=True)
+
         accuracy_list = []
         for i in range(num_rounds):
             print('------ Round ', i, ' -----', flush=True)
@@ -203,11 +219,14 @@ class ReducerRestService:
             print("Total clients that started the training are", total_clients_started_training, flush=True)
             total_clients_in_training = total_clients_started_training
             
+
             while True:
-                print("Hello Rishi",flush=True)
+                # print("Hello Rishi",flush=True)
                 client_training = self.get_clients_training()
+                print(f"[reducer_rest_service] func train() -> Clients in training currently are : {client_training}", flush=True)
+                self.print_client_train_status()
                 if client_training < total_clients_in_training:
-                    print("Samyak", flush = True)
+                    # print("Samyak", flush = True)
                     print("Clients in Training : " + str(client_training), flush=True)
                     total_clients_in_training = client_training
                 if total_clients_in_training == 0:
@@ -222,14 +241,14 @@ class ReducerRestService:
                 
                 port = client.port
                 wts = np.load(os.getcwd()+f'/data/Client/'+str(port)+'.npy')
-                scaled = self.scale_weights(data_size[num], n, wts)
+                scaled = self.scale_weights(client_data_sizes[num], n, wts)
                 scaled_wts.append(scaled)
                 num+=1
             
             scaled_wts = np.array(scaled_wts)
 
             server_wts = np.mean(scaled_wts, axis=0)
-            np.save(os.getcwd +f'/data/Reducer/red_wts.npy', server_wts)
+            np.save(os.getcwd() +f'/data/Reducer/red_wts.npy', server_wts)
 
             X_test = self.reducer_rest_config['model_data']['test_x']
             Y_test = self.reducer_rest_config['model_data']['test_y']
