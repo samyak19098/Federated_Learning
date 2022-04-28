@@ -62,12 +62,13 @@ class Model:
         return np.ones_like(x)
 
 
-    def train(self, num_epochs):
+    def train(self, num_epochs, wts):
 
         n,d = len(self.data), len(self.data[0][0])
         # print(n,d)
         alphas = np.zeros((n,d))
-        wts_copy = self.weights.copy()
+        wts_copy = wts.copy()
+        print("Clients wt:",wts_copy, flush=True)
         # print(wts_copy.shape)
         for epoch in range(num_epochs):
             for i in range(n):

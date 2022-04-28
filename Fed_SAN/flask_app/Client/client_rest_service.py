@@ -66,10 +66,12 @@ class ClientRestService:
         round_num = round_config['round_num']
         num_epochs = round_config['epochs']
         global_model_path = round_config['global_model']
+
+        wts = np.load(global_model_path)
         data_range = self.client_data_range
         self.client_model.set_data_range(data_range)
         self.client_model.load_data()
-        client_updated_weights = self.client_model.train(num_epochs)
+        client_updated_weights = self.client_model.train(num_epochs, wts)
         print(client_updated_weights, flush=True)
         np.save(os.getcwd()+f'/data/Client/{self.port}'+'.npy', client_updated_weights)
 

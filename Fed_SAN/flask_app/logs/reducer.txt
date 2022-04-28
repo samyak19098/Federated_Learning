@@ -3,200 +3,158 @@
    WARNING: This is a development server. Do not use it in a production deployment.
    Use a production WSGI server instead.
  * Debug mode: off
-Client with details : id = 04478777-3fb7-416f-9250-4e92c6aa31af, port = 63058, hostname = 192.168.29.128 trying to connect
-Client with detials : id = 04478777-3fb7-416f-9250-4e92c6aa31af, port = 63058, hostname = 192.168.29.128 connected
-request for training received
-Starting training now
-[0, 689]
-0
-192.168.29.128:63058
-<class 'str'>
-<class 'int'>
-<class 'int'>
+Client with details : id = 108e0b8c-09ff-4600-bce8-d77631a649df, port = 52277, hostname = 192.168.29.128 trying to connect
+Client with detials : id = 108e0b8c-09ff-4600-bce8-d77631a649df, port = 52277, hostname = 192.168.29.128 connected
+Client with details : id = 3b34623f-2a37-4014-b92e-0caa9558f339, port = 52281, hostname = 192.168.29.128 trying to connect
+Client with detials : id = 3b34623f-2a37-4014-b92e-0caa9558f339, port = 52281, hostname = 192.168.29.128 connected
+[reducer_rest_service] /training -> request for training received
+[reducer_rest_service] /training -> Starting training now
+[0, 344]
+[344, 689]
+[reducer_rest_service] func train() -> Client Data set !
 ------ Round  0  -----
-HELOO SERVER
-0
-Client -  192.168.29.128:63058  completed round  0
 Round start requests send to the clients successfully
-Total clients that started the training are 1
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
-Hello Rishi
+Total clients that started the training are 2
+[reducer_rest_service] func train() -> Clients in training currently are : 2
+Printing all client's status : 
+Client [192.168.29.128:52277] : training
+Client [192.168.29.128:52281] : training
+[reducer_rest_service] /roundCompletedByClient -> Round completion message received from client
+[reducer_rest_service] /roundCompletedByClient -> Prev status = training
+[reducer_rest_service] /roundCompletedByClient -> New status = idle
+Client -  192.168.29.128:52281  completed round  0
+[reducer_rest_service] /roundCompletedByClient -> Round completion message received from client
+[reducer_rest_service] /roundCompletedByClient -> Prev status = training
+[reducer_rest_service] /roundCompletedByClient -> New status = idle
+Client -  192.168.29.128:52277  completed round  0
+[reducer_rest_service] func train() -> Clients in training currently are : 0
+Printing all client's status : 
+Client [192.168.29.128:52277] : idle
+Client [192.168.29.128:52281] : idle
+Clients in Training : 0
+Total samples: 689
+Clients samples: 345
+Total samples: 689
+Clients samples: 346
+Server Wts:  [ 0.68618519 -0.20351448 -0.19648814]
+(3,)
+(173, 3)
+[0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 0, 1, 0, 0, 0, 0, 1, 1, 1, 0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 1, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1, 0, 1, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0]
+Accuracy:  18.497109826589593
+------ Round  1  -----
+Round start requests send to the clients successfully
+Total clients that started the training are 2
+[reducer_rest_service] func train() -> Clients in training currently are : 2
+Printing all client's status : 
+Client [192.168.29.128:52277] : training
+Client [192.168.29.128:52281] : training
+[reducer_rest_service] /roundCompletedByClient -> Round completion message received from client
+[reducer_rest_service] /roundCompletedByClient -> Prev status = training
+[reducer_rest_service] /roundCompletedByClient -> New status = idle
+Client -  192.168.29.128:52277  completed round  1
+[reducer_rest_service] /roundCompletedByClient -> Round completion message received from client
+[reducer_rest_service] /roundCompletedByClient -> Prev status = training
+[reducer_rest_service] /roundCompletedByClient -> New status = idle
+Client -  192.168.29.128:52281  completed round  1
+[reducer_rest_service] func train() -> Clients in training currently are : 0
+Printing all client's status : 
+Client [192.168.29.128:52277] : idle
+Client [192.168.29.128:52281] : idle
+Clients in Training : 0
+Total samples: 689
+Clients samples: 345
+Total samples: 689
+Clients samples: 346
+Server Wts:  [ 0.68764836 -0.20381185 -0.19652997]
+(3,)
+(173, 3)
+[0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 0, 1, 0, 0, 0, 0, 1, 1, 1, 0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 1, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1, 0, 1, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0]
+Accuracy:  18.497109826589593
+------ Round  2  -----
+Round start requests send to the clients successfully
+Total clients that started the training are 2
+[reducer_rest_service] func train() -> Clients in training currently are : 2
+Printing all client's status : 
+Client [192.168.29.128:52277] : training
+Client [192.168.29.128:52281] : training
+[reducer_rest_service] /roundCompletedByClient -> Round completion message received from client
+[reducer_rest_service] /roundCompletedByClient -> Prev status = training
+[reducer_rest_service] /roundCompletedByClient -> New status = idle
+Client -  192.168.29.128:52281  completed round  2
+[reducer_rest_service] /roundCompletedByClient -> Round completion message received from client
+[reducer_rest_service] /roundCompletedByClient -> Prev status = training
+[reducer_rest_service] /roundCompletedByClient -> New status = idle
+Client -  192.168.29.128:52277  completed round  2
+[reducer_rest_service] func train() -> Clients in training currently are : 0
+Printing all client's status : 
+Client [192.168.29.128:52277] : idle
+Client [192.168.29.128:52281] : idle
+Clients in Training : 0
+Total samples: 689
+Clients samples: 345
+Total samples: 689
+Clients samples: 346
+Server Wts:  [ 0.68765148 -0.20381218 -0.19653006]
+(3,)
+(173, 3)
+[0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 0, 1, 0, 0, 0, 0, 1, 1, 1, 0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 1, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1, 0, 1, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0]
+Accuracy:  18.497109826589593
+------ Round  3  -----
+Round start requests send to the clients successfully
+Total clients that started the training are 2
+[reducer_rest_service] func train() -> Clients in training currently are : 2
+Printing all client's status : 
+Client [192.168.29.128:52277] : training
+Client [192.168.29.128:52281] : training
+[reducer_rest_service] /roundCompletedByClient -> Round completion message received from client
+[reducer_rest_service] /roundCompletedByClient -> Prev status = training
+[reducer_rest_service] /roundCompletedByClient -> New status = idle
+Client -  192.168.29.128:52281  completed round  3
+[reducer_rest_service] /roundCompletedByClient -> Round completion message received from client
+[reducer_rest_service] /roundCompletedByClient -> Prev status = training
+[reducer_rest_service] /roundCompletedByClient -> New status = idle
+Client -  192.168.29.128:52277  completed round  3
+[reducer_rest_service] func train() -> Clients in training currently are : 0
+Printing all client's status : 
+Client [192.168.29.128:52277] : idle
+Client [192.168.29.128:52281] : idle
+Clients in Training : 0
+Total samples: 689
+Clients samples: 345
+Total samples: 689
+Clients samples: 346
+Server Wts:  [ 0.68765149 -0.20381218 -0.19653006]
+(3,)
+(173, 3)
+[0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 0, 1, 0, 0, 0, 0, 1, 1, 1, 0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 1, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1, 0, 1, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0]
+Accuracy:  18.497109826589593
+------ Round  4  -----
+Round start requests send to the clients successfully
+Total clients that started the training are 2
+[reducer_rest_service] func train() -> Clients in training currently are : 2
+Printing all client's status : 
+Client [192.168.29.128:52277] : training
+Client [192.168.29.128:52281] : training
+[reducer_rest_service] /roundCompletedByClient -> Round completion message received from client
+[reducer_rest_service] /roundCompletedByClient -> Prev status = training
+[reducer_rest_service] /roundCompletedByClient -> New status = idle
+Client -  192.168.29.128:52277  completed round  4
+[reducer_rest_service] /roundCompletedByClient -> Round completion message received from client
+[reducer_rest_service] /roundCompletedByClient -> Prev status = training
+[reducer_rest_service] /roundCompletedByClient -> New status = idle
+Client -  192.168.29.128:52281  completed round  4
+[reducer_rest_service] func train() -> Clients in training currently are : 0
+Printing all client's status : 
+Client [192.168.29.128:52277] : idle
+Client [192.168.29.128:52281] : idle
+Clients in Training : 0
+Total samples: 689
+Clients samples: 345
+Total samples: 689
+Clients samples: 346
+Server Wts:  [ 0.68765149 -0.20381218 -0.19653006]
+(3,)
+(173, 3)
+[0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 0, 1, 0, 0, 0, 0, 1, 1, 1, 0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 1, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1, 0, 1, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0]
+Accuracy:  18.497109826589593
+[reducer_rest_service] /training -> Training call completed

@@ -176,9 +176,26 @@ class ReducerRestService:
         
         return l_final
     
+    def sigmoid(self, x):
+
+        return 1/(1+np.exp(-x))
+    
     def predict(self, wts, X_test):
 
-        Y_pred = wts @ X_test
+        wts = np.array(wts)
+        X_test = np.array(X_test)
+        print(wts.shape, flush=True)
+        print(X_test.shape, flush =True)
+        Y_pre_activation = X_test @ wts
+        Y_pred = []
+        for i in range(len(Y_pre_activation)):
+
+            yi = self.sigmoid(Y_pre_activation[i])
+            if(yi>=0.5):
+                Y_pred.append(1)
+            else:
+                Y_pred.append(0)
+
         return Y_pred
 
 
@@ -241,19 +258,23 @@ class ReducerRestService:
                 
                 port = client.port
                 wts = np.load(os.getcwd()+f'/data/Client/'+str(port)+'.npy')
+                print("Total samples:", n, flush=True)
+                print("Clients samples:", client_data_sizes[num], flush=True)
                 scaled = self.scale_weights(client_data_sizes[num], n, wts)
                 scaled_wts.append(scaled)
                 num+=1
             
             scaled_wts = np.array(scaled_wts)
 
-            server_wts = np.mean(scaled_wts, axis=0)
-            np.save(os.getcwd() +f'/data/Reducer/red_wts.npy', server_wts)
+            server_wts = np.sum(scaled_wts, axis=0)
+            print("Server Wts: ", server_wts, flush=True)
+            np.save(os.getcwd() +f'/data/Reducer/global_model.npy', server_wts)
 
             X_test = self.reducer_rest_config['model_data']['test_x']
             Y_test = self.reducer_rest_config['model_data']['test_y']
             Y_predict = self.predict(server_wts, X_test)
 
+            print(Y_predict)
             accuracy = accuracy_score(Y_predict, Y_test)*100
             accuracy_list.append(accuracy)
             print("Accuracy: ", accuracy)

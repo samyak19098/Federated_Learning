@@ -37,8 +37,9 @@ class Reducer:
         self.port = 8080
         self.hostname = get_local_ip()
         self.run_url = self.hostname + ':' + str(self.port)
-        self.global_model_path = os.getcwd() + '/data/Reducer' + 'global_model.npy'
-        
+        self.global_model_path = os.getcwd() + '/data/Reducer/' + 'global_model.npy'
+        weights = np.zeros((3, ))
+        np.save(self.global_model_path, weights)
         total_data = list(np.load(os.getcwd() + '/data/Data.npy'))
         labels = list(np.load(os.getcwd() + '/data/label.npy'))
     
