@@ -1,3 +1,4 @@
+from ast import arg
 import socket
 from contextlib import closing
 import os
@@ -10,6 +11,7 @@ import numpy as np
 import requests as r
 import matplotlib.pyplot as plt
 from flask import Flask, jsonify, request
+import threading
 
 class ClientRestService:
 
@@ -19,6 +21,7 @@ class ClientRestService:
         self.server = config['server']
         self.status = "Participating"
         self.client_model = config['client_model']
+        self.round_thread = None
     def run(self):
         
         app = Flask(__name__)
@@ -38,10 +41,9 @@ class ClientRestService:
                 "global_model": request.args.get('global_model', None),
                 "epochs": int(request.args.get('epochs', "1"))
             }
-            self.run_client_round(round_config)
-            # self.round_thread = threading.Thread(target=self.run_round, args=(config,))
-            # self.stop_round_event.clear()
-            # self.round_thread.start()
+            self.round_thread = threading.Thread(target=self.run_client_round, args=(round_config,))
+            self.round_thread.start()
+            # self.run_client_round(round_config)
             ret = {
                 'status': "started"
             }
@@ -67,7 +69,7 @@ class ClientRestService:
         data_range = self.client_data_range
         self.client_model.set_data_range(data_range)
         self.client_model.load_data()
-        client_updated_weights = self.client_model.train()
+        client_updated_weights = self.client_model.train(num_epochs)
         print(client_updated_weights, flush=True)
         np.save(os.getcwd()+f'/data/Client/{self.port}'+'.npy', client_updated_weights)
 
