@@ -194,7 +194,7 @@ class ReducerRestService:
             if(yi>=0.5):
                 Y_pred.append(1)
             else:
-                Y_pred.append(0)
+                Y_pred.append(-1)
 
         return Y_pred
 
@@ -217,7 +217,11 @@ class ReducerRestService:
             else:
                 data_range = [start_idx, start_idx + size]
             
-            data_size = data_range[1]-data_range[0]+1
+            print(idx,flush=True)
+            print(data_range, flush=True)
+
+            
+            data_size = data_range[1]-data_range[0]
             client_data_sizes.append(data_size)
             client.set_client_data_for_training(data_range)
             idx += 1
@@ -261,6 +265,7 @@ class ReducerRestService:
                 print("Total samples:", n, flush=True)
                 print("Clients samples:", client_data_sizes[num], flush=True)
                 scaled = self.scale_weights(client_data_sizes[num], n, wts)
+                print(scaled, flush=True)
                 scaled_wts.append(scaled)
                 num+=1
             
